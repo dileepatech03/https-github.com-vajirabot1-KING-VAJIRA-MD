@@ -24,7 +24,7 @@ Secktor.cmd({
             alias: ["menu"],
             desc: "Help list",
             category: "general",
-            react: "🧚‍♂️",
+            react: "🧑‍💻",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -53,15 +53,15 @@ Secktor.cmd({
                     .locale('id')
                 const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `🍁 ` + fancytext(Config.ownername.split('DARK QUEEN MD')[0], 58) + ` 🍁\n`
+                let str = `🍁 ` + fancytext(Config.ownername.split('KING VAJIRA MD')[0], 58) + ` 🍁\n`
                 str +=
                     '' + `💓𝗵𝗲𝗹𝗹𝗼𝘄 ${citel.pushName}💓
 ╭───────────●
 ╎👻𝗴𝗼𝗼𝗱 𝗺𝗼𝗿𝗻𝗶𝗻𝗴😆
 ╰───────────●
 ╔══════════❍
-║𝐎𝐖𝐍 𝐍𝐀𝐌𝐄 💓ᴍʀ•ɴᴏᴛɪʏᴀ💓
-║𝐎𝐖𝐍 𝐍𝐔𝐁 💓+94715491788💓
+║𝐎𝐖𝐍 𝐍𝐀𝐌𝐄 💓ᴡᴍʀ•ᴠᴀᴊɪʀᴀ💓
+║𝐎𝐖𝐍 𝐍𝐔𝐁 💓+94766943622💓
 ║𝐁𝐎𝐓 𝐒𝐏𝐄𝐄𝐃 💓000.23💓
 ║𝐌𝐄𝐌𝐎𝐑𝐘 💓64GB💓
 ╚══════════❍
@@ -128,7 +128,7 @@ Secktor.cmd({
         pattern: "owner",
         desc: "To find owner number",
         category: "general",
-        react: "🍁",
+        react: "🧑‍💻",
         filename: __filename
     },
     async(Void, citel) => {
