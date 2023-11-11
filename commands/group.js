@@ -620,77 +620,34 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-             pattern: "group",
-             alias: ["gmode"],
-             desc: "mute and unmute group.",
-             category: "group",
-             filename: __filename,
-         },
-         async(Void, man, text) => {
-             //if (!man.isGroup) return man.reply(tlang().group);
-             const groupAdmins = await getAdmin(bot, man)
-             const botNumber = await bot.decodeJid(bot.user.id)
-             const isBotAdmins = man.isGroup ? groupAdmins.includes(botNumber) : false;
-             const isAdmins = man.isGroup ? groupAdmins.includes(man.sender) : false;
-             //if (!man.isGroup) return man.reply(tlang().group);
-             if (!isBotAdmins) return man.reply(tlang().botAdmin);
-             if (!isAdmins) return man.reply(tlang().admin);
-             let Group = await sck.findOne({ id: man.chat });
-             if (text.split(" ")[0] == "close" || text.split(" ")[0] == "mute" ) {
-                 await bot.groupSettingUpdate(man.chat, "announcement")
-                     .then((res) => man.reply(`*_ɢʀᴏᴜᴘ ᴄʜᴀᴛ ᴍᴜᴛᴇᴅ_*`))
-                     .catch((err) => man.reply("Error :" +err));
-             } else if (text.split(" ")[0] === "open"||text.split(" ")[0] === "unmute") {
-                 await bot.groupSettingUpdate(man.chat, "not_announcement")
-                     .then((res) => man.reply(`*_ɢʀᴏᴜᴘ ᴄʜᴀᴛ ᴜɴ-ᴍᴜᴛᴇᴅ_*`))
-                     .catch((err) => man.reply("Error : " +err));
-             } 
- else if(text=="Detail" || text=="Info" || text=="info" || text=="details" ) 
- {
-     const pp = await bot.profilePictureUrl(man.chat, 'image').catch(_ => null) || ''
-     const groupAdmins = participants.filter(p => p.admin)
-     const listAdmin = groupAdmins.map((v, i) => `  ${i + 1}. wa.me/${v.id.split('@')[0]}`).join('\n')
-     const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadmin')?.id || man.chat.split`-`[0] + '@s.whatsapp.net'
- 
-     let ginfos = `
-       *「 INFO GROUP 」*
- *▢ ID :*
-    • ${groupMetadata.id}
- *▢ NAME :* 
-    • ${groupMetadata.subject}
- *▢ Members :*
-    • ${participants.length}
- *▢ Group Owner :*
-    • wa.me/${owner.split('@')[0]}
- *▢ Admins :*
- ${listAdmin}
- *▢ Description :*
-    • ${groupMetadata.infocmd?.toString() || 'unknown'}
- *▢ 🪢 Extra Group Configuration :*";
-   • Group Nsfw :    ${Group.nsfw=='true'? '✅' : '❎'} 
-   • Antilink        :    ${Group.antilink=='true'? '✅' : '❎'}
-   • Economy      :    ${Group.economy=='true'? '✅' : '❎'}
-   • Events         :     ${Group.events=='true'? '✅' : '❎'}
- `.trim()
-     if(Group.events=='true'){
-         ginfos +="\n*▢ Wellcome bot :* \n  • "+Group.welcome;
-         ginfos +="\n\n*▢ Goodbye bot :* \n  • "+Group.goodbye; 
-     }
- return await bot.sendMessage(man.chat,{image:{url : pp} , caption: ginfos } , {quoted:man })
- }
- else
- { 
-     return await man.reply(`*_Give me Text from Below Options_*
- 1: ${prefix}gmode mute
- 2: ${prefix}gmode unmute
+            pattern: "group",
+            desc: "mute and unmute group.",
+            category: "group",
+            filename: __filename,
+        },
+        async(Void, citel, text) => {
+            if (!citel.isGroup) return citel.reply(tlang().group);
+            const groupAdmins = await getAdmin(Void, citel)
+            const botNumber = await Void.decodeJid(Void.user.id)
+            const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : false;
+            const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
+            if (!citel.isGroup) return citel.reply(tlang().group);
+            if (!isBotAdmins) return citel.reply(tlang().botAdmin);
+            if (!isAdmins) return citel.reply(tlang().admin);
+            if (text.split(" ")[0] === "close") {
+                await Void.groupSettingUpdate(citel.chat, "announcement")
+                    .then((res) => reply(`Group Chat Muted :)`))
+                    .catch((err) => console.log(err));
+            } else if (text.split(" ")[0] === "open") {
+                await Void.groupSettingUpdate(citel.chat, "not_announcement")
+                    .then((res) => reply(`Group Chat Unmuted :)`))
+                    .catch((err) => console.log(err));
+            } else {
 
- `)
-       //let buttons = [{ buttonId: `${prefix}group open`, buttonText: { displayText: "📍Unmute",},type: 1,},{buttonId: `${prefix}group close`,buttonText: {displayText: "📍Mute",},type: 1, },];     await bot.sendButtonText(man.chat,buttons,`Group Mode`, bot.user.name, man);
-            
- }
-         }
-     )
-    
+                return citel.reply(`Group Mode:\n${prefix}group open- to open\n${prefix}group close- to close`);
+            }
+        }
+    )
     //---------------------------------------------------------------------------
 cmd({
             pattern: "grouppic",
