@@ -18,10 +18,10 @@ let result = await download(text)
     const lastupdate = result.lastup
     const packagename = result.package
     const size = result.size
-      await Void.sendMessage(citel.chat, { 
+      await Void.sendMessage(citel.chat, { quoted: citel });
         image: {
             url: icon,
-        }, { quoted: citel })
+        }, 
         caption: `
         \n ✧ *KING VAJIRA APP DOWNLOADER*
         \n━━━━━━━━━━━━━━━━━━
