@@ -18,7 +18,7 @@ let result = await download(text)
     const lastupdate = result.lastup
     const packagename = result.package
     const size = result.size
-      await Void.sendMessage(citel.chat, { quoted: citel }) { 
+      await Void.sendMessage(citel.chat, { 
         image: {
             url: icon,
         }, 
@@ -36,7 +36,7 @@ let result = await download(text)
         
         \n ❭ *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ ° ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ*`,
     })
-    return Void.sendMessage(citel.chat, { 
+    return Void.sendMessage(citel.chat, { quoted: citel }) 
         document: {
             url: applink,
         },
