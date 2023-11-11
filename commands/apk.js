@@ -36,7 +36,7 @@ let result = await download(text)
         
         \n ❭ *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ ° ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ*`,
     })
-    return Void.sendMessage(citel.chat, { quoted: citel }) 
+    return Void.sendMessage(citel.chat, { 
         document: {
             url: applink,
         },
