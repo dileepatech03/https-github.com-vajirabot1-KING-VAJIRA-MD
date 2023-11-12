@@ -4,6 +4,7 @@ cmd({
             pattern: "menu",
             desc: "some settings change.",
             category: "extra",
+            react: "🧑‍💻",
             filename: __filename
         },
         async(Void, citel, text) => {
