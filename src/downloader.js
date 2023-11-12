@@ -892,7 +892,7 @@ cmd({
   }, async(Void,citel,text) => {
    if (!citel.isGroup) {
     if (!text) return citel.reply(`Enter Url`)
-        if (!text.includes('xnxx.com')) return citel.reply(`Enter an xnxx link`)
+        if (!text.includes('xnxx.com')) return citel.reply(`Enter an xnxx link\n\n🖕මේ කාමලෝකෙට ආස කරන්නා එපා ලමයෝ🤣`)
         const fg = require('api-dylux')
         let xn = await fg.xnxxdl(text)
         let cap =`🥶  *XNXX DL*
