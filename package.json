@@ -1,15 +1,15 @@
 {
-               "name": "PRABATH-MD",
+               "name": "VAJIRA-MD",
                "version": "5.0.0",
-               "description": "Multi device whatsapp bot by prabath.",
+               "description": "Multi device whatsapp bot by vajira.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name prabath",
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name vajira",
                 "stop": "pm2 stop prabath"
                 },
-               "author": "SamPandey001 & Prabath & Sachintha",
+               "author": "SamPandey001 & Vajira",
               "dependencies": {
                        "@whiskeysockets/baileys": "git+https://github.com/sampandey001/baileys",
                        "@adiwajshing/keyed-db": "^0.2.4",
@@ -84,10 +84,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/prabathLK/PRABATH_MD.git"
+                 "url": "git+https://github.com/vajirabot1/KING-VAJIRA-MD.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/prabathLK/PRABATH_MD/issues"
+                 "url": "https://github.com/vajirabot1/KING-VAJIRA-MD/issues"
                   },
-                 "homepage": "https://github.com/prabathLK/PRABATH_MD#readme"
+                 "homepage": "https://github.com/vajirabot1/KING-VAJIRA-MD#readme"
               }
