@@ -7,7 +7,7 @@
                "license": "GPL-3.0",
    "scripts": {
                 "start": "pm2 start lib/client.js --deep-monitoring --attach --name vajira",
-                "stop": "pm2 stop prabath"
+                "stop": "pm2 stop vajira"
                 },
                "author": "SamPandey001 & Vajira",
               "dependencies": {
