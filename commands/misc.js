@@ -310,6 +310,32 @@ cmd({
          }
      )
      //---------------------------------------------------------------------------
+cmd({
+        pattern: "quoted",
+        desc: "get reply Message from Replied Message",
+        category: "user",
+        filename: __filename
+    },
+    async(Void, citel, text) => {
+        if(!citel.quoted) return await citel.send("*_Uhh Dear, Reply to a Message_*")
+        var quote
+        try {
+             quote = await Void.serializeM(await citel.getQuotedObj())
+        } catch (error) {return console.log("error while geting Quoted Message : " , error )}
+
+        if (!quote.quoted) return await citel.replay('*Message you replied does not contain a reply Message*')
+        else await Void.sendMessage(citel.chat, { react: { text: '✨', key: citel.key }}); 
+        try {        
+            let quote2 = await Void.serializeM(await quote.getQuotedObj())
+            return await Void.copyNForward(citel.chat, quote2 , false ,)
+        } catch (error) 
+        {       
+            const contextInfo = {}
+            Void.forward(citel.chat ,quote.quoted, contextInfo , citel ); 
+        }
+        // attp | Void.sendMessage(citel.chat, { sticker: {url: `https://api.xteam.xyz/attp?file&text=${encodeURI(text)}`}}, {quoted: citel })
+    })
+     //---------------------------------------------------------------------------
  
  cmd({
              pattern: "emix",
