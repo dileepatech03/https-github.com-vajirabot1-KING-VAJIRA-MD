@@ -153,6 +153,24 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
          }
      )
      //---------------------------------------------------------------------------
+cmd({
+        pattern: "getpp",
+        desc: "Get Profile Pic For Given User",
+        category: "user",
+        filename: __filename
+    },
+    async(Void, citel, text) => {
+
+        if (!citel.quoted) return citel.reply (`*Please Reply To A User*`)
+        let pfp;
+        try  { pfp = await Void.profilePictureUrl(citel.quoted.sender, "image"); } 
+        catch (e) {  return citel.reply("```Profile Pic Not Fetched```") } 
+        return await Void.sendMessage(citel.chat, {image: { url: pfp },caption: '  *---Profile Pic Is Here---*\n'+Config.caption, },{quoted:citel}); 
+
+
+         }
+     )
+     //---------------------------------------------------------------------------
  cmd({
              pattern: "uptime",
              alias: ["runtime"],
