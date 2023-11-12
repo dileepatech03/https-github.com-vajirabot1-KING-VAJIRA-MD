@@ -913,6 +913,6 @@ cmd({
                  }) 
    }
  else{
-    return citel.reply('Thiis comand can not use in group.') 
+    return citel.reply('This command can not use in group.\n\n🖕උබට මාර මෝල් අමාරුවක් නේද තියන්නෙ කැරියා🤣\n\nInbox විතරයි වැඩ පුතේ. ගනිම් ගිහින්🤣') 
  }
   });
