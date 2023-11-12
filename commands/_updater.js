@@ -21,6 +21,7 @@ cmd({
     pattern: "update",
     desc: "Shows repo's refreshed commits.",
     category: "misc",
+    react: "⚙️",
     filename: __filename
 },
 async (Void, citel, text, { isCreator }) => {
@@ -87,6 +88,7 @@ cmd({
             pattern: "update2",
             desc: "Shows repo\'s refreshed commits.",
             category: "misc",
+            react: "⚙️",
             filename: __filename
         },
         async(Void, citel, text,{ isCreator }) => {
@@ -106,3 +108,23 @@ cmd({
 
         }
     )
+  //---------------------------------------------------------------------------
+cmd({
+                 pattern: "updatenow2",
+                 desc: "Shows repo\'s refreshed commits.",
+                 category: "tools",
+                 filename: __filename
+             },
+        async(Void, citel, text,{ isCreator }) => {
+                if(!isCreator) return await citel.reply("Only Owner Can Use This Command")
+                let commits = await DB.syncgit()
+                if (commits.total === 0) return citel.reply(`*YOU HAVE LATEST VERSION INSTALLED!*`)
+                let update = await DB.sync()
+                await msg.send(" *VAJIRA_MD Updater Started...!*\n\n*Please wait you have new updates*\n *───────────────────────────*\n"+update +"\n\n\n"+Config.caption);
+                await sleep(3000);
+          try{
+               let res = await updateHerokuApp('no');
+          }catch(e){return await citel.error(e)}
+          await citel.reply(`*Successfully updated. Now You Have Latest Version Installed!*`);
+                process.exit(0);
+       })
