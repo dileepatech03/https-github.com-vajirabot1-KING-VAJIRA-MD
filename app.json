@@ -78,9 +78,9 @@
     "description": "A secret String for Mongodb Connection.(Required),change for better experience",
     "value": "mongodb+srv://mongodbural:mongodbural@cluster0.j0d7xng.mongodb.net/?retryWrites=true&w=majority"
   },
-    "THEME": {
-    "description": "Put the theme name you want to use.Available theme is vajira, do not change it will come errors / මේක ව්එන්.අස් කරන්න එපා එර එනව",
-     "value": "VAJIRA"
+    "LANG": {
+    "description": "Put the language in this box correctly spellings and words Eg:-SI OR EN / ඉහත කොටුවෙ අකුරු නිවැරදිව භාශාව දාන්න",
+     "value": "Put language SI or EN correctly in this box"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
