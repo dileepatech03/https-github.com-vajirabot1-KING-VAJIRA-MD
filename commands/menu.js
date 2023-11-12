@@ -2,9 +2,9 @@ const os = require('os');
 const { cmd,tlang,prefix,runtime,formatp} = require('../lib/');
 cmd({
             pattern: "menu",
+            alias: ["list","මෙනු","මෙනූ","cmd"],
             desc: "some settings change.",
             category: "extra",
-            react: "🧑‍💻",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -45,10 +45,10 @@ description: ' '
 }
             ]
             ted = `┏━━━━━━━━━━━━━━━━━━━━━━━━━
-┃   *VAJIRA-MD-WHATSAPP-BOT*
+┃   *PRABATH-MD-WHATSAPP-BOT*
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━
 *Hello .* ${citel.pushName}
-*I Am 𝗩𝗔𝗝𝗜𝗥𝗔-𝗠𝗗*
+*I Am 𝗣𝗥𝗔𝗕𝗔𝗧𝗛-𝗠𝗗*
 
 ⦁ *CREATED DATE :* 2023/01/2.
 ⦁ *CREATED TIME :* 8:30 PM.
