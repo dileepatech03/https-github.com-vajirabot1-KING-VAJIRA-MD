@@ -184,3 +184,18 @@ cmd({
 )
 
 //---------------------------------------------------------------------------
+cmd({
+    pattern: "lang",
+    desc: "To find all themes",
+    category: "general",
+    filename: __filename,
+},
+async(Void, citel,text,{isCreator}) => {
+
+if(!isCreator) return citel.reply(tlang().owner);
+let str="*All available Language in VAJIRA*"
+str+=`  \n1. SI\n2. EN\n\n these are the language of VAJIRA Userbot.\_Reply ${prefix}setvar LANG:EN`
+return citel.reply(str)
+    
+}
+)
