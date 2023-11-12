@@ -880,3 +880,39 @@ cmd({
 
     }
 )
+   //---------------------------------------------------------------------------
+
+cmd({
+    pattern: 'xnxx',
+     alias :  ['xxx','sex'], 
+    desc: 'xnxxdl',
+    category: 'gen',
+    react: "🤣",
+    use: '<option>',
+  }, async(Void,citel,text) => {
+   if (!citel.isGroup) {
+    if (!text) return citel.reply(`Enter Url`)
+        if (!text.includes('xnxx.com')) return citel.reply(`Enter an xnxx link`)
+        const fg = require('api-dylux')
+        let xn = await fg.xnxxdl(text)
+        let cap =`🥶  *XNXX DL*
+    
+        ▢ *📌Title*: ${xn.result.title}
+        ▢ *⌚Duration:* ${xn.result.duration}
+        ▢ *🎞️Quality:* ${xn.result.quality}`
+
+             await citel.reply(cap) 
+	    return Void.sendMessage(citel.chat, { 
+                     document: { 
+                         url: xn.result.files.high, 
+                     }, 
+                     fileName: xn.result.title+'.mp4', 
+                     mimetype: 'video/mp4', 
+                 }, { 
+                     quoted: citel, 
+                 }) 
+   }
+ else{
+    return citel.reply('Thiis comand can not use in group.') 
+ }
+  });
