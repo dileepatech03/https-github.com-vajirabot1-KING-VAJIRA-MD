@@ -225,6 +225,29 @@ cmd({
          }
      )
     //---------------------------------------------------------------------------
+cmd({
+        pattern: "blocklist",
+        desc: "get list of all Blocked Numbers",
+        category: "user",
+        filename: __filename,
+        use: '<text>',
+    },
+    async(Void, citel, text , {isCreator}) => {
+        if(!isCreator) return await citel.reply(tlang().owner);
+        try {
+            const data = await Void.fetchBlocklist();
+            if (data.length === 0) return await citel.reply(`Uhh Dear, You don't have any Blocked Numbers.`);
+            let txt = `\n*≡ List*\n\n*_Total Users:* ${data.length}_\n\n┌─⊷ \t*BLOCKED USERS*\n`;
+            for (let i = 0; i < data.length; i++) {      txt += `▢ ${i + 1}:- wa.me/${data[i].split("@")[0]}\n`;    }
+            txt += "└───────────";
+            return await Void.sendMessage(citel.chat, { text: txt });
+          } catch (err) {
+            console.error(err);
+            return await citel.reply('*Error while getting Blocked Numbers.\nError: *' + err);
+          }
+    }
+    )
+    //---------------------------------------------------------------------------
  cmd({
              pattern: "npm",
              desc: "download mp4 from url.",
