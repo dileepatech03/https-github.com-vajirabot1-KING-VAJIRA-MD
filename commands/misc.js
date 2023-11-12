@@ -202,6 +202,29 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
          }
      )
      //---------------------------------------------------------------------------
+cmd({
+             pattern: "calc",
+             desc: "Calculate two value.",
+             category: "misc",
+             filename: __filename
+         },
+         async(Void, citel, text) => {
+            
+            if (!text) return await citel.reply("Please enter a mathematical operation.");
+            text = text.replace(/\s+/g, '');
+            if (!/^(\d+([-+%*/]\d+)+)$/.test(text)) return await  citel.reply("Please enter a valid mathematical operation.");
+            const evaluate = (exp) => {  return new Function('return ' + exp)(); };
+            try {
+                const result = evaluate(text);
+                if (text.includes('/') && text.split('/').some((num) => num === '0')) return await citel.send("*Cannot divide by zero.*");
+                if (text.split(/[-+%*/]/).length <= 2) {
+                    const [num1, operator, num2] = text.match(/\d+|[-+%*/]/g);
+                    return citel.send(`${num1} ${operator} ${num2} = ${result}`);
+                } else {  return await citel.send(`Result: ${result}`); }
+            } catch (error) {  }
+         }
+     )
+    //---------------------------------------------------------------------------
  cmd({
              pattern: "npm",
              desc: "download mp4 from url.",
