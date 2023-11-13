@@ -13,6 +13,7 @@
     "AUTO_STATUS_SAVER": {
       "description": "Automatically saves status of every person and sends in log number.",
        "required" :false
+	"value": "true"
       },
 	"AUTO_STATUS_READER": {
       "description": "Automatically VIEWS status of every person .",
