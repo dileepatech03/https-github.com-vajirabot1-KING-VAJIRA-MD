@@ -17,7 +17,7 @@ const { getBuffer, cmd } = require('../lib/')
 const fs = require('fs-extra');
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
-const Config = require('../Settings')
+const Config = require('../settings')
  
 // -------------------------------------------------------------------
 
