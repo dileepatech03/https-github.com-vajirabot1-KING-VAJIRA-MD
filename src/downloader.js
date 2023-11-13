@@ -105,7 +105,7 @@ cmd({
                  if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`); 
                  let titleYt = infoYt.videoDetails.title; 
                  let randomName = getRandom(".mp4"); 
-                 citel.reply('🔎 Search Your Video.') 
+                 citel.reply('🔎 ඔබේ ගීතය සොයමින් පවතී.') 
                  const stream = ytdl(urlYt, { 
                          filter: (info) => info.itag == 22 || info.itag == 18, 
                      }) 
@@ -148,7 +148,7 @@ await sleep(2000);
                           jpegThumbnail: log0,
                           mimetype: 'video/mp4',  
                           fileName: `${titleYt}.mp4`, 
-                          caption: `*⬇📥 𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝘿 𝘽𝙔 𝙑𝘼𝙅𝙄𝙍𝘼 📥*`, 
+                          caption: `*📥 𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝘿 𝘽𝙔 𝙑𝘼𝙅𝙄𝙍𝘼 📥*`, 
                       }  
                    Void.sendMessage(citel.chat, buttonMessage, { quoted: citel }); 
   
