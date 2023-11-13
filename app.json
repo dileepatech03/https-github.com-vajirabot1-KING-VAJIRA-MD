@@ -43,7 +43,7 @@
   },  
     "ALWAYS_ONLINE": {
     "description": "enter true or false",
-    "value": "put true or falss",
+    "value": "put true or false",
     "required" :false
     },
      "ANTILINK_ACTION": {
