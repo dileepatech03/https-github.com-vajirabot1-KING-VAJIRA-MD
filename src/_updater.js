@@ -13,7 +13,7 @@
 
 const DB = require('../lib/scraper');
 const { execSync } = require('child_process');
-const { tlang, Config, prefix, cmd, sleep } = require('../lib');
+const { tlang, settings, prefix, cmd, sleep } = require('../lib');
 
 let updating = false;
 
@@ -82,7 +82,7 @@ async (Void, citel, text, { isCreator }) => {
 
 const DB = require('../lib/scraper')
 const { execSync } = require('child_process')
-const { tlang, Config, prefix,cmd } = require('../lib')
+const { tlang, settings, prefix,cmd } = require('../lib')
     //---------------------------------------------------------------------------
 cmd({
             pattern: "update2",
