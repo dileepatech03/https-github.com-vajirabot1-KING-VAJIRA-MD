@@ -39,6 +39,11 @@
     "description": "Put words for antilink",
      "value": "chat.whatsapp.com,fb.com,instagram.com",
      "required" :false
+  },  
+    "ALWAYS_ONLINE": {
+    "description": "enter true or false",
+    "value": "true",
+    "required" :false
     },
      "ANTILINK_ACTION": {
     "description": "Put action for antilink",
