@@ -527,7 +527,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ┋🧑‍🎤 *Author:* ${anu.author.name}
 ┋⬇️ Upload To Song
  ───────➢────────
-⦿ *Url* : ${anu.url}\n\n\nReply 1 To Audio \nReply 2 To Document" ;
+⦿ *Url* : ${anu.url}
 `,			
                 footer: tlang().footer,
                 headerType: 4,
