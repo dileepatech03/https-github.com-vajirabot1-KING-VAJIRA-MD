@@ -12,7 +12,7 @@
 const os = require('os')
 const moment = require("moment-timezone")
 const fs = require("fs")
-const Config = require('../settings')
+const Config = require('../config')
 let { fancytext, tlang, tiny, runtime, formatp, botpic, prefix, sck1 } = require("../lib");
 const long = String.fromCharCode(8206)
 const readmore = long.repeat(4001)
