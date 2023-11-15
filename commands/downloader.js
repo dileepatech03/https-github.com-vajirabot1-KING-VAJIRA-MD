@@ -496,7 +496,8 @@ cmd({
             category: "downloader",
             filename: __filename,
             use: '<text>',
-        },
+        
+            },
         async(Void, citel, text) => {
             let yts = require("secktor-pack"); 
 let textYt;        
