@@ -1,5 +1,5 @@
 const { tlang,cmd,prefix } = require('../lib')
-const Config = require('../settings')
+const Config = require('../config')
 const maker = require('mumaker')
 
     //---------------------------------------------------------------------------
