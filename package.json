@@ -1,5 +1,5 @@
-{
- "name": "Vsjira-md",
+a{
+ "name": "Vajira-md",
  "version": "0.0.7",
  "description": "Multi device whatsapp bot by excelottah6.",
  "main": "lib/client.js",
