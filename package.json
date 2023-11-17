@@ -1,15 +1,15 @@
 {
-  "name": "izuku-md",
+  "name": "Vajira-md",
   "version": "0.0.7",
-  "description": "Multi device whatsapp bot by excelottah6.",
+  "description": "Multi device whatsapp bot by vajirabot1.",
   "main": "lib/client.js",
   "type": "commonjs",
   "license": "GPL-3.0",
   "scripts": {
-    "start": "pm2 start lib/client.js --deep-monitoring --attach --name izuku",
-    "stop": "pm2 stop izuku"
+    "start": "pm2 start lib/client.js --deep-monitoring --attach --name vajira",
+    "stop": "pm2 stop vajira"
   },
-  "author": "excelottah6",
+  "author": "vajirabot1",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^9.1.4",
@@ -73,10 +73,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/excelottah/IZUKU-MD.git"
+    "url": "git+https://github.com/vajirabot1/KING-VAJIRA-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/excelottah6/IZUKU-MD/issues"
+    "url": "https://github.com/vajirabot1/KING-VAJIRA-MD/issues"
   },
-  "homepage": "https://github.com/excelottah6/IZUKU-MD#readme"
+  "homepage": "https://github.com/vajirabot1/KING-VAJIRA-MD#readme"
 }
