@@ -68,7 +68,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94766943622"
+       "value": "your number"
   },
    "SESSION_ID": {
     "description": "Please put long SESSION_ID here,if you don't have visit https://replit.com/@VajiraRathnayak/VAJIRA-MD-7?v=1"
