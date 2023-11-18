@@ -9,10 +9,10 @@
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F00&lines=HELLO+IM+KING+VAJIRA+WHATSAPP+BOT)](https://git.io/typing-svg)
 
    <p align="center">
-<a href="https://github.com/vajirabot1"><button>
+<a href="https://github.com/vajirabot1">
     <img src="https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg"  width="700px">
-</button></a>
-
+</a>
+	   
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞+𝐓𝐨+𝙆𝙄𝙉𝙂╺+𝙑𝘼𝙅𝙄𝙍𝘼+-+𝗕𝗢𝗧.;𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈:+𝙺𝙸𝙽𝙶+𝚅𝙰𝙹𝙸𝚁𝙰+𝚃𝙴𝙰𝙼;ℂ𝕣𝕖𝕒𝕥𝕖𝕕+𝕓𝕪:+𝙒𝙈𝙍.𝙑𝘼𝙅𝙄𝙍𝘼;𝐌𝐑:+☬𝔻𝔸ℝ𝕂༒𝕍𝔸𝕁𝕀ℝ𝔸࿐;💕ඉතිං+කොහොමද🙃;😁මොකද+කරන්නෙ🌹)](https://git.io/typing-svg)
 
 
@@ -29,7 +29,9 @@
 
 ***Click [FORK](https://github.com/vajirabot1/KING-VAJIRA-MD-fork)***
 
+<marquee direction="up">
 <b><details><summary>𝘿𝙀𝙋𝙇𝙊𝙔𝙈𝙀𝙉𝙏 𝙈𝙀𝙏𝙃𝙊𝘿𝙎</summary><br>
+</marquee>
  
  [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/vajirabot1/KING-VAJIRA-MD)
 
