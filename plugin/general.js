@@ -100,19 +100,19 @@ cmd({
         alias: ["git", "sc", "script"],
         desc: "Sends info about repo.",
         category: "general",
-	react: "📃",
+	react: "🧑‍💻",
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/vajirabot1/KING-VAJIRA-MD')
+        let { data } = await axios.get('https://api.github.com/repos/excelottah6/IZUKU-MD')
         let cap = `Hey ${citel.pushName}\n
-╭┈────────────    .· * • ˚
+╭┈─────────────────────    .· * • ˚
 │*⭐ Total Stars:* ${data.stargazers_count} stars
 │*🍴 Forks:* ${data.forks_count} forks
 │*📡 Repo:* https://github.com/vajirabot1/KING-VAJIRA-MD
 │*🏘Group:* https://chat.whatsapp.com/BvNbfgOzzo77urGqoNjThk
-│*🧑‍💻Deploy VAJIRA MD*:https://github.com/vajirabot1/KING-VAJIRA-MD
-╰──────────────✬      * ˚  ✶`
+│*🧑‍💻Deploy VAJIRA MD*:https://github.com/excelottah6/KING-VAJIRA-MD
+╰──────────────────────✬      * ˚  ✶`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -120,7 +120,7 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Vajira-Repo",
+                    title: "IZUKU-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
