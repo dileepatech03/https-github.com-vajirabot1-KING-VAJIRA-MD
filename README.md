@@ -1,4 +1,6 @@
-<div align="center" background="color:blue;">
+<body bgcolor = “green”>
+
+<div align="center">
     ⏬<b>KING VAJIRA</b>⏬</b>
 
   
@@ -92,3 +94,4 @@ VAJIRA whatsapp bot is,
 
 
 [![Button name](https://icons8.com/icon/9a46bTk3awwI/youtube)](https://github.com/vajirabot1/DARK-VAJIRA)
+</body>
