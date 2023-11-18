@@ -10,6 +10,7 @@ cmd({
             pattern: "join",
             desc: "joins group by link",
             category: "owner",
+	    react: "✅",
             use: '<group link.>',
         },
         async(Void, citel, text,{ isCreator }) => {
@@ -30,6 +31,7 @@ cmd({
             alias: ["s"],
             desc: "Makes sticker of replied image/video.",
             category: "group",
+	    react: "✅",
             use: '<reply to any image/video.>',
         },
         async(Void, citel, text) => {
@@ -76,6 +78,7 @@ cmd({
         pattern: "support",
         desc: "Sends official support group link.",
         category: "group",
+	react: "✅",
         filename: __filename,
     },
     async(Void, citel, text) => {
@@ -94,6 +97,7 @@ cmd({
     alias : ['setgdesc','setdesc'],
     desc: "Set Description of Group",
     category: "group",
+    react: "✅",
     filename: __filename,
     use: 'enter Description Text',
 },
@@ -121,6 +125,7 @@ cmd({
         alias:["glink"],
         desc: "get group link.",
         category: "group",
+	react: "✅",
         filename: __filename,
     },
 	 async(Void, citel, text,{ isCreator }) => {
@@ -145,6 +150,7 @@ cmd({
     alias: ['setgname','setname'],
     desc: "Set name of Group",
     category: "group",
+    react: "✅",
     filename: __filename,
     use: 'enter Description Text',
 },
@@ -170,6 +176,7 @@ cmd({
             pattern: "warn",
             desc: "Warns user in Group.",
             category: "group",
+	    react: "✅",
             filename: __filename,
             use: '<quote|reply|number>',
         },
@@ -187,6 +194,7 @@ cmd({
             pattern: "unblock",
             desc: "Unblocked to the quoted user.",
             category: "owner",
+	    react: "✅",
             filename: __filename,
 
         },
@@ -205,6 +213,7 @@ cmd({
         pattern: "ujid",
         desc: "get jid of all user in a group.",
         category: "owner",
+	react: "✅",
         filename: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -225,6 +234,7 @@ cmd({
         pattern: "tagall",
         desc: "Tags every person of group.",
         category: "group",
+	react: "✅",
         filename: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -258,6 +268,7 @@ cmd({
     pattern: "request",
     desc: "Send a request message to the bot developer.",
     category: "utility",
+    react: "✅",
     usage: "request <your request message>",
 }, async (Void, citel, text) => {
     if (!text) {
@@ -275,6 +286,7 @@ cmd({
             pattern: "retrive",
             desc: "Copies and Forwords viewonce message.",
             category: "group",
+	    react: "✅",
             filename: __filename,
             use: '<reply to a viewonce message.>',
         },
@@ -299,6 +311,7 @@ cmd({
             pattern: "rwarn",
             desc: "Deletes all previously given warns of quoted user.",
             category: "group",
+	    react: "✅",
             filename: __filename,
             use: '<quote|reply|number>',
         },
@@ -314,6 +327,7 @@ cmd({
             pattern: "poll",
             desc: "Makes poll in group.",
             category: "group",
+	    react: "✅",
             filename: __filename,
             use: `question;option1,option2,option3.....`,
         },
@@ -341,6 +355,7 @@ cmd({
             pattern: "profile",
             desc: "Shows profile of user.",
             category: "group",
+	    react: "✅",
             filename: __filename,
         },
         async(Void, citel, text) => {
@@ -439,6 +454,7 @@ cmd({
             pattern: "rank",
             desc: "Sends rank card of user.",
             category: "group",
+	    react: "✅",
             filename: __filename,
         },
         async(Void, citel, text) => {
@@ -520,6 +536,7 @@ cmd({
             alias: ["deck"],
             desc: "To check leaderboard",
             category: "general",
+	    react: "✅",
             filename: __filename,
         },
         async(Void, citel) => {
@@ -595,6 +612,7 @@ cmd({
             pattern: "promote",
             desc: "Provides admin role to replied/quoted user",
             category: "group",
+	    react: "✅",
             filename: __filename,
             use: '<quote|reply|number>',
         },
@@ -622,6 +640,7 @@ cmd({
             pattern: "kick",
             desc: "Kicks replied/quoted user from group.",
             category: "group",
+	    react: "✅",
             filename: __filename,
             use: '<quote|reply|number>',
         },
@@ -649,6 +668,7 @@ cmd({
             pattern: "memegen",
             desc: "Write text on quoted image.",
             category: "group",
+	    react: "✅",
             filename: __filename,
             use: '<text>',
         },
@@ -676,6 +696,7 @@ cmd({
             pattern: "group",
             desc: "mute and unmute group.",
             category: "group",
+	    react: "✅",
             filename: __filename,
         },
         async(Void, citel, text) => {
@@ -709,6 +730,7 @@ cmd({
             pattern: "grouppic",
             desc: "Sets a profile pic in Group..",
             category: "group",
+	    react: "✅",
             filename: __filename,
         },
         async(Void, citel, text) => {
@@ -741,6 +763,7 @@ cmd({
             alias: ["tag"],
             desc: "Tags everyperson of group without mentioning their numbers",
             category: "group",
+	    react: "✅",
             filename: __filename,
             use: '<text>',
         },
@@ -769,6 +792,7 @@ cmd({
             desc: "Add that person in group",
             fromMe: true,
             category: "group",
+	    react: "✅",
             filename: __filename,
             use: '<number>',
         },
@@ -792,6 +816,7 @@ cmd({
             pattern: "getjids",
             desc: "Sends chat id of every groups.",
             category: "group",
+	    react: "✅",
             filename: __filename,
         },
         async(Void, citel, text,{ isCreator }) => {
@@ -820,6 +845,7 @@ cmd({
         pattern: "demote",
         desc: "Demotes replied/quoted user from group",
         category: "group",
+	react: "✅",
         filename: __filename,
         use: '<quote|reply|number>',
     },
@@ -849,6 +875,7 @@ cmd({
             alias: ["delete"],
             desc: "Deletes message of any user",
             category: "group",
+	    react: "✅",
             filename: __filename,
             use: '<quote/reply message.>',
         },
@@ -888,6 +915,7 @@ cmd({
             pattern: "checkwarn",
             desc: "Check warns",
             category: "group",
+	    react: "✅",
             filename: __filename,
             use: '<quoted/reply user.>',
         },
@@ -914,6 +942,7 @@ cmd({
     desc: "Block a user",
     fromMe: true,
     category: "owner",
+    react: "✅",
     usage: "block <quote/reply to a user>",
 }, async (Void, citel, text) => {
     if (!citel.quoted) {
@@ -943,6 +972,7 @@ cmd({
   pattern: "listonline",
   desc: "List all active members of the group",
   category: "group",
+  react: "✅",
 }, async (Void, citel, match) => {
   const groupMetadata = await citel.groupMetadata(citel.jid);
   const participants = groupMetadata.participants;
@@ -963,6 +993,7 @@ cmd({
   pattern: "totag",
   desc: "Hide tags in a message",
   category: "group",
+  react: "✅",
 }, async (Void, citel) => {
   const mentioned = citel.mentionedIds;
   let hiddenTagMessage = citel.text;
@@ -983,6 +1014,7 @@ cmd({
     desc: "Bot makes a broadcast in all groups",
     fromMe: true,
     category: "group",
+    react: "✅",
     filename: __filename,
     usage: "<text for broadcast>",
 }, async (message, match) => {
