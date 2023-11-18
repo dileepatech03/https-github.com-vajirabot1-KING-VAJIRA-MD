@@ -90,7 +90,7 @@ cmd({
              const date = `${hirunews.time}`  
              const news = `${hirunews.desc}`  
   
-  await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `\n${ title }\n\n ${ news }\n\n${date}👑 ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ ᴍᴅ 👑`}, { quoted: citel })  
+  await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `\n${ title }\n\n ${ news }\n\n${date}`}, { quoted: citel })  
   }  
   catch(e){  
   console.log(e)  
