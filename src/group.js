@@ -661,7 +661,7 @@ cmd({
                     .catch((err) => console.log(err));
             } else {
 
-                return citel.reply(`Group Mode:\n${prefix}unmute- to open\n${prefix}mute- to close`);
+                return citel.reply(`Group Mode:\n${prefix}group open- to open\n${prefix}group close- to close`);
             }
         }
     )
