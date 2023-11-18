@@ -364,10 +364,23 @@ cmd({
             let yts = require("secktor-pack");
             let search = await yts(text);
             let anu = search.videos[0];
-	    const buttons = [
-  {buttonId: '${prefix}ytmp3 ${anu.url}', buttonText: {displayText: 'AUDIO'}, type: 1},
-  {buttonId: '${prefix}ytdoc ${anu.url}', buttonText: {displayText: 'DOCUMENT'}, type: 2}
-]		
+	    let buttons = [{
+		    buttonId:'${prefix}ytmp3 $
+	{anu.url}',
+                    buttonText:{
+		      displayText:"AUDIO",
+		    },
+		    type:1,
+		 },
+                  {
+	            buttonId: '${prefix}ytdoc $
+		    {anu.url}',
+             buttonText: {
+	           displayText: "DOCUMENT",
+		   },
+                   type: 2,
+		},
+            ];		
             let buttonMessage = {
                 image: {
                     url: anu.thumbnail,
