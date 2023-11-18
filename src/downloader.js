@@ -509,23 +509,8 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 }
             let search = await yts(textYt);
             let anu = search.videos[0];
-            let buttons = [{
-                    buttonId: `${prefix}ytmp3 ${anu.url}`,
-                    buttonText: {
-                        displayText: "AUDIO",
-                    },
-                    type: 1,
-                },
-                  {
-                    buttonId: `${prefix}ytdoc ${anu.url}`,
-                    buttonText: {
-                        displayText: "DOCUMENT",
-                    },
-                    type: 1,
-                },
-            ];
-            let buttonMessage = {			  
-		image: {
+                       let buttonMessaged ={
+             image: {
                     url: anu.thumbnail,
                },
                 caption: `
