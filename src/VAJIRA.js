@@ -1,5 +1,0 @@
-👑 The owner KING VAJIRA MD 👑
-DONT COPY
-HIGHT SPEED BOT
-NOT BANNED
-
