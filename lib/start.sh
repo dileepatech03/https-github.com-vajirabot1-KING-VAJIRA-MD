@@ -1,5 +1,5 @@
 while true
 do
-echo "Starting Mac-Md..."
+echo "Starting Vajira-Md..."
 node lib/client.js
 done
