@@ -1,8 +1,10 @@
-const moment = require('moment-timezone')
-const {fetchJson,cmd, tlang } = require('../lib')
-let gis = require("async-g-i-s");
-const axios = require('axios')
-const fetch = require('node-fetch')
+const moment = require('moment-timezone') 
+ const {fetchJson,cmd, tlang } = require('../lib') 
+ let gis = require("async-g-i-s"); 
+ const axios = require('axios') 
+ const fetch = require('node-fetch') 
+ const Esana = require('@sl-code-lords/esana-news') 
+ var api = new Esana() 
 
 //---------------------------------------------------------------------------
 cmd({   
@@ -55,9 +57,8 @@ cmd({
   }}) 
 //---------------------------------------------------------------------------
 cmd({ 
-         pattern: "news", 
+         pattern: "news/esana", 
          category: "news", 
-         react: "📃"
          desc: "Searches news", 
          use: '<text>', 
          filename: __filename, 
