@@ -1,6 +1,6 @@
 <div align="center">
   ⏬<b>KING VAJIRA</b>⏬</b>
-<marquee direction="up">hi</marquee>
+
   
 <div align="center">
 </p>
