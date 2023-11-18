@@ -1,5 +1,5 @@
 <div align="center">
-    ⏬<b>KING VAJIRA</b>⏬</b>
+  <marquee direction="up">  ⏬<b>KING VAJIRA</b>⏬</b></marquee>
 
   
 <div align="center">
@@ -29,9 +29,8 @@
 
 ***Click [FORK](https://github.com/vajirabot1/KING-VAJIRA-MD-fork)***
 
-<marquee direction="up">
+
 <b><details><summary>𝘿𝙀𝙋𝙇𝙊𝙔𝙈𝙀𝙉𝙏 𝙈𝙀𝙏𝙃𝙊𝘿𝙎</summary><br>
-</marquee>
  
  [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/vajirabot1/KING-VAJIRA-MD)
 
