@@ -8,6 +8,7 @@
          alias: ["ig"],
          desc: "download instagram videos",
          category: "downloader",
+         react: "✅",
          use: "paste insta video link"
      },
      async(Void,citel,text) => {
