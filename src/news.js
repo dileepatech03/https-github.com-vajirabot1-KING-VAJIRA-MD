@@ -45,9 +45,10 @@ cmd({
   
              const images = `${technews.result.img}`  
              const title = `${technews.result.title}`  
+             const date = `${technews.time}`
              const news = `${technews.result.decs}`  
   
-  await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `\n*${ title }*\n\n _${news}._\n\n`}, { quoted: citel })  
+  await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `\n${ title }\n\n ${ news }\n\n${date}`}, { quoted: citel })  
   }  
   catch(e){  
   console.log(e)  
