@@ -360,54 +360,27 @@ cmd({
             use: '<faded-Alan walker.>',
         },
         async(Void, citel, text) => {
-            if (!text) return citel.reply(`*Please Give Me A Song Name*❗ `)
+            if (!text) return citel.reply(`Use ${command} Back in Black`);
             let yts = require("secktor-pack");
             let search = await yts(text);
             let anu = search.videos[0];
-            let buttons = [{
-                    buttonId: `${prefix}ytmp4 ${anu.url}`,
-                    buttonText: {
-                        displayText: "VIDEO",
-                    },
-                    type: 1,
-                },
-                {
-                    buttonId: `${prefix}ytmp3 ${anu.url}`,
-                    buttonText: {
-                        displayText: "AUDIO",
-                    },
-                    type: 1,
-                },
-                  {
-                    buttonId: `${prefix}ytdoc ${anu.url}`,
-                    buttonText: {
-                        displayText: "DOCUMENT",
-                    },
-                    type: 1,
-                },
-            ];
             let buttonMessage = {
                 image: {
                     url: anu.thumbnail,
                 },
                 caption: `
-
-        ${tlang().title} 
-╭────────────────❖
-│ ℹ️ *INFORMATION* 
-│
-│☍ ⦁ *Title:* ${anu.title}
-│☍ ⦁ *Duration:* ${anu.timestamp}
-│☍ ⦁ *Viewers:* ${anu.views}
-│☍ ⦁ *Uploaded:* ${anu.ago}
-│☍ ⦁ *Author:* ${anu.author.name}
-╰────────────────❖
-⦿. *URL:* ${anu.url}
-
-⦿. *REQUEST BY:* ${citel.pushName}
+╔═════════•∞•═╗
+│⿻ ${tlang().title} 
+│  *Youtube Player* ✨
+│⿻ *Title:* ${anu.title}
+│⿻ *Duration:* ${anu.timestamp}
+│⿻ *Viewers:* ${anu.views}
+│⿻ *Uploaded:* ${anu.ago}
+│⿻ *Author:* ${anu.author.name}
+╚═•∞•═════════╝
+⦿ *Url* : ${anu.url}
 `,
                 footer: tlang().footer,
-                buttons: buttons,
                 headerType: 4,
             };
             return Void.sendMessage(citel.chat, buttonMessage, {
