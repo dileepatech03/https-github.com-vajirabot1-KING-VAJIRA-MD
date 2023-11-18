@@ -57,8 +57,10 @@ cmd({
   }}) 
 //---------------------------------------------------------------------------
 cmd({ 
-         pattern: "news/esana", 
-         category: "news", 
+         pattern: "news", 
+         alias: "esana",
+         category: "news",
+         react: "📃",
          desc: "Searches news", 
          use: '<text>', 
          filename: __filename, 
