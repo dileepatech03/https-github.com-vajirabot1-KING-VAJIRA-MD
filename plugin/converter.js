@@ -1,20 +1,4 @@
-/**
-██╗███████╗██╗   ██╗██╗  ██╗██╗   ██╗    ███╗   ███╗██████╗ 
-██║╚══███╔╝██║   ██║██║ ██╔╝██║   ██║    ████╗ ████║██╔══██╗
-██║  ███╔╝ ██║   ██║█████╔╝ ██║   ██║    ██╔████╔██║██║  ██║
-██║ ███╔╝  ██║   ██║██╔═██╗ ██║   ██║    ██║╚██╔╝██║██║  ██║
-██║███████╗╚██████╔╝██║  ██╗╚██████╔╝    ██║ ╚═╝ ██║██████╔╝
-╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝     ╚═╝     ╚═╝╚═════╝ 
-                                                            
- Copyright (C) 2022.
- Licensed under the  GPL-3.0 License;
- You may not use this file except in compliance with the License.
- It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
- * @version 0.0.6
- **/
+
 
 const axios = require('axios')
 const { sck1, tiny, fancytext, listall,cmd,ffmpeg,Config } = require('../lib/')
@@ -55,6 +39,7 @@ const { fromBuffer } = require('file-type');
         pattern: "photo",
         desc: "Makes photo of replied sticker.",
         category: "converter",
+        react: "✅",
         use: '<reply to any gif>',
         filename: __filename
     },
@@ -89,6 +74,7 @@ cmd({
          alias : ['viewonce','retrive'],
          desc: "Flips given text.",
          category: "misc",
+         react: "✅",
          use: '<query>',
          filename: __filename
      },
@@ -143,6 +129,7 @@ cmd({
             desc: "Makes Sticker of quoted text.",
             alias: ["q"],
             category: "converter",
+            react: "✅",
             use: '<reply to any message.>',
             filename: __filename
         },
@@ -197,6 +184,7 @@ cmd({
     alias:['mp4','tovideo','tovid'],
     desc: "changes type to audio.",
     category: "converter",
+    react: "✅",
     use: 'reply to any Video',
     filename: __filename
 },
@@ -265,7 +253,8 @@ cmd({
         alias: ["circlestic","circlesticker","cs"],
         desc: "Makes sticker of replied image/video.",
         category: "sticker",
-filename: __filename,
+        react: "✅",
+        filename: __filename,
         use: '<reply to any image/video.>'
     },
     async(Void, citel, text) => {
@@ -297,7 +286,8 @@ cmd({
         alias: ["cropstic","csticker","cropsticker"],
         desc: "Makes sticker of replied image/video.",
         category: "sticker",
-filename: __filename,
+        react: "✅",
+        filename: __filename,
         use: '<reply to any image/video.>'
     },
     async(Void, citel, text) => {
@@ -329,7 +319,8 @@ cmd({
         alias: ["roundstic","roundsticker"],
         desc: "Makes sticker of replied image/video.",
         category: "sticker",
-filename: __filename,
+        react: "✅",
+        filename: __filename,
         use: '<reply to any image/video.>'
     },
     async(Void, citel, text) => {
@@ -360,6 +351,7 @@ cmd({
     alias:['mp3','tomp3'],
     desc: "changes type to audio.",
     category: "converter",
+    react: "✅",
     use: '<reply to any Video>',
     filename: __filename
 },
