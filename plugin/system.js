@@ -270,7 +270,7 @@ _━━━Powered by Vajira Rathnayaka━━━_
 `;
             let aliveMessage = {
                 image: {
-                    url: await botpic(),
+                    url: 'https://telegra.ph/file/99ec05a8d5de645d30a72.jpg',
                 },
                 caption: alivtxt,
                 footer: tlang().footer,
