@@ -40,7 +40,7 @@ cmd({
   },  
   async(Void, citel) => {  
   try{  
-  const technews = await fetchJson(`http://darkapi.technicalhacke4.repl.co/sinhala-technews`);  
+  const technews = await fetchJson(`https://fantox001-scrappy-api.vercel.app/technews/random`);  
   
   
   
