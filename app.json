@@ -51,7 +51,7 @@
   "LEVEL_UP_MESSAGE": {
     "description": "Fill the value true if you want bot send Level up message in chat.",
      "required" :false,
-     "value": "true"
+     "value": "false"
     },
     "SUDO": {
     "description": "PUT OWNER NUMBER NOTE:remove the + and must be in international form eg:2347039570336",
