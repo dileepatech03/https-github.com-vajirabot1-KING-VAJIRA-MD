@@ -230,9 +230,9 @@ await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } 
 		}})
 
 cmd({
-            pattern: "video",
+            pattern: "video4",
             react: "🎞️",
-            alias :["video2","vi","mp4"],
+            alias :["vid4","vi","mp4"],
             desc: "Downloads audio from youtube.",
             category: "downloader",
             filename: __filename,
