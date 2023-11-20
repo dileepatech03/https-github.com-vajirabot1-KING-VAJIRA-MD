@@ -489,7 +489,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "song",
+            pattern: "song2",
 	    alias :['audio'],
             react: "🎧",
             desc: "Downloads audio from youtube.",
@@ -601,7 +601,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
     )
      //---------------------------------------------------------------------------
 cmd({
-            pattern: "song2",
+            pattern: "song3",
             desc: "Downloads audio from youtube.",
             category: "downloader",
             react: "🎶",
