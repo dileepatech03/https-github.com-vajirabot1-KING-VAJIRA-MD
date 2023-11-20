@@ -11,9 +11,8 @@ var videotime = 36000 // 300 min
 var dlsize = 1000 // 1000mb
 
 cmd({
-            pattern: "play2",
+            pattern: "song",
             react: "🎧",
-            alias :["song3","so","𝚢𝚝"],
             desc: "Downloads audio from youtube.",
             category: "downloader",
             filename: __filename,
