@@ -13,7 +13,7 @@ var dlsize = 1000 // 1000mb
 cmd({
             pattern: "play2",
             react: "🎧",
-            alias :["song3","so","𝚢𝚝"],
+            alias :["song4","so","𝚢𝚝"],
             desc: "Downloads audio from youtube.",
             category: "downloader",
             filename: __filename,
