@@ -13,7 +13,7 @@ var dlsize = 1000 // 1000mb
 cmd({
             pattern: "play2",
             react: "🎧",
-            alias :["song","so","𝚢𝚝"],
+            alias :["song3","so","𝚢𝚝"],
             desc: "Downloads audio from youtube.",
             category: "downloader",
             filename: __filename,
@@ -37,10 +37,10 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                },
                 caption: `
 ㋚┉───────────────┉㋚ 
-🎧 𝗦𝗛𝗘𝗡𝗨 𝗤𝗨𝗘𝗘𝗡 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧
+🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧
 
 🚨 *Youtube Player* 🌿
- ◨┉━━━━╚◭☬◮╝━━━━━┉◧
+ ◨┉━━━━╚◭👑◮╝━━━━━┉◧
 
 ╏🎀 *Title:* ${anu.title}
 ⦁
@@ -48,7 +48,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ⦁
 ╏👀 *Viewers:* ${anu.views}
 ⦁
-╏⬆️ *Uploaded:* ${anu.ago}
+╏📥 *Uploaded:* ${anu.ago}
 ⦁
 ╏👽 *Author:* ${anu.author.name}
 ⦁
@@ -91,7 +91,7 @@ if(!msg.quoted) return
 if (!msg.quoted.isBaileys ) return 
 if(!msg.quoted.caption) return console.log('ew')
 text = msg.quoted.caption
-if (!text.includes('🎧 𝗦𝗛𝗘𝗡𝗨 𝗤𝗨𝗘𝗘𝗡 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧'))  return 
+if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧'))  return 
 text = text.split('╏📡 *Url* : ')[1].split('\n')[0]		
 if(!text) return 
 await Void.sendMessage(citel.chat, { react: {  text: "🎧", key: msg.key } } )			
@@ -165,7 +165,7 @@ if(!msg.quoted) return
 if (!msg.quoted.isBaileys ) return 
 if(!msg.quoted.caption) return console.log('ew')
 text = msg.quoted.caption
-if (!text.includes('ᴅᴀʀᴋ ɴᴇʀᴏ yᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ'))  return 
+if (!text.includes('ᴋɪɴɢ ᴠᴀᴊɪʀᴀ yᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ'))  return 
 text = text.split('✷▎🎋⃟🥷 *ᴜʀʟ*: ')[1].split('\n')[0]		
 if(!text) return 
 await Void.sendMessage(citel.chat, { react: {  text: "🎧", key: msg.key } } )			
