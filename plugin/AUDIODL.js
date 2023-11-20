@@ -77,7 +77,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
     )
 cmd({
             pattern: "1",
-            react: "",
+            react: "🎶",
             alias :[],
             desc: "",
             category: "downloader",
@@ -151,7 +151,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "🎧", key: msg.key } } )
 
 cmd({
             pattern: "2",
-            react: "",
+            react: "🎶",
             alias :[],
             desc: "",
             category: "downloader",
