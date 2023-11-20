@@ -13,7 +13,7 @@ var dlsize = 1000 // 1000mb
 cmd({
             pattern: "play2",
             react: "🎧",
-            alias :["song4","so","𝚢𝚝"],
+            alias :["song3","so","𝚢𝚝"],
             desc: "Downloads audio from youtube.",
             category: "downloader",
             filename: __filename,
@@ -77,7 +77,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
     )
 cmd({
             pattern: "1",
-            react: "🎶",
+            react: "",
             alias :[],
             desc: "",
             category: "downloader",
@@ -151,7 +151,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "🎧", key: msg.key } } )
 
 cmd({
             pattern: "2",
-            react: "🎶",
+            react: "",
             alias :[],
             desc: "",
             category: "downloader",
