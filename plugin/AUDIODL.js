@@ -59,7 +59,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 *1.1 ╏ AUDIO*
 *2.1 ╏ DOCUMENT*
 ┈─┈──┈─◈❁◈─┈─┈─┈─◍
-ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʏʙᴇʀ ᴛʜᴜꜱʜᴀɴ / ʜᴇʟᴘ ᴄʏʙᴇʀ ʏᴀᴋᴜᴢᴀ ᴛᴇᴀᴍ 
+ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴡᴍʀ ᴠᴀᴊɪʀᴀ / ʜᴇʟᴘ ᴄʏʙᴇʀ ʏᴀᴋᴜᴢᴀ ᴛᴇᴀᴍ 
 `,
                 footer: tlang().footer,
                 headerType: 4,
