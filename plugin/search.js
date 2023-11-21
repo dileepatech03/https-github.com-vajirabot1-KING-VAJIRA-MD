@@ -169,7 +169,7 @@ cmd({
             if (!text) return citel.reply("Provide me a query!")
             if (!text) return reply("Hey bie please tell me for which pic you're looking");
             let name1 = text.split("|")[0]
-            let name2 = text.split("|")[20] || `20`
+            let name2 = text.split("|")[10] || `10`
             citel.reply(`Sending ${name2} image(s) of ${name1} in chat`)
             let nn = name2
             for (let i = 0; i < nn; i++) {
