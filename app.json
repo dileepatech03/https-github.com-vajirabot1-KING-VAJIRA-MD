@@ -1,7 +1,7 @@
 {
   "name": "VAJIRA-Md by excel ",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/4a08f0e1c8313b700dcf6.jpg",
+  "logo": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "VajiraBot", "Secktor","VAJIRAMD","theme bot","multi device","baileys","excel"],
   "success_url": "/",
   "stack": "container",
@@ -32,7 +32,7 @@
 },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://telegra.ph/file/4a08f0e1c8313b700dcf6.jpg"
+     "value": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
