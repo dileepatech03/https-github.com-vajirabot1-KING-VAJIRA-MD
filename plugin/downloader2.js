@@ -106,7 +106,7 @@ cmd({
 //--------------------------------------------------------------------------
 cmd({
 
-            pattern: "video3",
+            pattern: "video4",
             desc: "video dl",
             react: "📽️",
             category: "downloader"
