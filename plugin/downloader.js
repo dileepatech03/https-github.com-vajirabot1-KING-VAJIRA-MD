@@ -78,7 +78,7 @@ cmd({
     //---------------------------------------------------------------------------
 
 cmd({ 
-             pattern: "video", 
+             pattern: "video2", 
             alias :['විඩියො','vd'],
              desc: "Downloads video from yt.", 
              category: "downloader", 
@@ -161,7 +161,7 @@ await sleep(2000);
      )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "video2",
+            pattern: "video3",
             desc: "Downloads video from yt.",
             category: "downloader",
             react: "🎥",
