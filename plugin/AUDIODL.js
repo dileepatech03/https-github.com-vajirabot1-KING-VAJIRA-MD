@@ -11,9 +11,9 @@ var videotime = 36000 // 300 min
 var dlsize = 1000 // 1000mb
 
 cmd({
-            pattern: "son1",
+            pattern: "song",
             react: "🎧",
-            alias :["song1","son","𝚢𝚝1"],
+            alias :["son","𝚢𝚝1"],
             desc: "Downloads audio from youtube.",
             category: "downloader",
             filename: __filename,
@@ -37,7 +37,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                },
                 caption: `
 ㋚┉───────────────┉㋚ 
-🎧 𝗦𝗛𝗘𝗡𝗨 𝗤𝗨𝗘𝗘𝗡 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧
+🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧
 
 🚨 *Youtube Player* 🌿
  ◨┉━━━━╚◭☬◮╝━━━━━┉◧
@@ -55,7 +55,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ╏📡 *Url* : ${anu.url}
 
 ◯┉━━┅━━━━━━━━━┅━━━┉◯
-*ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ꜰɪʟᴇ ᴛʏᴘᴇ ꜰʀᴏᴍ ʙᴇʟᴏᴡ *
+*ꜱᴇʟᴇᴄᴛ ɴᴏ ᴏꜰ ᴛʜᴇ ꜰɪʟᴇ ᴛʏᴘᴇ ꜰʀᴏᴍ ʙᴇʟᴏᴡ *
  ◍┈─┈──┈─◈❁◈─┈─┈─┈─◍
 
 *1.1 ╏ AUDIO* 🎧
@@ -63,7 +63,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 
 ┈─┈──┈─◈❁◈─┈─┈─┈─◍
 
-*©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʏʙᴇʀ ᴛʜᴜꜱʜᴀɴ* 
+*👑 ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ 👑* 
 `,
                 footer: tlang().footer,
                 headerType: 4,
@@ -95,7 +95,7 @@ if(!msg.quoted) return
 if (!msg.quoted.isBaileys ) return 
 if(!msg.quoted.caption) return console.log('ew')
 text = msg.quoted.caption
-if (!text.includes('🎧 𝗦𝗛𝗘𝗡𝗨 𝗤𝗨𝗘𝗘𝗡 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧'))  return 
+if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧'))  return 
 text = text.split('╏📡 *Url* : ')[1].split('\n')[0]		
 if(!text) return 
 await Void.sendMessage(citel.chat, { react: {  text: "🎧", key: msg.key } } )			
@@ -170,7 +170,7 @@ if(!msg.quoted) return
 if (!msg.quoted.isBaileys ) return 
 if(!msg.quoted.caption) return console.log('ew')
 text = msg.quoted.caption
-if (!text.includes('🎧 𝗦𝗛𝗘𝗡𝗨 𝗤𝗨𝗘𝗘𝗡 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧'))  return 
+if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧'))  return 
 text = text.split('╏📡 *Url* : ')[1].split('\n')[0]		
 if(!text) return 
 await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } )			
@@ -216,7 +216,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } 
                     document: fs.readFileSync(`./${randomName}`),
                     mimetype: 'audio/mpeg',
                     fileName: titleYt + ".mp3",
-		    caption: `*ꜱʜᴇɴᴜ Qᴜᴇᴇɴ ᴍᴅ 1.1* 🧚‍♀️`,       
+		    caption: `*ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ 1.1* 👑`,       
                     headerType: 4,
                    
                 }
@@ -230,9 +230,9 @@ await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } 
 		}})
 
 cmd({
-            pattern: "video4",
+            pattern: "video",
             react: "🎞️",
-            alias :["vid4","vi","mp4"],
+            alias :["vid","vi","mp4"],
             desc: "Downloads audio from youtube.",
             category: "downloader",
             filename: __filename,
@@ -256,7 +256,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                },
                 caption: `
 ㋚┉───────────────┉㋚ 
-🎧 𝗦𝗛𝗘𝗡𝗨 𝗤𝗨𝗘𝗘𝗡 𝗩𝗜𝗗𝗘𝗢 𝗗𝗟 🎧
+🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗩𝗜𝗗𝗘𝗢 𝗗𝗟 🎧
 
 🚨 *Youtube Player* 🌿
  ◨┉━━━━╚◭☬◮╝━━━━━┉◧
@@ -274,7 +274,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ╏📡 *Url* : ${anu.url}
 
 ◯┉━━┅━━━━━━━━━━┅━━━┉◯
-*select the video type*
+*select ɴᴏ ᴏꜰ the video type*
 ┈─┈──┈─◈❁◈─┈─┈─┈─◍
 
 *3.1 ╏ MP4 VIDEO* 📽️
@@ -282,7 +282,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 
 ┈─┈──┈─◈❁◈─┈─┈─┈─◍
 
-*©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʏʙᴇʀ ᴛʜᴜꜱʜᴀɴ* 
+*👑 ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ 👑* 
 `,
                 footer: tlang().footer,
                 headerType: 4,
@@ -314,7 +314,7 @@ if(!msg.quoted) return
 if (!msg.quoted.isBaileys ) return 
 if(!msg.quoted.caption) return console.log('ew')
 text = msg.quoted.caption
-if (!text.includes('🎧 𝗦𝗛𝗘𝗡𝗨 𝗤𝗨𝗘𝗘𝗡 𝗩𝗜𝗗𝗘𝗢 𝗗𝗟 🎧'))  return 
+if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗩𝗜𝗗𝗘𝗢 𝗗𝗟 🎧'))  return 
 text = text.split('╏📡 *Url* : ')[1].split('\n')[0]		
 if(!text) return 
 await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } )		// denna one react eka
@@ -341,7 +341,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } 
                     let buttonMessage = {
                         video: fs.readFileSync(`./${randomName}`),
                         mimetype: 'video/mp4',
-                        caption:`*𝚂𝙷𝙴𝙽𝚄 𝚀𝚄𝙴𝙴𝙽 𝙼𝙳 𝚅𝙸𝙳𝙴𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙳 ✅`,   
+                        caption:`*𝙺𝙸𝙽𝙶 𝚅𝙰𝙹𝙸𝚁𝙰 𝙼𝙳 𝚅𝙸𝙳𝙴𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙳 ✅`,   
 		    }
                  Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
                  return fs.unlinkSync(`./${randomName}`);
@@ -371,7 +371,7 @@ if(!msg.quoted) return
 if (!msg.quoted.isBaileys ) return 
 if(!msg.quoted.caption) return console.log('ew')
 text = msg.quoted.caption
-if (!text.includes('🎧 𝗦𝗛𝗘𝗡𝗨 𝗤𝗨𝗘𝗘𝗡 𝗩𝗜𝗗𝗘𝗢 𝗗𝗟 🎧'))  return 
+if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗩𝗜𝗗𝗘𝗢 𝗗𝗟 🎧'))  return 
 text = text.split('╏📡 *Url* : ')[1].split('\n')[0]		
 if(!text) return 
 await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } )		// denna one react eka
@@ -399,7 +399,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } 
                          document: fs.readFileSync(`./${randomName}`),
                         mimetype: 'document/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: `*ꜱʜᴇɴᴜ Qᴜᴇᴇɴ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴅ ᴅʟ* 🧚‍♀️`,  
+                        caption: `*𝙺𝙸𝙽𝙶 𝚅𝙰𝙹𝙸𝚁𝙰 ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴅ ᴅʟ* 🧚‍♀️`,  
 		    }
                  Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
                  return fs.unlinkSync(`./${randomName}`);
