@@ -40,7 +40,6 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧
 
 🚨 *Youtube Player* 🌿
-
  ◨┉━━━━╚◭☬◮╝━━━━━┉◧
 
 ╏🎀 *Title:* ${anu.title}
@@ -217,7 +216,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } 
                     document: fs.readFileSync(`./${randomName}`),
                     mimetype: 'audio/mpeg',
                     fileName: titleYt + ".mp3",
-		    caption: `*ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ* 👑`,       
+		    caption: `*ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ 1.1* 👑`,       
                     headerType: 4,
                    
                 }
@@ -260,7 +259,6 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗩𝗜𝗗𝗘𝗢 𝗗𝗟 🎧
 
 🚨 *Youtube Player* 🌿
-
  ◨┉━━━━╚◭☬◮╝━━━━━┉◧
 
 ╏🎀 *Title:* ${anu.title}
