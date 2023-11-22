@@ -36,23 +36,23 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     url: anu.thumbnail,
                },
                 caption: `
-㋚┉───────────────┉㋚ 
+ ──⦁ ⇆ㅤ ||◁ㅤ❚❚ㅤ▷||ㅤ ↻ ⦁── 
 🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧
 
 🚨 *Youtube Player* 🌿
  ◨┉━━━━╚◭☬◮╝━━━━━┉◧
 
-╏🎀 *Title:* ${anu.title}
+╏📌 *Title:* ${anu.title}
 ⦁
-╏🌐 *Duration:* ${anu.timestamp}
+╏🕐 *Duration:* ${anu.timestamp}
 ⦁
 ╏👀 *Viewers:* ${anu.views}
 ⦁
 ╏⬆️ *Uploaded:* ${anu.ago}
 ⦁
-╏👽 *Author:* ${anu.author.name}
+╏👤 *Author:* ${anu.author.name}
 ⦁
-╏📡 *Url* : ${anu.url}
+╏📍 *Url* : ${anu.url}
 
 ◯┉━━┅━━━━━━━━━┅━━━┉◯
 *ꜱᴇʟᴇᴄᴛ ɴᴏ ᴏꜰ ᴛʜᴇ ꜰɪʟᴇ ᴛʏᴘᴇ ꜰʀᴏᴍ ʙᴇʟᴏᴡ *
@@ -255,23 +255,23 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     url: anu.thumbnail,
                },
                 caption: `
-㋚┉───────────────┉㋚ 
+ ──⦁ ⇆ㅤ ||◁ㅤ❚❚ㅤ▷||ㅤ ↻ ⦁── 
 🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗩𝗜𝗗𝗘𝗢 𝗗𝗟 🎧
 
 🚨 *Youtube Player* 🌿
  ◨┉━━━━╚◭☬◮╝━━━━━┉◧
 
-╏🎀 *Title:* ${anu.title}
+╏📌 *Title:* ${anu.title}
 ⦁
-╏🌐 *Duration:* ${anu.timestamp}
+╏🕐 *Duration:* ${anu.timestamp}
 ⦁
 ╏👀 *Viewers:* ${anu.views}
 ⦁
 ╏⬆️ *Uploaded:* ${anu.ago}
 ⦁
-╏👽 *Author:* ${anu.author.name}
+╏👤 *Author:* ${anu.author.name}
 ⦁
-╏📡 *Url* : ${anu.url}
+╏📍 *Url* : ${anu.url}
 
 ◯┉━━┅━━━━━━━━━━┅━━━┉◯
 *select ɴᴏ ᴏꜰ the video type*
