@@ -94,7 +94,7 @@ if(!msg.quoted) return
 if (!msg.quoted.isBaileys ) return 
 if(!msg.quoted.caption) return console.log('ew')
 text = msg.quoted.caption
-if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧'))  return 
+if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 🎧'))  return 
 text = text.split('╏📡 *Url* : ')[1].split('\n')[0]		
 if(!text) return 
 await Void.sendMessage(citel.chat, { react: {  text: "🎧", key: msg.key } } )			
@@ -169,7 +169,7 @@ if(!msg.quoted) return
 if (!msg.quoted.isBaileys ) return 
 if(!msg.quoted.caption) return console.log('ew')
 text = msg.quoted.caption
-if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟 🎧'))  return 
+if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 🎧'))  return 
 text = text.split('╏📡 *Url* : ')[1].split('\n')[0]		
 if(!text) return 
 await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } )			
@@ -313,7 +313,7 @@ if(!msg.quoted) return
 if (!msg.quoted.isBaileys ) return 
 if(!msg.quoted.caption) return console.log('ew')
 text = msg.quoted.caption
-if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗩𝗜𝗗𝗘𝗢 𝗗𝗟 🎧'))  return 
+if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗩𝗜𝗗𝗘𝗢 🎧'))  return 
 text = text.split('╏📡 *Url* : ')[1].split('\n')[0]		
 if(!text) return 
 await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } )		// denna one react eka
@@ -370,7 +370,7 @@ if(!msg.quoted) return
 if (!msg.quoted.isBaileys ) return 
 if(!msg.quoted.caption) return console.log('ew')
 text = msg.quoted.caption
-if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗩𝗜𝗗𝗘𝗢 𝗗𝗟 🎧'))  return 
+if (!text.includes('🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗩𝗜𝗗𝗘𝗢 🎧'))  return 
 text = text.split('╏📡 *Url* : ')[1].split('\n')[0]		
 if(!text) return 
 await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } )		// denna one react eka
