@@ -36,6 +36,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     url: anu.thumbnail,
                },
                 caption: ` 
+㋚┉───────────────┉㋚ 
 🎧𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 𝗗𝗟🎧
 
 🚨 *Youtube Player* 🌿
@@ -253,6 +254,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     url: anu.thumbnail,
                },
                 caption: ` 
+㋚┉───────────────┉㋚ 
 🎧𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗩𝗜𝗗𝗘𝗢 𝗗𝗟🎧
 
 🚨 *Youtube Player* 🌿
