@@ -55,7 +55,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ╏📡 *Url* : ${anu.url}
 
 ◯┉━━┅━━━━━━━━━┅━━┉◯
-*ꜱᴇʟᴇᴄᴛ ɴᴏ ᴏꜰ ᴛʜᴇ ꜰɪʟᴇ ᴛʏᴘᴇ ꜰʀᴏᴍ ʙᴇʟᴏᴡ *
+*ඔබට අවස්‍ය අංකය පහතින් තෝරා මෙයට tag කර එවන්න *
  ◍┈─┈──┈─◈❁◈─┈─┈─┈─◍
 
 *1.1 ╏ AUDIO* 🎧
@@ -274,7 +274,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ╏📡 *Url* : ${anu.url}
 
 ◯┉━━┅━━━━━━━━━━┅━━━┉◯
-*select ɴᴏ ᴏꜰ the video type*
+*ඔබට අවශ්‍ය අංකය පහතින් තෝරා මෙයට tag කර එවන්න*
 ◍┈─┈──┈─◈❁◈─┈─┈─┈─◍
 
 *3.1 ╏ MP4 VIDEO* 📽️
