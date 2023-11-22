@@ -1,3 +1,13 @@
+cmd({
+            pattern: "fmmod1",
+            react: "📥",
+            desc: "Downloads apk from google.",
+            category: "downloader",
+            filename: __filename,
+            use: '<text>',
+        },
+        async(Void, citel, text) => {
+
 const axios = require('axios')
 const cheerio = require('cheerio')
 
