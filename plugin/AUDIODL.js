@@ -341,7 +341,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } 
                     let buttonMessage = {
                         video: fs.readFileSync(`./${randomName}`),
                         mimetype: 'video/mp4',
-                        caption:`*ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ ✅`,   
+                        caption:`✅ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ ✅`,   
 		    }
                  Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
                  return fs.unlinkSync(`./${randomName}`);
@@ -399,7 +399,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } 
                          document: fs.readFileSync(`./${randomName}`),
                         mimetype: 'document/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: `*▸❬ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ❭◂* 👑`,  
+                        caption: `✅ *ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ* ✅`,  
 		    }
                  Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
                  return fs.unlinkSync(`./${randomName}`);
