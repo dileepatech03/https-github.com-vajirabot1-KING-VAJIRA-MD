@@ -42,20 +42,20 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 🚨 *Youtube Player* 🌿
  ◨┉━━━━╚◭☬◮╝━━━━━┉◧
 
-📌 *Title:* ${anu.title}
+╏🎀 *Title:* ${anu.title}
 ⦁
-🕐 *Duration:* ${anu.timestamp}
+╏🌐 *Duration:* ${anu.timestamp}
 ⦁
-👀 *Viewers:* ${anu.views}
+╏👀 *Viewers:* ${anu.views}
 ⦁
-⬆️ *Uploaded:* ${anu.ago}
+╏⬆️ *Uploaded:* ${anu.ago}
 ⦁
-👤 *Author:* ${anu.author.name}
+╏👽 *Author:* ${anu.author.name}
 ⦁
-📍 *Url* : ${anu.url}
+╏📡 *Url* : ${anu.url}
 
 ◯┉━━┅━━━━━━━━━┅━━━┉◯
-*ඔබට අවශ්‍ය අංකය පහතින් තෝර මෙයට reply කරන්න *
+*ꜱᴇʟᴇᴄᴛ ɴᴏ ᴏꜰ ᴛʜᴇ ꜰɪʟᴇ ᴛʏᴘᴇ ꜰʀᴏᴍ ʙᴇʟᴏᴡ *
  ◍┈─┈──┈─◈❁◈─┈─┈─┈─◍
 
 *1.1 ╏ AUDIO* 🎧
@@ -261,20 +261,20 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 🚨 *Youtube Player* 🌿
  ◨┉━━━━╚◭☬◮╝━━━━━┉◧
 
-📌 *Title:* ${anu.title}
+╏🎀 *Title:* ${anu.title}
 ⦁
-🕐 *Duration:* ${anu.timestamp}
+╏🌐 *Duration:* ${anu.timestamp}
 ⦁
-👀 *Viewers:* ${anu.views}
+╏👀 *Viewers:* ${anu.views}
 ⦁
-⬆️ *Uploaded:* ${anu.ago}
+╏⬆️ *Uploaded:* ${anu.ago}
 ⦁
-👤 *Author:* ${anu.author.name}
+╏👽 *Author:* ${anu.author.name}
 ⦁
-📡 *Url* : ${anu.url}
+╏📡 *Url* : ${anu.url}
 
 ◯┉━━┅━━━━━━━━━━┅━━━┉◯
-*ඔබට අවශ්‍ය අංකය පහතින් තෝර මෙයට reply කරන්න*
+*select ɴᴏ ᴏꜰ the video type*
 ┈─┈──┈─◈❁◈─┈─┈─┈─◍
 
 *3.1 ╏ MP4 VIDEO* 📽️
