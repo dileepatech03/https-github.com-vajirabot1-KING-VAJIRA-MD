@@ -6,7 +6,7 @@ const axios = require('axios')
 
 // Put here your url with modified words and urls
 
-const url = 'https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/Menu.mp3'//url කියන තැනට ඔයාගෙ voice send ek link ek dhenn
+const url = 'https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/Menu.mp3?raw=true'//url කියන තැනට ඔයාගෙ voice send ek link ek dhenn
 
 
 
