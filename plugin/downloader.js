@@ -665,9 +665,9 @@ cmd({
 
 cmd({
             pattern: "ytmp4",
+            react: "📺",
             desc: "Downloads video from youtube.",
             category: "downloader",
-            react: "🎶",
             filename: __filename,
             use: '<yt video url>',
         },
