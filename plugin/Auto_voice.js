@@ -29,7 +29,7 @@ cmd({ on: "body" }, async (Void,citel,text)=> {
 
   for (vr in data){
 
- if((new RegExp(`\\b${vr}\\b`,'gi')).test(citel.text)) return Void.sendMessage(citel.chat,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:citel})   
+ if((new RegExp(`\\b${vr}\\b`,'gi')).test(citel.text)) return Void.sendMessage(citel.chat,{audio: { url : data[vr]},mimetype: 'audio/mp3',ptt:true},{quoted:citel})   
 
 }
 
