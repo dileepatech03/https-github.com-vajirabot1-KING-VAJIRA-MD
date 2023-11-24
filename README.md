@@ -51,12 +51,17 @@
   ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtube.com/@gamingewingyt6216).***
   ***Click [`My Website`](http://vajira.com/)
 
-## MONOGODB URL
- 1)     mongodb+srv://Saka:Saka@cluster0.jadwggo.mongodb.net/?retryWrites=true&w=majority
+<b><details><summary>𝗠𝗢𝗡𝗚𝗢𝗗𝗕 𝗨𝗥𝗟𝗗</summary><br>
+
+ 1)     mongodb+srv://vajirabot1:vajirabot1@cluster0.j0d7xng.mongodb.net/?retryWrites=true&w=majority
 
  2)     mongodb+srv://vajira:vajira@cluster0.hzwqrqq.mongodb.net/?retryWrites=true&w=majority
 
  3)     mongodb+srv://Suhail_Md:Suhail_Md@cluster1.0tlyzhm.mongodb.net/?retryWrites=true&w=majority
+
+ 4)     mongodb+srv://salmanahmad:s4salmanyt@cluster0.szcj2eo.mongodb.net/?retryWrites=true&w=majority
+
+</details>
 
 ## HELPERS
 [![USHANI](https://telegra.ph/file/1cacb07896ee14aa5920b.jpg?size=80)](https://github.com/dgxeon) | [![SAVIYA](https://telegra.ph/file/1046fee52c7a14d556793.jpg?size=100)](https://github.com/fantox001) | [![K ALPHA](https://telegra.ph/file/5e0bf1e4f7230ffe9cc37.jpg?size=109)](https://github.com/sampandey001) | [![DILSHAN](https://telegra.ph/file/4f43cf774e634e40129e5.jpg?size=80)](https://github.com/issa2001) | [![SUHAIL](https://telegra.ph/file/3b6537eb342b32de56558.jpg?size=80)](https://github.com/Prince-Mendiratta)
