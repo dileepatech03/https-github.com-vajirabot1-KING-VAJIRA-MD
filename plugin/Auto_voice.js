@@ -17,7 +17,7 @@ const axios = require('axios')
 
 // Put here your url with modified words and urls
 
-const url = 'https://gist.githubusercontent.com/vajirabot1/e85975bede499a66c13e8a14bb688309/raw'//url කියන තැනට ඔයාගෙ voice send ek link ek dhenn
+const url = 'https://gist.github.com/vajirabot1/266727999a021117c5b2d45f714cd5ec/raw'//url කියන තැනට ඔයාගෙ voice send ek link ek dhenn
 
 
 
