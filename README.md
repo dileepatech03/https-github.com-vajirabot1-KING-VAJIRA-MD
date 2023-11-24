@@ -51,7 +51,7 @@
   ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtube.com/@gamingewingyt6216).***
   ***Click [`My Website`](http://vajira.com/)
 
-<b><details><summary>𝗠𝗢𝗡𝗚𝗢𝗗𝗕 𝗨𝗥𝗟𝗗</summary><br>
+<b><details><summary>𝗠𝗢𝗡𝗚𝗢𝗗𝗕 𝗨𝗥𝗟𝗦</summary><br>
 
  1)     mongodb+srv://vajirabot1:vajirabot1@cluster0.j0d7xng.mongodb.net/?retryWrites=true&w=majority
 
