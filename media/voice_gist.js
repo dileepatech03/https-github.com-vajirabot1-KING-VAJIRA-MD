@@ -9,6 +9,7 @@
 "asada": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/asada-ithim.opus?raw=true",
 "asatha": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/asada-ithim.opus?raw=true",
 "asaitha": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/asada-ithim.opus?raw=true",
+"fuck": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/asada-ithim.opus?raw=true",
 "guliyak": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/guliyak-kawada.opus?raw=true",
 "hello": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/Hello%20hello(tbg).mp3?raw=true",
 "halo": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/Hello%20hello(tbg).mp3?raw=true",
