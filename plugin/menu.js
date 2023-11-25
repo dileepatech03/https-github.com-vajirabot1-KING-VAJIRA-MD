@@ -43,26 +43,31 @@ cmd({
                 },
 
                 caption: `
-*අළුත් heroku account එකක් හදලා ගන්න*
+*⦁──👑𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿👑──⦁*
 
 
-FIRST NAME : VAJIRA
+𝙪𝙥𝙩𝙞𝙢𝙚 = 38 s
+𝙥𝙡𝙖𝙩𝙛𝙧𝙤𝙢 = Heroku
+𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 = ˂ツᴹᴿ˿̈ᴡᴍʀ ᴠᴀᴊɪʀᴀ ᴏꜰᴄ 👑
 
-SECOND NAME : RATHNAYAKA
+◍◈┈─┈『 *Reply a number* 』┈─┈◈◍
 
-COUNTRY : US
+*1.1┃ ᴅᴏᴡɴʟᴏᴅᴇʀ ᴄᴏᴍᴍᴀɴᴅ*
 
-ADDRESS 1 : heroku cc 2023 bin
+*1.2┃ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴀɴᴅ*
 
-CITY : NEW YORK
+*1.3┃ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅ*
 
-STATE : NEW YORK
+*1.4┃ᴡᴇʙ ᴄᴏᴍᴍᴀɴᴅ*
 
-ZIP CODE : 10080
+*1.5┃ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅ*
 
+*1.6┃ɴᴇᴡꜱ ᴄᴏᴍᴍᴀɴᴅ*
 
+*1.5┃ᴏᴛʜᴇʀ ᴄᴏᴍᴍᴀɴᴅ*
 
-*By Vajira 👑*
+*ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
+*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴡᴍʀ ᴠᴀᴊɪʀᴀ*
 `,
 
                 footer: tlang().footer,
