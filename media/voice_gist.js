@@ -54,5 +54,5 @@
 "wesi": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/wesi(tbg).mp3?raw=true",
 "huththi": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/wesi(tbg).mp3?raw=true",
 "hukanni": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/wesi(tbg).mp3?raw=true",
-"balli": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/wesi(tbg).mp3?raw=true",
+"balli": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/wesi(tbg).mp3?raw=true"
 }
