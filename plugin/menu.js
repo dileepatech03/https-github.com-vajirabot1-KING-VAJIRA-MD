@@ -86,13 +86,13 @@ cmd({
 //---------------------------------------------------------------------------
 cmd({
 
-            pattern: "ccmmdd",
+            pattern: "5",
             react: "👨‍💻",
-            alias :[1.1],
+            alias: "ccmmdd",
             desc: "",
             category: "_help",
             filename: __filename,
-            use: '<text>',
+            use: '<text>'
 
         },
 
