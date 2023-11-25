@@ -24,6 +24,8 @@
 
 </p>
 
+## when first qr scan use second long seasson id, first short seasson id is not working..
+
 [![Scan QR CODE 1](https://i.imgur.com/ouR5zv8.jpg)](https://replit.com/@VajiraRathnayak/KING-VAJIRA-MD-QR?v=1)▬[![Scan QR CODE 2](https://i.imgur.com/ouR5zv8.jpg)](https://replit.com/@VajiraRathnayak/KING-VAJIRA-MD-QR-1?v=1) 
 
 ***Click [FORK](https://github.com/vajirabot1/KING-VAJIRA-MD-fork)***
