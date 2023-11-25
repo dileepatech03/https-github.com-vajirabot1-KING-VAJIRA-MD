@@ -87,8 +87,8 @@ cmd({
 cmd({
 
             pattern: "ccmmdd",
-            react: "",
-            alias :[],
+            react: "👨‍💻",
+            alias :[1.1],
             desc: "",
             category: "_help",
             filename: __filename,
@@ -99,7 +99,7 @@ cmd({
         async(Void, citel, text) => {
         let buttons = [{
 
-                    buttonId: `${prefix}system`,
+                    buttonId: `system`,
                     buttonText: {
                     displayText: "System",
                     },
@@ -107,7 +107,7 @@ cmd({
                     type: 1,
                 },
                   {
-                    buttonId: `${prefix}ping`,
+                    buttonId: `ping`,
                     buttonText: {
                     displayText: "Ping",
 
