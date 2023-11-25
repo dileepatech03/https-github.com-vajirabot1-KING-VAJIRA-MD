@@ -86,12 +86,13 @@ cmd({
 //---------------------------------------------------------------------------
 cmd({
 
-            pattern: "1",           
-            desc: "(menu cmdlist).",
+            pattern: "1",
+            react: "",
+            alias :[],
+            desc: "",
             category: "_help",
-            react: "👨‍💻",
             filename: __filename,
-            use: '<faded-Alan walker.>',
+            use: '<text>',
 
         },
 
