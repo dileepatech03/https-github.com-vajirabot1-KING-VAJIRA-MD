@@ -2,7 +2,7 @@ const { tlang,cmd } = require('../lib')
 const Config = require('../config')
 const axios = require('axios')
 // Put here your url with modified words and urls
-const url = 'https://gist.github.com/prabathLK/f602911954a959c8730aeb00a588d15d/raw'
+const url = 'https://gist.github.com/vajirabot1/b982056b842facebe229c970b07cc9d4/raw'
 
 /**
  cmd({
