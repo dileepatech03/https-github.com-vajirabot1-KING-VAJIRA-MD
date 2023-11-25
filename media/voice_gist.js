@@ -38,6 +38,7 @@
 "gahapn": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/lokuda%20gahanawa%20aa.mp3?raw=true",
 "kawa": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/kawa.mp3?raw=true",
 "thanks": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/oyala%20wage(tbg).mp3?raw=true",
+"thkz": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/oyala%20wage(tbg).mp3?raw=true",
 "pissuda": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/pissuda.mp3?raw=true",
 "pissu": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/pissuda.mp3?raw=true",
 "pissa": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/main/media/auto_voice/pissuda.mp3?raw=true",
