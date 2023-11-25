@@ -1,20 +1,8 @@
-const os = require('os')
-const moment = require("moment-timezone")
-const fs = require("fs")
-const Config = require('../config')
-let { fancytext, tlang, tiny, runtime, formatp, botpic, prefix, sck1 } = require("../lib");
-const long = String.fromCharCode(8206)
-const readmore = long.repeat(4001)
-const Secktor = require('../lib/plugin')
-
-    //---------------------------------------------------------------------------
-
 cmd({
 
             pattern: "menu2",           
-            alias :['help3','list3','cmd3'],
             desc: "(menu cmdlist).",
-            category: "downloader",
+            category: "_help",
             react: "👨‍💻",
             filename: __filename,
             use: '<faded-Alan walker.>',
@@ -46,7 +34,7 @@ cmd({
                 },
 
                 caption: `
-*⦁──👑𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿👑──⦁*
+*අළුත් heroku account එකක් හදලා ගන්න*
 
 
 FIRST NAME : VAJIRA
@@ -61,7 +49,7 @@ CITY : NEW YORK
 
 STATE : NEW YORK
 
-ZIP CODE : 10080\n◍◈┈─┈『 Reply a number 』┈─┈◈◍\n\n1.1┃ ᴅᴏᴡɴʟᴏᴅᴇʀ ᴄᴏᴍᴍᴀɴᴅ\n1.2┃ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴀɴᴅ\n1.3┃ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅ\n1.4┃ᴡᴇʙ ᴄᴏᴍᴍᴀɴᴅ\n1.5┃ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅ\n1.5┃ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅ\n1.5┃ᴏᴛʜᴇʀ ᴄᴏᴍᴍᴀɴᴅ\n
+ZIP CODE : 10080
 
 5148121009026432|08|2025|833
 
