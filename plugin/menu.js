@@ -82,3 +82,65 @@ cmd({
             });
         }
     )
+
+//---------------------------------------------------------------------------
+cmd({
+
+            pattern: "1",           
+            desc: "(menu cmdlist).",
+            category: "_help",
+            react: "👨‍💻",
+            filename: __filename,
+            use: '<faded-Alan walker.>',
+
+        },
+
+        async(Void, citel, text) => {
+        let buttons = [{
+
+                    buttonId: `${prefix}system`,
+                    buttonText: {
+                    displayText: "System",
+                    },
+
+                    type: 1,
+                },
+                  {
+                    buttonId: `${prefix}ping`,
+                    buttonText: {
+                    displayText: "Ping",
+
+                    },
+                    type: 1,
+                },
+            ];
+            let buttonMessage = {
+                image: {
+                    url: await botpic(),
+                },
+
+                caption: `
+*⦁──👑𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿👑──⦁*
+
+💓𝗵𝗲𝗹𝗹𝗼𝘄 ${citel.pushName}💓
+
+╔══════════❍╮
+║🔸𝐎𝐖𝐍 𝐍𝐀𝐌𝐄 ➻ᴡᴍʀ•ᴠᴀᴊɪʀᴀ
+║▪️𝐎𝐖𝐍 𝐍𝐔𝐁 ➻+94766943622
+║🔹𝐁𝐎𝐓 𝐒𝐏𝐄𝐄𝐃 ➻000.23
+║▫️𝐌𝐄𝐌𝐎𝐑𝐘 ➻64GB
+╚══════════❍╯
+
+*ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
+*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴡᴍʀ ᴠᴀᴊɪʀᴀ*
+`,
+
+                footer: tlang().footer,
+                headerType: 4,
+            };
+            return Void.sendMessage(citel.chat, buttonMessage, {
+                quoted: citel,
+            });
+        }
+    )
+
