@@ -1,9 +1,13 @@
 const { tlang, ringtone, cmd,fetchJson, sleep, botpic,ffmpeg, getBuffer, pinterest, prefix, Config } = require('../lib')
 const { mediafire } = require("../lib/mediafire.js");
+const {GDriveDl} = require('../lib/scraper.js')
+const fbInfoVideo = require('fb-info-video'); 
 const googleTTS = require("google-tts-api");
 const ytdl = require('ytdl-secktor')
-const fs = require('fs-extra')
-var videotime = 60000 // 1000 min
+const cheerio = require('cheerio')
+const fs  = require('fs-extra');
+const axios= require('axios');
+var videotime = 36000 // 300 min
 var dlsize = 1000 // 1000mb
 //---------------------------------------------------------------------------
 
