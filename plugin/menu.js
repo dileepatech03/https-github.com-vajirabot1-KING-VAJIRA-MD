@@ -1,13 +1,9 @@
 const { tlang, ringtone, cmd,fetchJson, sleep, botpic,ffmpeg, getBuffer, pinterest, prefix, Config } = require('../lib')
 const { mediafire } = require("../lib/mediafire.js");
-const {GDriveDl} = require('../lib/scraper.js')
-const fbInfoVideo = require('fb-info-video'); 
 const googleTTS = require("google-tts-api");
 const ytdl = require('ytdl-secktor')
-const cheerio = require('cheerio')
-const fs  = require('fs-extra');
-const axios= require('axios');
-var videotime = 36000 // 300 min
+const fs = require('fs-extra')
+var videotime = 60000 // 1000 min
 var dlsize = 1000 // 1000mb
 //---------------------------------------------------------------------------
 
@@ -87,7 +83,7 @@ cmd({
 cmd({
 
             pattern: "5",
-            react: "",
+            react: "👨‍💻",
             desc: "",
             category: "_help",
             filename: __filename,
@@ -116,7 +112,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: await botpic(),
+                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
                 },
 
                 caption: `
@@ -217,7 +213,7 @@ cmd({
 cmd({
 
             pattern: "6",
-            react: "",
+            react: "👨‍💻",
             desc: "",
             category: "_help",
             filename: __filename,
@@ -246,7 +242,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: await botpic(),
+                    url: 'https://telegra.ph/file/cfc95202891216f932f5f.jpg',
                 },
 
                 caption: `
@@ -317,7 +313,7 @@ cmd({
 cmd({
 
             pattern: "7",
-            react: "",
+            react: "👨‍💻",
             desc: "",
             category: "_help",
             filename: __filename,
@@ -346,7 +342,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: await botpic(),
+                    url: 'https://telegra.ph/file/d683e169c81b269cd9a87.jpg',
                 },
 
                 caption: `
@@ -410,7 +406,7 @@ cmd({
  cmd({
 
             pattern: "8",
-            react: "",
+            react: "👨‍💻",
             desc: "",
             category: "_help",
             filename: __filename,
@@ -439,7 +435,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: await botpic(),
+                    url: 'https://telegra.ph/file/ba64ff3e1ea91a56387ab.jpg',
                 },
 
                 caption: `
@@ -479,7 +475,7 @@ cmd({
 cmd({
 
             pattern: "9",
-            react: "",
+            react: "👨‍💻",
             desc: "",
             category: "_help",
             filename: __filename,
@@ -508,7 +504,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: await botpic(),
+                    url: 'https://telegra.ph/file/d7201419765cc9fee02fa.jpg',
                 },
 
                 caption: `
