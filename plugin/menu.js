@@ -87,7 +87,7 @@ cmd({
 cmd({
 
             pattern: "5",
-            react: "👨‍💻",
+            react: "",
             desc: "",
             category: "_help",
             filename: __filename,
@@ -217,7 +217,7 @@ cmd({
 cmd({
 
             pattern: "6",
-            react: "👨‍💻",
+            react: "",
             desc: "",
             category: "_help",
             filename: __filename,
@@ -317,7 +317,7 @@ cmd({
 cmd({
 
             pattern: "7",
-            react: "👨‍💻",
+            react: "",
             desc: "",
             category: "_help",
             filename: __filename,
@@ -410,7 +410,7 @@ cmd({
  cmd({
 
             pattern: "8",
-            react: "👨‍💻",
+            react: "",
             desc: "",
             category: "_help",
             filename: __filename,
@@ -479,7 +479,7 @@ cmd({
 cmd({
 
             pattern: "9",
-            react: "👨‍💻",
+            react: "",
             desc: "",
             category: "_help",
             filename: __filename,
