@@ -75,24 +75,12 @@
 [USHANI](https://wa.me/94767898887) | [SAVIYA](https://wa.me/+94757309293) | [KING ALPHA](https://wa.me/+94715264791) | [DILSHAN](https://wa.me/94773277849) | [SUHAIL](https://wa.me/919971606684)
 Voice helper  | Developer, Bug Fixes, Modules |Developer,Bug Fixes,Base, Modules, | Modules, Idea | Modules
 
-## Available Features
+## THE THREE STEPS TO MAKE THE BOT
 	
-| Features |  Availability |
-| :------: |  :----------: |
-|   Convert     |       ✔️     |
-|   Database     |       ✔️     |
-|   Owner     |       ✔️    |
-|   Downloader     |       ✔️     |
-|   Webzone     |       ✔️       |
-|   Searching     |       ✔️      |
-|   Textpro     |       ✔️      |
-|   Ephoto     |       ✔️     |
-|   Anime Web     |       ✔️      |
-|   Stalker     |       ✔️      |
-|   Random Text     |       ✔️     |
-|   Random Image     |       ✔️     |
-|   Creator     |       ✔️      |
-
+📌 FIRST FORK THE REPO
+📌 NEXT SCAN THE QR AND TAKE THE SEASSON ID
+📌 AFTER CLICK FOR YOUR SIUTABLE DEPLOYMENT PLATFORM AND DEPLOY THE BOT.
+📍 After deploying the bot some times comes mongodb error then you can take a new mondodb url or my url and put and restart again the bot. then the bot will run.
 
 
 VAJIRA whatsapp bot is,
