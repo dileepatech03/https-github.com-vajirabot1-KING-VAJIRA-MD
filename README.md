@@ -77,9 +77,12 @@ Voice helper  | Developer, Bug Fixes, Modules |Developer,Bug Fixes,Base, Modules
 
 ## THE THREE STEPS TO MAKE THE BOT
 	
-📌 FIRST FORK THE REPO
-📌 NEXT SCAN THE QR AND TAKE THE SEASSON ID
+📌 FIRST FORK THE REPO.
+
+📌 NEXT SCAN THE QR AND TAKE THE SEASSON ID.
+
 📌 AFTER CLICK FOR YOUR SIUTABLE DEPLOYMENT PLATFORM AND DEPLOY THE BOT.
+
 📍 After deploying the bot some times comes mongodb error then you can take a new mondodb url or my url and put and restart again the bot. then the bot will run.
 
 
