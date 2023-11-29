@@ -31,16 +31,16 @@ cmd({
    }}) 
 //---------------------------------------------------------------------------
 cmd({  
-      pattern: "technews",  
+      pattern: "derana",  
       react: "🧾",  
       desc: "Searches news",  
       category: "news",  
-      use: '.technews',  
+      use: '.derana',  
       filename: __filename  
   },  
   async(Void, citel) => {  
   try{  
-  const technews = await fetchJson(`http://darkapi.technicalhacke4.repl.co/sinhala-technews`);  
+  const technews = await fetchJson(`https://darkapi--technicalhacke4.repl.co/derananews`);  
   
   
   
@@ -50,7 +50,7 @@ cmd({
              const date = `${technews.time}`
              const news = `${technews.result.decs}`  
   
-  await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＴＥＣＨＮＥＷＳ ＢＹ ＶＡＪＩＲＡ\n\n${ title }\n\n ${ news }\n\n${date}\n📌 ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ...`}, { quoted: citel })  
+  await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＤＥＲＡＮＡ ＮＥＷＳ ＢＹ ＶＡＪＩＲＡ\n\n${ title }\n\n ${ news }\n\n${date}\n📌 ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ...`}, { quoted: citel })  
   }  
   catch(e){  
   console.log(e)  
@@ -101,25 +101,3 @@ cmd({
   console.log(e)  
   }}) 
 //---------------------------------------------------------------------------
-cmd({  
-      pattern: "derana",  
-      alias: ["adaderana","news/derana"],  
-      react: "📜",  
-      desc: "",  
-      category: "news",  
-      use: '.derana',  
-      filename: __filename  
-  },  
-  async(Void, citel) => {  
-  try{  
-  const derananews = await fetchJson(`https://darkapi--technicalhacke4.repl.co/derananews`);  
-            const images = `${derananews.image}`  
-             const title = `${derananews.title}`  
-             const date = `${derananews.time}`  
-             const news = `${derananews.desc}`  
-  
-  await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＤＥＲＡＮＡ ＮＥＷＳ ＢＹ ＶＡＪＩＲＡ\n\n${ title }\n\n ${ news }\n\n${date}\n\n📌 ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ...`}, { quoted: citel })  
-  }  
-  catch(e){  
-  console.log(e)  
-  }}) 
