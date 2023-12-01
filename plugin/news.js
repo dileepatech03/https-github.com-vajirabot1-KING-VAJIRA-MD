@@ -24,7 +24,7 @@ cmd({
               const title = `${nasa.result.title}`  
               const news = `${nasa.result.desc}`   
   
-   await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＮＡＳＡ ＢＹ ＶＡＪＩＲＡ\n\n*${ title }*\n\n _${news}._\n\n*▶.ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ.◀`}, { quoted: citel })   
+   await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＮＡＳＡ ＢＹ ＶＡＪＩＲＡ\n\n*🏷️ ᴛɪᴛʟᴇ➨ ${ title }*\n\n 🕒 ᴛɪᴍᴇ➨ ${date}\n\n _ 📑 ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ➨ ${news}._\n\n*▶.ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ.◀`}, { quoted: citel })   
    }   
    catch(e){   
    console.log(e)   
@@ -94,7 +94,7 @@ cmd({
              const date = `${hirunews.time}`  
              const news = `${hirunews.desc}`  
   
-  await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＨＩＲＵ ＮＥＷＳ ＢＹ ＶＡＪＩＲＡ\n\n 🏷️ ᴛɪᴛʟᴇ➨ ${ title }\n\n 📑 ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ➨ ${ news }\n\n 🕒 ᴛɪᴍᴇ➨ ${date}\n\n▶.ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ.◀`}, { quoted: citel })  
+  await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＨＩＲＵ ＮＥＷＳ ＢＹ ＶＡＪＩＲＡ\n\n 🏷️ ᴛɪᴛʟᴇ➨ ${ title }\n\n 🕒 ᴛɪᴍᴇ➨ ${date}\n\n 📑 ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ➨ ${ news }\n\n▶.ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ.◀`}, { quoted: citel })  
   }  
   catch(e){  
   console.log(e)  
