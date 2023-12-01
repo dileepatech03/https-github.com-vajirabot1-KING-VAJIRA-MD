@@ -4,7 +4,7 @@
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
  * @project_name : Vajira-Md
- * @author : @yasiyaofc11 <https://github.com/yasiyaofc1>
+ * @author : @yasiyaofc1 <https://github.com/yasiyaofc1>
  * @description : Vajira,A Multi-functional whatsapp bot.
  * @version 1.0.0
  **/
