@@ -99,3 +99,28 @@ cmd({
   catch(e){  
   console.log(e)  
   }}) 
+
+
+//---------------------------------------------------------------------------
+cmd({   
+       pattern: "derana",   
+       alias: ["news/derana"],   
+       react: "🀄",   
+       desc: "",   
+       category: "news",   
+       use: '.derananews',   
+       filename: __filename   
+   },   
+   async(Void, citel) => {   
+   try{   
+   const derana = await fetchJson(`https://darkapi--technicalhacke4.repl.co/derananews`);   
+  
+             const images = `${derana.result.image}`   
+              const title = `${derana.result.title}`  
+              const news = `${derana.result.desc}`   
+  
+   await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＤＥＲＡＮＡ ＢＹ ＶＡＪＩＲＡ\n\n📍TITLE:-*${ title }*\n\n🕒TIME:-${date}\n\n📑DESCRIPTION:-${news}\n\n*📌 ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ...`}, { quoted: citel })   
+   }   
+   catch(e){   
+   console.log(e)   
+   }})
