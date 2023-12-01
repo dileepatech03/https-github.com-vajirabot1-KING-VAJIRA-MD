@@ -45,7 +45,19 @@ cmd({
                 caption: `
 *⦁──👑𝙑𝘼𝙅𝙄𝙍𝘼 𝙎𝙀𝙏𝙏𝙄𝙉𝙂 𝙇𝙄𝙎𝙏👑──⦁*
 
-COMMING SOON...
+1) To set Antilink type :
+Eg:- .setvar ANTILINK:false
+
+2) To on/off Auto reaction type :
+Eg:- .setvar AUTO_REACTION:false/true
+
+3) To on/off Auto read status type : 
+Eg:- .setvar AUTO_READ:false
+
+4) To on/off Auto reaction type :
+
+
+
 
 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
 *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴡᴍʀ ᴠᴀᴊɪʀᴀ*
