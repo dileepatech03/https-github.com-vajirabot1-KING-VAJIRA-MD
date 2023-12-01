@@ -100,7 +100,6 @@ cmd({
   console.log(e)  
   }}) 
 
-
 //---------------------------------------------------------------------------
 cmd({   
        pattern: "derana",   
@@ -119,8 +118,8 @@ cmd({
               const title = `${derana.result.title}`  
               const news = `${derana.result.desc}`   
   
-  await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＨＩＲＵ ＮＥＷＳ ＢＹ ＶＡＪＩＲＡ\n\n${ title }\n\n ${ news }\n\n${date}\n\n📌 ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ...`}, { quoted: citel })  
-  }  
+   await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＤＥＲＡＮＡ ＢＹ ＶＡＪＩＲＡ\n\n*${ title }*\n\n _${news}._\n\n*📌 ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ...`}, { quoted: citel })   
+   }   
    catch(e){   
    console.log(e)   
    }})
