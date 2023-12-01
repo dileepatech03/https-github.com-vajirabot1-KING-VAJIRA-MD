@@ -24,7 +24,7 @@ cmd({
               const title = `${nasa.result.title}`  
               const news = `${nasa.result.desc}`   
   
-   await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＮＡＳＡ ＢＹ ＶＡＪＩＲＡ\n\n*🏷️ ᴛɪᴛʟᴇ➨ ${ title }*\n\n 🕒 ᴛɪᴍᴇ➨ ${date}\n\n _ 📑 ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ➨ ${news}._\n\n*▶.ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ.◀`}, { quoted: citel })   
+   await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＮＡＳＡ ＢＹ ＶＡＪＩＲＡ\n\n 🏷️ ᴛɪᴛʟᴇ➨ ${ title }\n\n 🕒 ᴛɪᴍᴇ➨ ${date}\n\n 📑 ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ➨ ${news}._\n\n▶.ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ.◀`}, { quoted: citel })   
    }   
    catch(e){   
    console.log(e)   
@@ -101,25 +101,25 @@ cmd({
   }}) 
 
 //---------------------------------------------------------------------------
-cmd({   
-       pattern: "derana",   
-       alias: ["news/derana"],   
-       react: "🀄",   
-       desc: "",   
-       category: "news",   
-       use: '.derananews',   
-       filename: __filename   
-   },   
-   async(Void, citel) => {   
-   try{   
-   const derana = await fetchJson(`https://darkapi--technicalhacke4.repl.co/derananews`);   
+cmd({  
+      pattern: "derana",  
+      alias: ["adaderana","news/de"],  
+      react: "📜",  
+      desc: "",  
+      category: "news",  
+      use: '.derana',  
+      filename: __filename  
+  },  
+  async(Void, citel) => {  
+  try{  
+  const derana = await fetchJson(`https://darkapi--technicalhacke4.repl.co/derananews`);  
+            const images = `${derana.image}`  
+             const title = `${derana.title}`  
+             const date = `${derana.time}`  
+             const news = `${derana.desc}`  
   
-             const images = `${derana.result.image}`   
-              const title = `${derana.result.title}`  
-              const news = `${derana.result.desc}`   
-  
-   await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＤＥＲＡＮＡ ＢＹ ＶＡＪＩＲＡ\n\n*${ title }*\n\n${date}\n\n _${news}._\n\n*▶.ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ.◀`}, { quoted: citel })   
-   }   
-   catch(e){   
-   console.log(e)   
-   }})
+  await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `📃ＤＥＲＡＮＡ ＮＥＷＳ ＢＹ ＶＡＪＩＲＡ\n\n 🏷️ ᴛɪᴛʟᴇ➨ ${ title }\n\n 🕒 ᴛɪᴍᴇ➨ ${date}\n\n 📑 ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ➨ ${ news }\n\n▶.ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ.◀`}, { quoted: citel })  
+  }  
+  catch(e){  
+  console.log(e)  
+  }}) 
