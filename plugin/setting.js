@@ -52,9 +52,20 @@ Eg:- .setvar ANTILINK:false
 Eg:- .setvar AUTO_REACTION:false/true
 
 3) To on/off Auto read status type : 
-Eg:- .setvar AUTO_READ:false
+Eg:- .setvar AUTO_READ_STATUS:false/true
 
-4) To on/off Auto reaction type :
+4) To on/off Auto status save type :
+Eg:- .setvar AUTO_STATUS_SAVER:false/true
+
+5) To on/off heroku type :
+Eg:- .setvar heroku:false/true
+
+6) To on/off Auto reaction type :
+Eg:- .setvar AUTO_REACTION:false
+
+
+
+
 
 
 
