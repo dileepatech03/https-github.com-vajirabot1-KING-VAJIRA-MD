@@ -8,8 +8,7 @@ const moment = require('moment-timezone')
 
 //---------------------------------------------------------------------------
 cmd({   
-       pattern: "nasa",   
-       alias: ["news/nasa"],   
+       pattern: "nasa",      
        react: "📃",   
        desc: "",   
        category: "news",   
@@ -57,8 +56,7 @@ cmd({
   }}) 
 //---------------------------------------------------------------------------
 cmd({ 
-         pattern: "news", 
-         alias: "esana",
+         pattern: "esana", 
          category: "news",
          react: "📃",
          desc: "Searches news", 
@@ -79,8 +77,7 @@ cmd({
 //---------------------------------------------------------------------------
 cmd({  
       pattern: "hirunews",  
-      alias: ["hiru","news/hiru"],  
-      react: "📜",  
+      react: "📃",  
       desc: "",  
       category: "news",  
       use: '.hirunews',  
@@ -102,8 +99,7 @@ cmd({
 
 //---------------------------------------------------------------------------
 cmd({   
-       pattern: "derana",   
-       alias: ["news/derana"],   
+       pattern: "derana",      
        react: "📃",   
        desc: "",   
        category: "news",   
