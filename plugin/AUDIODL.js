@@ -80,7 +80,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
         }
     )
 cmd({
-            pattern: "1",
+            pattern: "1.1",
             react: "",
             alias :[],
             desc: "",
@@ -155,7 +155,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "🎧", key: msg.key } } )
 
 
 cmd({
-            pattern: "2",
+            pattern: "1.2",
             react: "",
             alias :[],
             desc: "",
@@ -299,7 +299,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
         }
     )
 cmd({
-            pattern: "3",
+            pattern: "2.1",
             react: "",
             alias :[],
             desc: "",
@@ -356,7 +356,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } 
 
 
 cmd({
-            pattern: "4",
+            pattern: "2.2",
             react: "",
             alias :[],
             desc: "",
