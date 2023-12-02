@@ -104,7 +104,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "🎧", key: msg.key } } )
         };
 
         if (text.length === 0) {
-            citel.reply(`❌ URL is empty! \nSend ${prefix}ytmp3 url`);
+            citel.reply(`❌ URL is empty! \nSend ytmp3 url`);
             return;
         }
             let urlYt = text;
