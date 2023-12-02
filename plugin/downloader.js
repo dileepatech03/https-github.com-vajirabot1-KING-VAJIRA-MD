@@ -44,8 +44,8 @@ cmd({
      //---------------------------------------------------------------------------
 
 cmd({  
-     pattern: "tiktok",  
-     alias :  ['tt','ttdl'],  
+     pattern: "tiktok2",  
+     alias :  ['tt2','ttdl2'],  
      desc: "Downloads Tiktok Videos Via Url.",  
      category: "downloader",  
      react: "🎶",
