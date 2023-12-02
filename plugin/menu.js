@@ -38,7 +38,7 @@ cmd({
                 },
             ];
             let buttonMessage = {
-                mp4: {
+                video: {
                     url: 'https://telegra.ph/file/295038bbb664b4b65b0c2.mp4',
                 },
 
