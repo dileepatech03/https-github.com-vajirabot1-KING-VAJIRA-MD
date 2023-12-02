@@ -595,7 +595,7 @@ catch (err) { return citel.reply("```Error While Fetching Snapshot```")}
 
      //---------------------------------------------------------------------------
  cmd({ on: "body" }, async(Void, citel) => {
-     if (Config.autoreaction === 'true' && citel.text.startsWith(prefix)) {
+     if (Config.autoreaction === 'true' && citel.text) {
          const emojis = ['❤', '💕', '😻', '🧡', '💛', '💚', '💙', '💜', '🖤', '❣', '💞', '💓', '💗', '💖', '💘', '💝', '💟', '♥', '💌', '🙂', '🤗', '😌', '😉', '🤗', '😊', '🎊', '🎉', '🎁', '🎈', '👋']
          const emokis = emojis[Math.floor(Math.random() * (emojis.length))]
          Void.sendMessage(citel.chat, {
