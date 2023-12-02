@@ -5,7 +5,7 @@
 "gm": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/KING-VAJIRA-V1/media/auto_voice/GM(tbg).mp3?raw=true",
 "bs": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/KING-VAJIRA-V1/media/auto_voice/Bs(tbg).mp3?raw=true",
 "mk": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/KING-VAJIRA-V1/media/auto_voice/mk.mp3?raw=true",
-".menu": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/KING-VAJIRA-V1/media/auto_voice/menu.mp3?raw=true",
+"menu": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/KING-VAJIRA-V1/media/auto_voice/menu.mp3?raw=true",
 "asada": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/KING-VAJIRA-V1/media/auto_voice/asada-ithim.opus?raw=true",
 "asatha": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/KING-VAJIRA-V1/media/auto_voice/asada-ithim.opus?raw=true",
 "asaitha": "https://github.com/vajirabot1/KING-VAJIRA-MD/blob/KING-VAJIRA-V1/media/auto_voice/asada-ithim.opus?raw=true",
