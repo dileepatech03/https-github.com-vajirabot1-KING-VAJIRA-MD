@@ -38,8 +38,8 @@ cmd({
                 },
             ];
             let buttonMessage = {
-                gif: {
-                    url: 'https://telegra.ph/file/295038bbb664b4b65b0c2.mp4',
+                video: {
+                    url: 'https://telegra.ph/file/5e615d7e9e439fe153c81.gif',
                 },
 
                 caption: `
