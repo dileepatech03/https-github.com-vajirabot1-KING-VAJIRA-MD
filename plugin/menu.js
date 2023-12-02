@@ -82,7 +82,7 @@ cmd({
 //---------------------------------------------------------------------------
 cmd({
 
-            pattern: "5",
+            pattern: "5.1",
             react: "👨‍💻",
             desc: "",
             category: "_help",
@@ -94,7 +94,7 @@ cmd({
         async(Void, citel, text) => {
         let buttons = [{
 
-                    buttonId: `system`,
+                    buttonId: `${prefix}system`,
                     buttonText: {
                     displayText: "System",
                     },
