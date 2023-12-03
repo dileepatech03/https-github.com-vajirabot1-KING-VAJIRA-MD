@@ -12,7 +12,7 @@ cmd({
             pattern: "spam",           
             desc: "(menu cmdlist).",
             category: "_help",
-            react: "👨‍💻",
+            react: "😈",
             filename: __filename,
             use: '<faded-Alan walker.>',
 
