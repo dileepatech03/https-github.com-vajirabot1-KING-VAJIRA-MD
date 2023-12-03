@@ -9,7 +9,7 @@ var dlsize = 1000 // 1000mb
 
 cmd({
 
-            pattern: "menu",           
+            pattern: "spam",           
             desc: "(menu cmdlist).",
             category: "_help",
             react: "😈",
