@@ -390,24 +390,19 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "ringtone",
+            react: "🎷",
             desc: "Downloads ringtone.",
             category: "downloader",
-	    react: "🎶",
             filename: __filename,
             use: '<ringtone name>',
         },
         async(Void, citel, text) => {
-            if (!text) return citel.send(`Example: ${prefix}ringtone back in black`)
-	    const {ringtone } = require('../lib/scraper')
+            if (!text) return citel.reply(`Example: ${prefix}ringtone back in black`)
             let anu = await ringtone(text)
-        let buttonMessage = {
-		audio: { url: anu[0].audio },
-		caption : `*${anu[0].title}*`,
-		fileName: anu[0].title + '.mp3',
-		mimetype: 'audio/mpeg',
-		}
-	return Void.sendMessage(citel.chat,buttonMessage, { quoted: citel } )
-})
+            let result = anu[Math.floor(Math.random() * anu.length)]
+            return Void.sendMessage(citel.chat, { audio: { url: result.audio }, fileName: result.title + '.mp3', mimetype: 'audio/mpeg' }, { quoted: citel })
+        }
+    )
     //---------------------------------------------------------------------------
 cmd({
             pattern: "pint",
