@@ -14,9 +14,9 @@
 //---------------------------------------------------------------------------
 const Secktor = require('../lib');
 Secktor.cmd({
-    pattern: "ping",
-    desc: "To check ping",
-    category: "general",
+    pattern: "spam",
+    desc: "To check spam",
+    category: "spam",
     react: "📍",
     filename: __filename,
 },
