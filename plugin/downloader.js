@@ -862,7 +862,7 @@ cmd({
                         document: fs.readFileSync(`./${randomName}`),
                         mimetype: 'document/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: `★[ANGEL QUEEN MD]★ `,                        
+                        caption: `★[KING VAJIRA MD]★ `,                        
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
