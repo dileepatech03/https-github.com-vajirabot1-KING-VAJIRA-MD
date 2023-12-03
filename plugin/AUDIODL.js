@@ -61,8 +61,6 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 *1.1 ╏ AUDIO* 🎧
 *2.1 ╏ DOCUMENT* 📂
 
-
-
 *👑 ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ 👑* 
 `,
                 footer: tlang().footer,
@@ -72,13 +70,9 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                 quoted: citel,
             });
 
-            
-
-            
-
-
         }
     )
+      //---------------------------------------------------------------------------
 cmd({
             pattern: "1",
             react: "",
@@ -152,7 +146,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "🎧", key: msg.key } } )
 		} }catch(e){
 			citel.reply('' + e)
 		}})
-
+    //---------------------------------------------------------------------------
 
 cmd({
             pattern: "2",
@@ -229,6 +223,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } 
 			citel.reply('' + e)
 		}})
 
+    //---------------------------------------------------------------------------
 cmd({
             pattern: "video",
             react: "🎞️",
@@ -280,8 +275,6 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 *3.1 ╏ MP4 VIDEO* 📽️
 *4.1 ╏ MP4 DOCUMENT* 📂
 
-
-
 *👑 ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ 👑* 
 `,
                 footer: tlang().footer,
@@ -291,13 +284,10 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                 quoted: citel,
             });
 
-            
-
-            
-
-
         }
     )
+
+    //---------------------------------------------------------------------------
 cmd({
             pattern: "3",
             react: "",
@@ -354,7 +344,7 @@ await Void.sendMessage(citel.chat, { react: {  text: "⬇️", key: msg.key } } 
 		
  })
 
-
+    //---------------------------------------------------------------------------
 cmd({
             pattern: "4",
             react: "",
