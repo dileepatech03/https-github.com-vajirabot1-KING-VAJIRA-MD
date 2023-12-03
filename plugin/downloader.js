@@ -952,7 +952,7 @@ cmd({
                 await Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
                 return fs.unlinkSync(`./${randomName}`);
             } else {
-                citel.reply(`❌ File size bigger than 100mb.`);
+                citel.reply(`❌ File size bigger than 500mb.`);
             }
             fs.unlinkSync(`./${randomName}`);
         } catch (e) {
