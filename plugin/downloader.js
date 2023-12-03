@@ -734,9 +734,9 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
         pattern: "ytmp3",
+        react: "🥁",
         desc: "Downloads audio by yt link.",
         category: "downloader",
-        react: "🎶",
         use: '<yt video url>',
     },
     async(Void, citel, text) => {
