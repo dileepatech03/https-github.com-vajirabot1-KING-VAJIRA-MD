@@ -17,7 +17,7 @@ Secktor.cmd({
     pattern: "spam",
     desc: "To check spam",
     category: "spam",
-    react: "📍",
+    react: "😈",
     filename: __filename,
 },
 async (Void, citel) => {
