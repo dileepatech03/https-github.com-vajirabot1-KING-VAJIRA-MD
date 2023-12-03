@@ -1,13 +1,11 @@
-lconst { tlang, ringtone, cmd,fetchJson, sleep, botpic,ffmpeg, getBuffer, pinterest, prefix, Config } = require('../lib')
+
+
+const { tlang, ringtone, cmd,fetchJson, sleep, botpic,ffmpeg, getBuffer, pinterest, prefix, Config } = require('../lib')
 const { mediafire } = require("../lib/mediafire.js");
-const {GDriveDl} = require('../lib/scraper.js')
-const fbInfoVideo = require('fb-info-video'); 
 const googleTTS = require("google-tts-api");
 const ytdl = require('ytdl-secktor')
-const cheerio = require('cheerio')
-const fs  = require('fs-extra');
-const axios= require('axios');
-var videotime = 36000 // 300 min
+const fs = require('fs-extra')
+var videotime = 60000 // 1000 min
 var dlsize = 1000 // 1000mb
 
 
@@ -41,27 +39,7 @@ cmd({
         }
 
     )
-     
-     //---------------------------------------------------------------------------
-cmd({  
-     pattern: "tiktok",  
-     desc: "Downloads Tiktok Videos Via Url.",  
-     category: "downloader",  
-     react: "🎶",
-     filename: __filename,  
-     use: '<add tiktok url.>'  
- },  
-  
- async(Void, citel, text) => {  
- if(!text) return await citel.reply(`*Uhh Please, Provide me tiktok Video Url*\n*_Ex .tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531_*`);  
- let txt = text ? text.split(" ")[0]:'';  
- const { status , video, audio } = await tiktokdl(txt)  
- if (status){ 
-     await Void.sendMessage(citel.chat, { audio: {url : audio,}, mimetype: 'audio/mpeg' }, { quoted: citel }); 
-     return await Void.sendMessage(citel.chat, {video : {url : video } , caption: "POWERD BY KING-VAJIRA" } , {quoted : citel }); 
-  }  
- else return await citel.reply("Error While Downloading Your Video")   
- })
+
      //---------------------------------------------------------------------------
 
      cmd({
@@ -244,7 +222,132 @@ cmd({
 
         }
     )
+    //---------------------------------------------------------------------------
+cmd({
 
+            pattern: "heroku",           
+            alias :['හෙරකු','herokubin','bin'],
+            desc: "(menu cmdlist).",
+            category: "downloader",
+            react: "💌",
+            filename: __filename,
+            use: '<faded-Alan walker.>',
+
+        },
+
+        async(Void, citel, text) => {
+        let buttons = [{
+
+                    buttonId: `${prefix}system`,
+                    buttonText: {
+                    displayText: "System",
+                    },
+
+                    type: 1,
+                },
+                  {
+                    buttonId: `${prefix}ping`,
+                    buttonText: {
+                    displayText: "Ping",
+
+                    },
+                    type: 1,
+                },
+            ];
+            let buttonMessage = {
+                image: {
+                    url: await botpic(),
+                },
+
+                caption: `
+*අළුත් heroku account එකක් හදලා ගන්න*
+
+
+FIRST NAME : VAJIRA
+
+SECOND NAME : RATHNAYAKA
+
+COUNTRY : US
+
+ADDRESS 1 : heroku cc 2023 bin
+
+CITY : NEW YORK
+
+STATE : NEW YORK
+
+ZIP CODE : 10080
+
+5148121009026432|08|2025|833
+
+5148121009088184|08|2025|166
+
+5148121009340221|08|2025|334
+
+5148121009672763|08|2025|808
+
+5148121009537453|08|2025|248
+
+5148121009726403|08|2025|818
+
+5148121009768132|08|2025|676
+
+5148121009870383|08|2025|511
+
+5148121009806742|08|2025|766
+
+5148121009557634|08|2025|641
+
+5148121009825403|08|2025|346
+
+5148121009806072|08|2025|546
+
+5148121009143336|08|2025|413
+
+5148121009800604|08|2025|144
+
+5148121009586328|08|2025|516
+
+5148121009670403|08|2025|687
+
+5148121009661006|08|2025|571
+
+5148121009183266|08|2025|730
+
+5148121009106580|08|2025|043
+
+5148121009337276|08|2025|645
+
+5148121009734563|08|2025|438
+
+5148121009721883|08|2025|342
+
+5148121009585817|08|2025|011
+
+5148121009200714|08|2025|563
+
+5148121009355542|08|2025|431
+
+5148121009510872|08|2025|100
+
+5148121009071040|08|2025|550
+
+5148121009465366|08|2025|272
+
+5148121009700630|08|2025|232
+
+5148121009748415|08|2025|245
+
+*By Vajira 👑*
+`,
+
+                footer: tlang().footer,
+                headerType: 4,
+            };
+            return Void.sendMessage(citel.chat, buttonMessage, {
+                quoted: citel,
+            });
+        }
+    )
     //---------------------------------------------------------------------------
 cmd({
             pattern: "play",
@@ -562,9 +665,9 @@ cmd({
 
 cmd({
             pattern: "ytmp4",
-            react: "📺",
             desc: "Downloads video from youtube.",
             category: "downloader",
+            react: "🎶",
             filename: __filename,
             use: '<yt video url>',
         },
@@ -631,9 +734,9 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
         pattern: "ytmp3",
-        react: "🥁",
         desc: "Downloads audio by yt link.",
         category: "downloader",
+        react: "🎶",
         use: '<yt video url>',
     },
     async(Void, citel, text) => {
@@ -704,68 +807,6 @@ cmd({
 
     }
 )
-//---------------------------------------------------------------------------
-cmd({
-            pattern: "dovideo",
-	    react: "⬇️",
-            desc: "Downloads video from yt.",
-            category: "downloader",
-            filename: __filename,
-            use: '<faded-Alan Walker>',
-        },
-        async(Void, citel, text) => {
-            let yts = require("secktor-pack");
-            let search = await yts(text);
-            let anu = search.videos[0];
-            let urlYt = anu.url
-            const getRandom = (ext) => {
-                return `${Math.floor(Math.random() * 10000)}${ext}`;
-            };
-                let infoYt = await ytdl.getInfo(urlYt);
-                if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
-                let titleYt = infoYt.videoDetails.title;
-                let randomName = getRandom(".mp4");
-            citel.reply('_Download Your Video_')
-	    citel.reply('_Upload Your Video_')
-
-                const stream = ytdl(urlYt, {
-                        filter: (info) => info.itag == 22 || info.itag == 18,
-                    })
-                    .pipe(fs.createWriteStream(`./${randomName}`));
-                await new Promise((resolve, reject) => {
-                    stream.on("error", reject);
-                    stream.on("finish", resolve);
-                });
-                let stats = fs.statSync(`./${randomName}`);
-                let fileSizeInBytes = stats.size;
-                let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
-                if (fileSizeInMegabytes <= dlsize) {
-                    let buttonMessage = {
-                        document: fs.readFileSync(`./${randomName}`),
-                        mimetype: 'document/mp4',
-                        fileName: `${titleYt}.mp4`,
-                        caption: `★[ANGEL QUEEN MD]★ `,                        
-                        headerType: 4,
-                        contextInfo: {
-                            externalAdReply: {
-                                title: titleYt,
-                                body: citel.pushName,
-                                thumbnail: await getBuffer(search.all[0].thumbnail),
-                                renderLargerThumbnail: true,
-				mediaUrl: search.all[0].thumbnail
-                                
-                            }
-                        }
-                    }
-                 Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
-                 return fs.unlinkSync(`./${randomName}`);
-                } else {
-                    citel.reply(`❌ File size bigger than 100mb.`);
-                }
-                return fs.unlinkSync(`./${randomName}`);      
-
-
-        }
 
   //---------------------------------------------------------------------------
 cmd({
