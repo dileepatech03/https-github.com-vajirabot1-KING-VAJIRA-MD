@@ -61,8 +61,6 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 *1.1 ╏ AUDIO* 🎧
 *2.1 ╏ DOCUMENT* 📂
 
-
-
 *👑 ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ 👑* 
 `,
                 footer: tlang().footer,
@@ -279,8 +277,6 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 
 *3.1 ╏ MP4 VIDEO* 📽️
 *4.1 ╏ MP4 DOCUMENT* 📂
-
-
 
 *👑 ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ 👑* 
 `,
