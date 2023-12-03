@@ -3,7 +3,7 @@ const ytdl = require('ytdl-secktor')
 const yts = require('secktor-pack')
 const fs = require('fs')
 var videotime = 60000 // 1000 min
-var dlsize = 250 // 250mb
+var dlsize = 10000 // 250mb
 
 
 cmd({
@@ -66,8 +66,8 @@ yts( opts, async function ( err, playlist ) {
                                 thumbnail: log0,
                                 renderLargerThumbnail: true,
                                 mediaType: 2,
-                                mediaUrl: 'https://github.com/SamPandey001/Secktor-Md',
-                                sourceUrl: 'https://github.com/SamPandey001/Secktor-Md'
+                                mediaUrl: 'https://github.com/vajirabot1/KING-VAJIRA-MD',
+                                sourceUrl: 'https://github.com/vajirabot1/KING-VAJIRA-MD'
                             }
                         }
                     }
