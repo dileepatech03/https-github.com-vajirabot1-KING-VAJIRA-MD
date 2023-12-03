@@ -76,12 +76,12 @@ cmd({
  }) 
 //---------------------------------------------------------------------------
 cmd({  
-      pattern: "",  
-      react: "",  
+    /**  pattern: "hirunews",  
+      react: "📃",  
       desc: "",  
       category: "news",  
       use: '.hirunews',  
-      filename: __filename  
+      filename: __filename  **/
   },  
   async(Void, citel) => {  
   try{  
