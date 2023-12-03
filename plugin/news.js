@@ -76,8 +76,8 @@ cmd({
  }) 
 //---------------------------------------------------------------------------
 cmd({  
-      pattern: "hirunews",  
-      react: "📃",  
+      pattern: "",  
+      react: "",  
       desc: "",  
       category: "news",  
       use: '.hirunews',  
