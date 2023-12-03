@@ -36,6 +36,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     url: anu.thumbnail,
                },
                 caption: `
+
 🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗔𝗨𝗗𝗜𝗢 🎧
 
 🚨 *Youtube Player* 🌿
@@ -59,6 +60,8 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 
 *1.1 ╏ AUDIO* 🎧
 *2.1 ╏ DOCUMENT* 📂
+
+
 
 *👑 ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ 👑* 
 `,
@@ -252,6 +255,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     url: anu.thumbnail,
                },
                 caption: `
+
 🎧 𝗞𝗜𝗡𝗚 𝗩𝗔𝗝𝗜𝗥𝗔 𝗩𝗜𝗗𝗘𝗢 🎧
 
 🚨 *Youtube Player* 🌿
@@ -275,6 +279,8 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 
 *3.1 ╏ MP4 VIDEO* 📽️
 *4.1 ╏ MP4 DOCUMENT* 📂
+
+
 
 *👑 ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ 👑* 
 `,
