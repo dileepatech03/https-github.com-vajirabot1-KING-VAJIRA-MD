@@ -20,6 +20,7 @@ cmd(
     desc: "update bot with main repo.",
     filename: __filename,
     category: "misc",
+    react: "⚙️"
   },
   async (Void,citel,text,{isCreator}) => {
     async function updatedb() {	
@@ -123,7 +124,7 @@ citel.reply(str)
 //----------------------------------------------------------------------------------------------------------------------------------------------------
 cmd(
   {
-    pattern: "setvar",
+    pattern: "set",
     desc: "set var in koyeb.",
     filename: __filename,
     category: "misc",
