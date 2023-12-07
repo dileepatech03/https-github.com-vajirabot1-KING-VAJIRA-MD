@@ -22,3 +22,8 @@
          let anu = await maker.textpro('https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: `Made by ${tlang().title},For my ${tlang().greet}` }, { quoted: citel })
      })
+    //---------------------------------------------------------------------------
+ cmd({ pattern: "horror2", category: "logo", desc: "Some text to image feature with various styles.",file: __filename, }, async(Void, citel, text) => {
+        if (!text) return citel.reply(`*_Example: ${prefix}horror Zubair_*`)
+        return await singleText(Void, citel ,'horror-blood-text-effect-online-883'  , text )
+    })
