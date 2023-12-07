@@ -1,7 +1,10 @@
-const axios = require('axios');
-const { tlang,cmd } = require('../lib')
-const Config = require('../config')
-const { redeploy , getvar , delvar , getallvar , change_env , get_deployments} = require('../lib/koyeb')
+const { tlang, ringtone, cmd,fetchJson, sleep, botpic,ffmpeg, getBuffer, pinterest, prefix, Config } = require('../lib')
+const { mediafire } = require("../lib/mediafire.js");
+const googleTTS = require("google-tts-api");
+const ytdl = require('ytdl-secktor')
+const fs = require('fs-extra')
+var videotime = 60000 // 1000 min
+var dlsize = 1000 // 1000mb
 //---------------------------------------------------------------------------
 
 cmd({
@@ -15,7 +18,8 @@ cmd({
 
         },
 
-         async (Void,citel,text,{isCreator}) => {
+        async (Void,citel,text,{isCreator}) => {
+       if(!isCreator) return citel.reply(tlang().owner);
         let buttons = [{
 
                     buttonId: `${prefix}system`,
