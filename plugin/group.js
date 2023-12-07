@@ -626,25 +626,25 @@ cmd({
             filename: __filename,
         },
         async(Void, citel, text) => {
-            if (!citel.isGroup) return citel.reply(tlang().);
+            if (!citel.isGroup) return citel.reply(tlang().group);
             const groupAdmins = await getAdmin(Void, citel)
             const botNumber = await Void.decodeJid(Void.user.id)
             const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : false;
             const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
-            if (!citel.isGroup) return citel.reply(tlang().);
+            if (!citel.isGroup) return citel.reply(tlang().group);
             if (!isBotAdmins) return citel.reply(tlang().botAdmin);
             if (!isAdmins) return citel.reply(tlang().admin);
-            if (text.split[0] === "mute") {
+            if (text.split(" ")[0] === "close") {
                 await Void.groupSettingUpdate(citel.chat, "announcement")
-                    .then((res) => reply(`Group Chat Muted🙂 :)`))
+                    .then((res) => reply(`Group Chat Muted :)`))
                     .catch((err) => console.log(err));
-            } else if (text.split[0] === "unmute") {
+            } else if (text.split(" ")[0] === "open") {
                 await Void.groupSettingUpdate(citel.chat, "not_announcement")
-                    .then((res) => reply(`Group Chat Unmuted🙂 :)`))
+                    .then((res) => reply(`Group Chat Unmuted :)`))
                     .catch((err) => console.log(err));
             } else {
 
-                return citel.reply(`Group Mode:\n${prefix}unmute- to open\n${prefix}mute- to close`);
+                return citel.reply(`Group Mode:\n${prefix}group open- to open\n${prefix}group close- to close`);
             }
         }
     )
