@@ -573,8 +573,7 @@ let buttons = [{
          }
      )
      cmd({
-        pattern: 'ss',
-        alias :['webss' , 'fullss'],
+        pattern: 'ss2',
         category: "search",
         desc: "Provides screenshot of given url",
         use: '<text>',
