@@ -204,7 +204,7 @@ cmd({
 
 *1)➣ https://wa.me/+94766943622?text=᳆𝙃𝙄᭄👑𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼👑-𝙊𝙒𝙉𝙀𝙍•𝙄°𝙄𝙎°𝘼𝙉°𝙈𝙀𝙈𝘽𝙀𝙍°𝙊𝙁°𝙔𝙊𝙐*
 
-2)➣ Message ᴠᴀᴊɪʀᴀ ᴍᴅ ᴏᴡɴᴇʀ on WhatsApp. https://wa.me/message/E376XRNXS3GCJ1
+*2)➣ Message ᴠᴀᴊɪʀᴀ ᴍᴅ ᴏᴡɴᴇʀ on WhatsApp. https://wa.me/message/E376XRNXS3GCJ1*
 
 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
 *▶ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴡᴍʀ ᴠᴀᴊɪʀᴀ ◀*
