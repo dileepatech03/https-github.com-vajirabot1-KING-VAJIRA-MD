@@ -183,7 +183,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
+                    url: 'https://telegra.ph/file/1a2f5b270219832f8d47f.jpg',
                 },
 
                 caption: `
@@ -250,7 +250,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
+                    url: 'https://telegra.ph/file/c66a8a36badddfd37a1e4.jpg',
                 },
 
                 caption: `
@@ -315,7 +315,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
+                    url: 'https://telegra.ph/file/c270ae79bb58a79c3f2fd.jpg',
                 },
 
                 caption: `
@@ -387,7 +387,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
+                    url: 'https://telegra.ph/file/1a2f5b270219832f8d47f.jpg',
                 },
 
                 caption: `
@@ -403,7 +403,7 @@ cmd({
 *ඔබ ඉල්ලු අංකයට අවශ්‍ය විස්තරය.*
 ◉───────────────────
 
-👨‍💻➣ℂ𝕃𝕀ℂ𝕂 𝕋ℍ𝔼 𝕃𝕀ℕ𝕂 𝕋𝕆 𝕁𝕆𝕀ℕ 𝕄𝕐 𝔾ℝ𝕆𝕌𝕆...
+👨‍💻➣ℂ𝕃𝕀ℂ𝕂 𝕋ℍ𝔼 𝕃𝕀ℕ𝕂 𝕋𝕆 𝕁𝕆𝕀ℕ 𝕄𝕐 𝔾ℝ𝕆𝕌ℙ...
 
 https://chat.whatsapp.com/Lc5Rf0UAmkAFRbjYOnhwy5
 
@@ -457,7 +457,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
+                    url: 'https://telegra.ph/file/166a4209b62440baf0edf.jpg',
                 },
 
                 caption: `
@@ -600,7 +600,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
+                    url: 'https://telegra.ph/file/1a2f5b270219832f8d47f.jpg',
                 },
 
                 caption: `
@@ -618,7 +618,7 @@ cmd({
 
 1)➣ https://wa.me/+94760018802?text=꧁•༆⚖️ㅤᴍʀͥ.ʏͣᴀͫsɪʏᴀᴏғᴄㅤ💃🏻🪄🥷🏻
 
-2)➣ Message ᴠᴀᴊɪʀᴀ ᴍᴅ ᴏᴡɴᴇʀ on WhatsApp. https://wa.me/message/WV7ITXBMJAVQA1
+2)➣ Message ꜱᴀᴋᴜʀᴀ ᴍᴅ ᴏᴡɴᴇʀ on WhatsApp. https://wa.me/message/WV7ITXBMJAVQA1
 
 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
 *▶ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴡᴍʀ ᴠᴀᴊɪʀᴀ ◀*
@@ -667,7 +667,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
+                    url: 'https://telegra.ph/file/c66a8a36badddfd37a1e4.jpg',
                 },
 
                 caption: `
@@ -732,7 +732,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
+                    url: 'https://telegra.ph/file/c270ae79bb58a79c3f2fd.jpg',
                 },
 
                 caption: `
@@ -804,7 +804,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
+                    url: 'https://telegra.ph/file/1a2f5b270219832f8d47f.jpg',
                 },
 
                 caption: `
@@ -820,7 +820,7 @@ cmd({
 *ඔබ ඉල්ලු අංකයට අවශ්‍ය විස්තරය.*
 ◉───────────────────
 
-👨‍💻➣ℂ𝕃𝕀ℂ𝕂 𝕋ℍ𝔼 𝕃𝕀ℕ𝕂 𝕋𝕆 𝕁𝕆𝕀ℕ 𝕄𝕐 𝔾ℝ𝕆𝕌𝕆...
+👨‍💻➣ℂ𝕃𝕀ℂ𝕂 𝕋ℍ𝔼 𝕃𝕀ℕ𝕂 𝕋𝕆 𝕁𝕆𝕀ℕ 𝕄𝕐 𝔾ℝ𝕆𝕌ℙ...
 
 https://chat.whatsapp.com/Lc5Rf0UAmkAFRbjYOnhwy5
 
@@ -874,7 +874,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
+                    url: 'https://telegra.ph/file/166a4209b62440baf0edf.jpg',
                 },
 
                 caption: `
