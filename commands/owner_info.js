@@ -59,7 +59,7 @@ cmd({
 
 
 ${prefix}2.0┃ ɪɴꜰᴏ ᴏꜰ ᴠᴀᴊɪʀᴀ
-${prefix}2.1┃ ɪɴꜰᴏ ᴏꜰ ʏᴀꜱɪʏᴀ
+${prefix}3.0┃ ɪɴꜰᴏ ᴏꜰ ʏᴀꜱɪʏᴀ
 
 
 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
@@ -128,11 +128,11 @@ cmd({
 ◉───────────────────
 
 
-${prefix}2.2┃ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ
-${prefix}2.3┃ ꜰᴀᴄᴇʙᴏᴏᴋ ʟɪɴᴋ
-${prefix}2.4┃ ʏᴛ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ
-${prefix}2.5┃ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ
-${prefix}2.6┃ ᴍᴏʀᴇ ɪɴꜰᴏ ᴏꜰ ᴠᴀᴊɪʀᴀ
+${prefix}2.1┃ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ
+${prefix}2.2┃ ꜰᴀᴄᴇʙᴏᴏᴋ ʟɪɴᴋ
+${prefix}2.3┃ ʏᴛ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ
+${prefix}2.4┃ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ
+${prefix}2.5┃ ᴍᴏʀᴇ ɪɴꜰᴏ ᴏꜰ ᴠᴀᴊɪʀᴀ
 
 
 
@@ -153,7 +153,7 @@ ${prefix}2.6┃ ᴍᴏʀᴇ ɪɴꜰᴏ ᴏꜰ ᴠᴀᴊɪʀᴀ
 
 cmd({
 
-            pattern: "2.2",           
+            pattern: "2.1",           
             desc: "(menu cmdlist).",
             category: "owner",
             react: "👨‍💻",
@@ -220,7 +220,7 @@ cmd({
 
 cmd({
 
-            pattern: "2.3",           
+            pattern: "2.2",           
             desc: "(menu cmdlist).",
             category: "owner",
             react: "👨‍💻",
@@ -285,7 +285,7 @@ https://www.facebook.com/WMRTECH?mibextid=ZbWKwL
 
 cmd({
 
-            pattern: "2.4",           
+            pattern: "2.3",           
             desc: "(menu cmdlist).",
             category: "owner",
             react: "👨‍💻",
@@ -357,7 +357,7 @@ https://youtube.com/@gamingewingyt6216
 
 cmd({
 
-            pattern: "2.5",           
+            pattern: "2.4",           
             desc: "(menu cmdlist).",
             category: "owner",
             react: "👨‍💻",
@@ -427,7 +427,7 @@ https://chat.whatsapp.com/Lc5Rf0UAmkAFRbjYOnhwy5
 
 cmd({
 
-            pattern: "2.6",           
+            pattern: "2.5",           
             desc: "(menu cmdlist).",
             category: "owner",
             react: "👨‍💻",
@@ -496,7 +496,7 @@ COMMING SOON...
 
 cmd({
 
-            pattern: "2.7",           
+            pattern: "3.0",           
             desc: "(menu cmdlist).",
             category: "owner",
             react: "👨‍💻",
@@ -545,11 +545,11 @@ cmd({
 ◉───────────────────
 
 
-${prefix}2.7┃ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ
-${prefix}2.8┃ ꜰᴀᴄᴇʙᴏᴏᴋ ʟɪɴᴋ
-${prefix}2.9┃ ʏᴛ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ
-${prefix}2.10┃ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ
-${prefix}2.11┃ ᴍᴏʀᴇ ɪɴꜰᴏ ᴏꜰ ᴠᴀᴊɪʀᴀ
+${prefix}3.1┃ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ
+${prefix}3.2┃ ꜰᴀᴄᴇʙᴏᴏᴋ ʟɪɴᴋ
+${prefix}3.3┃ ʏᴛ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ
+${prefix}3.4┃ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ
+${prefix}3.5┃ ᴍᴏʀᴇ ɪɴꜰᴏ ᴏꜰ ᴠᴀᴊɪʀᴀ
 
 
 
@@ -570,7 +570,7 @@ ${prefix}2.11┃ ᴍᴏʀᴇ ɪɴꜰᴏ ᴏꜰ ᴠᴀᴊɪʀᴀ
 
 cmd({
 
-            pattern: "2.8",           
+            pattern: "3.1",           
             desc: "(menu cmdlist).",
             category: "owner",
             react: "👨‍💻",
@@ -637,7 +637,7 @@ cmd({
 
 cmd({
 
-            pattern: "2.9",           
+            pattern: "3.2",           
             desc: "(menu cmdlist).",
             category: "owner",
             react: "👨‍💻",
@@ -702,7 +702,7 @@ NO ACCOUNT
 
 cmd({
 
-            pattern: "2.10",           
+            pattern: "3.3",           
             desc: "(menu cmdlist).",
             category: "owner",
             react: "👨‍💻",
@@ -774,7 +774,7 @@ https://youtube.com/@yasiya_yt
 
 cmd({
 
-            pattern: "2.5",           
+            pattern: "3.4",           
             desc: "(menu cmdlist).",
             category: "owner",
             react: "👨‍💻",
@@ -844,7 +844,7 @@ https://chat.whatsapp.com/Lc5Rf0UAmkAFRbjYOnhwy5
 
 cmd({
 
-            pattern: "2.11",           
+            pattern: "3.5",           
             desc: "(menu cmdlist).",
             category: "owner",
             react: "👨‍💻",
