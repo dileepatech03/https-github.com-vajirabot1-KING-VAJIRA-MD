@@ -1,5 +1,5 @@
 <div align="center">
-  👑<b>KING VAJIRA</b>👑</b>
+  👑<b>KING VAJIRA MD</b>👑</b>
 
   
 <div align="center">
