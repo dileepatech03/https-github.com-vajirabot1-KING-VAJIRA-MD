@@ -28,6 +28,10 @@
 
 [![Scan QR CODE 1](https://i.imgur.com/ouR5zv8.jpg)](https://replit.com/@VajiraRathnayak/KING-VAJIRA-MD-QR-1?v=1) 2 [![Scan QR CODE 2](https://i.imgur.com/ouR5zv8.jpg)](https://replit.com/@VajiraRathnayak/KING-VAJIRA-MD-5?v=1)
 
+## You can bot make in vercel app below
+
+***Click [Vercel App](https://vajira-two.vercel.app/)***
+
 ***Click [FORK](https://github.com/vajirabot1/KING-VAJIRA-MD-fork)***
 
 
