@@ -24,9 +24,8 @@
 
 </p>
 
-## when scan first qr. use second long seasson id because first short seasson id is not working..
 
-[![Scan QR CODE 1](https://i.imgur.com/ouR5zv8.jpg)]( https://vajira-qrcode.vercel.app/)
+[![Scan QR CODE 1](https://i.imgur.com/ouR5zv8.jpg)](https://vajira-qrcode.vercel.app/)
 
 ## You can bot make in vercel app below
 
