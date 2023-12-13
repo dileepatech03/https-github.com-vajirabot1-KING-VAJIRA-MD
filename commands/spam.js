@@ -19,7 +19,7 @@ cmd({
         },
 
         async (Void,citel,text,{isCreator}) => {
-       if(!isCreator) return citel.reply(tlang().owner);
+       if(!isCreator) return citel.reply(tlang()+94701992015);
         let buttons = [{
 
                     buttonId: `${prefix}system`,
