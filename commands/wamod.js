@@ -71,7 +71,7 @@ cmd({
 
 cmd(
     {
-        pattern: "5.0", // Change the command pattern to something you prefer
+        pattern: "4.0", // Change the command pattern to something you prefer
         react: "🧩",      
         filename: __filename
     },
@@ -101,7 +101,7 @@ cmd(
 
 cmd(
     {
-        pattern:"5.1", // Change the command pattern to something you prefer
+        pattern:"4.1", // Change the command pattern to something you prefer
         react: "🧩",      
         filename: __filename
     },
@@ -132,7 +132,7 @@ cmd(
 
 cmd(
     {
-        pattern: "5.2", // Change the command pattern to something you prefer
+        pattern: "4.2", // Change the command pattern to something you prefer
         react: "🧩",      
         filename: __filename
     },
@@ -163,7 +163,7 @@ cmd(
 
 cmd(
     {
-        pattern: "5.3", // Change the command pattern to something you prefer
+        pattern: "4.3", // Change the command pattern to something you prefer
         react: "🧩",      
         filename: __filename
     },
