@@ -39,7 +39,7 @@ cmd({
                 },
 
                 caption: `
-*─👑𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝗪𝗔𝗠𝗢𝗗𝗦👑─*
+*─👑𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿-𝗪𝗔𝗠𝗢𝗗𝗦👑─*
 
 💓𝗵𝗲𝗹𝗹𝗼𝘄 ${citel.pushName}💓
 
@@ -48,12 +48,11 @@ cmd({
 *Select the number you want*
 ◉───────────────────    
         
-┌─────────❂────────┐
-├ *${prefix}3.0┃ Whatsapp.com*
-├ *${prefix}3.1┃ FMWhatsapp.com*
-├ *${prefix}3.2┃ GBWhatsapp.com*
-├ *${prefix}3.3┃ YOWhatsapp.com*
-└─────────❂────────┘
+├➣*${prefix}4.0┃ Whatsapp.com*
+├➣*${prefix}4.1┃ FMWhatsapp.com*
+├➣*${prefix}4.2┃ GBWhatsapp.com*
+├➣*${prefix}4.3┃ YOWhatsapp.com*
+
 
 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
 *▶ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴡᴍʀ ᴠᴀᴊɪʀᴀ ◀*
@@ -72,7 +71,7 @@ cmd({
 
 cmd(
     {
-        pattern: "3.0", // Change the command pattern to something you prefer
+        pattern: "4.0", // Change the command pattern to something you prefer
         react: "🧩",      
         filename: __filename
     },
@@ -102,7 +101,7 @@ cmd(
 
 cmd(
     {
-        pattern:"3.1", // Change the command pattern to something you prefer
+        pattern:"4.1", // Change the command pattern to something you prefer
         react: "🧩",      
         filename: __filename
     },
@@ -133,7 +132,7 @@ cmd(
 
 cmd(
     {
-        pattern: "3.2", // Change the command pattern to something you prefer
+        pattern: "4.2", // Change the command pattern to something you prefer
         react: "🧩",      
         filename: __filename
     },
@@ -164,7 +163,7 @@ cmd(
 
 cmd(
     {
-        pattern: "3.3", // Change the command pattern to something you prefer
+        pattern: "4.3", // Change the command pattern to something you prefer
         react: "🧩",      
         filename: __filename
     },
