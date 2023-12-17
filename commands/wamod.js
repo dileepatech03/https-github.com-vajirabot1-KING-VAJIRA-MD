@@ -48,10 +48,10 @@ cmd({
 *Select the number you want*
 ◉───────────────────    
         
-├➣*${prefix}4.0┃ Whatsapp.com*
-├➣*${prefix}4.1┃ FMWhatsapp.com*
-├➣*${prefix}4.2┃ GBWhatsapp.com*
-├➣*${prefix}4.3┃ YOWhatsapp.com*
+*${prefix}4.0┃ Whatsapp*
+*${prefix}4.1┃ FMWhatsapp*
+*${prefix}4.2┃ GBWhatsapp*
+*${prefix}4.3┃ YOWhatsapp*
 
 
 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
