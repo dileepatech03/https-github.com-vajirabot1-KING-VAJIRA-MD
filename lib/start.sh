@@ -1,5 +1,5 @@
 while true
 do
-echo "Starting Vajira-Md..."
+echo "Starting KING-MD..."
 node lib/client.js
 done
