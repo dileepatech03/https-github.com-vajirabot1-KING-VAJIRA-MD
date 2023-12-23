@@ -1,25 +1,9 @@
-/**
-========================================================
-      █▄▀ █ █▄ █ ▄▀     █▄ ▄█ █▀▄
-      █ █ █ █ ▀█ ▀▄█ ▀▀ █ ▀ █ █▄▀
-========================================================
- Copyright (C) 2023.                                                                                        
- Licensed under the  GPL-3.0 License;                                                      
- You may not use this file except in compliance with the License.    
- It is supplied in the hope that it may be useful                                     
- * @project_name : KING-MD                                                                    
- * @author : naveeddogar <https://github.com/naveeddogar>   
- * @description : KING-MD ,A Multi-functional whatsapp bot.       
- * @version 1.0.1                                                                                             
- ========================================================
- **/
- 
 const { tlang, cmd, sleep, getBuffer, prefix, Config } = require('../lib')
 const ytdl = require('ytdl-secktor')
 const yts = require('secktor-pack')
 const fs = require('fs')
 var videotime = 60000 // 1000 min
-var dlsize = 250 // 250mb
+var dlsize = 10000 // 250mb
 
 
 cmd({
@@ -31,7 +15,9 @@ cmd({
         },
         async(Void, citel, text) => {
   
-            const getRandom = (ext) => {  return `${Math.floor(Math.random() * 10000)}${ext}`;  };
+            const getRandom = (ext) => {
+                return `${Math.floor(Math.random() * 10000)}${ext}`;
+            };
             if (!text) {
                 citel.reply(`❌Please provide me a url`);
                 return;
@@ -47,8 +33,7 @@ yts( opts, async function ( err, playlist ) {
     let urlYt = playlist.videos[i].videoId
     try {
       
-        
-        let infoYt = await ytdl.getInfo(urlYt);
+                let infoYt = await ytdl.getInfo(urlYt);
                 if (infoYt.videoDetails.lengthSeconds >= videotime) continue
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
@@ -81,8 +66,8 @@ yts( opts, async function ( err, playlist ) {
                                 thumbnail: log0,
                                 renderLargerThumbnail: true,
                                 mediaType: 2,
-                                mediaUrl: 'https://github.com/X-S-L-A-S-H-E-R/Secktor-2.0',
-                                sourceUrl: 'https://github.com/X-S-L-A-S-H-E-R/Secktor-2.0'
+                                mediaUrl: 'https://github.com/vajirabot1/KING-VAJIRA-MD',
+                                sourceUrl: 'https://github.com/vajirabot1/KING-VAJIRA-MD'
                             }
                         }
                     }
