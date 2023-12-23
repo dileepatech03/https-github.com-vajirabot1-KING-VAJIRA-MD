@@ -254,6 +254,8 @@ cmd({
             const alivtxt = `
 ⦁━⦁👑𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿👑⦁━⦁\n\nHello, ${citel.pushName},\n
 
+${alivemessage}
+
 _හරියනකොට අඩන මිනිස්සු වරදිනකොට හිනා වෙනවා🤘_
 ━━━✥◈✥━━━
 🎋►*Version:-* _0.0.7_
@@ -268,7 +270,7 @@ _━━━Powered by Vajira Rathnayaka━━━_
 `;
             let aliveMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/38ca08b1213d105cafd7b.jpg',
+                    url: 'https://telegra.ph/file/42edf879e712b74bc51f1.jpg',
                 },
                 caption: alivtxt,
                 footer: tlang().footer,
