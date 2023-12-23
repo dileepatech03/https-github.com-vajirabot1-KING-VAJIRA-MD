@@ -84,6 +84,7 @@
                        "fouadwa-scraper": "latest",
                        "wa_set_pkg":"1.0.1",
                        "remove-bg-node":"1.0.3",
+                       "tiktokdl":"0.0.4",
                        "wa-sticker-formatter": "^4.3.2"
                       },
                   "directories": {
