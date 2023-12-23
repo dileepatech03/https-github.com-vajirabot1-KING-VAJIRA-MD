@@ -1,18 +1,22 @@
 /**
-
-                                                            
- Copyright (C) 2022.
- Licensed under the  GPL-3.0 License;
- You may not use this file except in compliance with the License.
- It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
- * @version 0.0.6
+========================================================
+      █▄▀ █ █▄ █ ▄▀     █▄ ▄█ █▀▄
+      █ █ █ █ ▀█ ▀▄█ ▀▀ █ ▀ █ █▄▀
+========================================================
+ Copyright (C) 2022.                                                                                        
+ Licensed under the  GPL-3.0 License;                                                      
+ You may not use this file except in compliance with the License.    
+ It is supplied in the hope that it may be useful                                     
+ * @project_name : KING-MD                                                                    
+ * @author : naveeddogar <https://github.com/naveeddogar>   
+ * @description : KING-MD ,A Multi-functional whatsapp bot.       
+ * @version 1.0.1                                                                                             
+ ========================================================
  **/
 
  const { tlang, getAdmin, prefix, Config, sck, fetchJson, runtime,cmd,getBuffer } = require('../lib')
  let { dBinary, eBinary } = require("../lib/binary");
+const config = require('../config.js');
 const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
  const fs = require('fs')
  const axios = require('axios')
@@ -20,7 +24,7 @@ const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter")
  cmd({
     pattern: "setwelcome",
     desc: "sets welcome message in specific group.",
-    category: "misc",
+    category: "core",
 },
 async(Void, citel, text,{ isCreator }) => {
     if (!isCreator) return citel.reply(tlang().owner)
@@ -30,7 +34,7 @@ async(Void, citel, text,{ isCreator }) => {
                 return citel.reply('Welcome added added for this group.')
             } else {
                 await await sck.updateOne({ id: citel.chat }, { welcome:text ,events:'true'})
-                return citel.reply('Welcome msg has been updated successfully.')
+                return citel.reply('Welcome updated successfully.')
                 
             }      
 }
@@ -39,7 +43,7 @@ async(Void, citel, text,{ isCreator }) => {
 cmd({
     pattern: "setgoodbye",
     desc: "sets goodbye message in specific group.",
-    category: "misc",
+    category: "core",
 },
 async(Void, citel, text,{ isCreator }) => {
     if (!isCreator) return citel.reply(tlang().owner)
@@ -49,7 +53,7 @@ async(Void, citel, text,{ isCreator }) => {
                 return citel.reply('Goodbye added for this group.');
             } else {
                 await await sck.updateOne({ id: citel.chat }, { goodbye:text,events:'true' })
-                return citel.reply('Goodbye msg has been updated successfully.');     
+                return citel.reply('Goodbye updated successfully.');     
             }      
 }
 )
@@ -61,8 +65,8 @@ async(Void, citel, text,{ isCreator }) => {
              filename: __filename,
          },
          async(Void, citel, text) => {
-let a = await getBuffer(`https://citel-x.herokuapp.com/attp/${text}`)
- return citel.reply(a,{packname:'IZUKU',author:'ATTP'},"sticker") 
+let a = await getBuffer(`https://api.lolhuman.xyz/api/attp?apikey=GataDios&text=${text}`)
+ return citel.reply(a,{packname:'King-Md',author:'Naveed'},"sticker") 
          }
      )
  cmd({
@@ -72,8 +76,8 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/attp/${text}`)
              filename: __filename,
          },
          async(Void, citel, text) => {
-let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
- return citel.reply(a,{packname:'IZUKU',author:'TTP'},"sticker") 
+let a = await getBuffer(`https://api.lolhuman.xyz/api/ttp?apikey=GataDios&text=${text}`)
+ return citel.reply(a,{packname:'King-Md',author:'Naveed'},"sticker") 
          }
      )
      //---------------------------------------------------------------------------
@@ -125,17 +129,17 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
              filename: __filename,
          },
          async(Void, citel, text) => {
-             if (!citel.quoted) return citel.reply(`*Mention the Image or video Sir.*`);
+             if (!citel.quoted) return citel.reply(`*Mention any Image or video Sir.*`);
              let mime = citel.quoted.mtype
              var pack;
              var author;
              if (text) {
                  anu = text.split("|");
-                 pack = anu[0] !== "" ? anu[0] : citel.pushName + '✨';
+                 pack = anu[0] !== "" ? anu[0] : citel.pushName + '♥️';
                  author = anu[1] !== "" ? anu[1] : Config.author;
              } else {
                  pack = citel.pushName;
-                 author = "✨";
+                 author = "♥️";
              }
                  let media = await citel.quoted.download();
                  citel.reply("*Processing Your request*");
@@ -153,39 +157,21 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
          }
      )
      //---------------------------------------------------------------------------
-cmd({
-        pattern: "getpp",
-        desc: "Get Profile Pic For Given User",
-        category: "user",
-        filename: __filename
-    },
-    async(Void, citel, text) => {
-
-        if (!citel.quoted) return citel.reply (`*Please Reply To A User*`)
-        let pfp;
-        try  { pfp = await Void.profilePictureUrl(citel.quoted.sender, "image"); } 
-        catch (e) {  return citel.reply("```Profile Pic Not Fetched```") } 
-        return await Void.sendMessage(citel.chat, {image: { url: pfp },caption: '  *---Profile Pic Is Here---*\n'+Config.caption, },{quoted:citel}); 
-
-
-         }
-     )
-     //---------------------------------------------------------------------------
  cmd({
              pattern: "uptime",
              alias: ["runtime"],
              desc: "Tells runtime/uptime of bot.",
-             category: "misc",
+             category: "core",
              filename: __filename,
          },
          async(Void, citel, text) => {
              const upt = runtime(process.uptime())
-             return citel.reply(`Uptime of ${tlang().title}: ${upt}`)
+             return citel.reply(`Uptime of King-Md: ${upt}`)
          }
      )
      //---------------------------------------------------------------------------
  cmd({
-             pattern: "wm",
+             pattern: "wame",
              desc: "Makes wa.me of quoted or mentioned user.",
              category: "misc",
              filename: __filename,
@@ -220,52 +206,6 @@ cmd({
          }
      )
      //---------------------------------------------------------------------------
-cmd({
-             pattern: "calc",
-             desc: "Calculate two value.",
-             category: "misc",
-             filename: __filename
-         },
-         async(Void, citel, text) => {
-            
-            if (!text) return await citel.reply("Please enter a mathematical operation.");
-            text = text.replace(/\s+/g, '');
-            if (!/^(\d+([-+%*/]\d+)+)$/.test(text)) return await  citel.reply("Please enter a valid mathematical operation.");
-            const evaluate = (exp) => {  return new Function('return ' + exp)(); };
-            try {
-                const result = evaluate(text);
-                if (text.includes('/') && text.split('/').some((num) => num === '0')) return await citel.send("*Cannot divide by zero.*");
-                if (text.split(/[-+%*/]/).length <= 2) {
-                    const [num1, operator, num2] = text.match(/\d+|[-+%*/]/g);
-                    return citel.send(`${num1} ${operator} ${num2} = ${result}`);
-                } else {  return await citel.send(`Result: ${result}`); }
-            } catch (error) {  }
-         }
-     )
-    //---------------------------------------------------------------------------
-cmd({
-        pattern: "blocklist",
-        desc: "get list of all Blocked Numbers",
-        category: "user",
-        filename: __filename,
-        use: '<text>',
-    },
-    async(Void, citel, text , {isCreator}) => {
-        if(!isCreator) return await citel.reply(tlang().owner);
-        try {
-            const data = await Void.fetchBlocklist();
-            if (data.length === 0) return await citel.reply(`Uhh Dear, You don't have any Blocked Numbers.`);
-            let txt = `\n*≡ List*\n\n*_Total Users:* ${data.length}_\n\n┌─⊷ \t*BLOCKED USERS*\n`;
-            for (let i = 0; i < data.length; i++) {      txt += `▢ ${i + 1}:- wa.me/${data[i].split("@")[0]}\n`;    }
-            txt += "└───────────";
-            return await Void.sendMessage(citel.chat, { text: txt });
-          } catch (err) {
-            console.error(err);
-            return await citel.reply('*Error while getting Blocked Numbers.\nError: *' + err);
-          }
-    }
-    )
-    //---------------------------------------------------------------------------
  cmd({
              pattern: "npm",
              desc: "download mp4 from url.",
@@ -328,32 +268,6 @@ cmd({
          }
      )
      //---------------------------------------------------------------------------
-cmd({
-        pattern: "quoted",
-        desc: "get reply Message from Replied Message",
-        category: "user",
-        filename: __filename
-    },
-    async(Void, citel, text) => {
-        if(!citel.quoted) return await citel.send("*_Uhh Dear, Reply to a Message_*")
-        var quote
-        try {
-             quote = await Void.serializeM(await citel.getQuotedObj())
-        } catch (error) {return console.log("error while geting Quoted Message : " , error )}
-
-        if (!quote.quoted) return await citel.replay('*Message you replied does not contain a reply Message*')
-        else await Void.sendMessage(citel.chat, { react: { text: '✨', key: citel.key }}); 
-        try {        
-            let quote2 = await Void.serializeM(await quote.getQuotedObj())
-            return await Void.copyNForward(citel.chat, quote2 , false ,)
-        } catch (error) 
-        {       
-            const contextInfo = {}
-            Void.forward(citel.chat ,quote.quoted, contextInfo , citel ); 
-        }
-        // attp | Void.sendMessage(citel.chat, { sticker: {url: `https://api.xteam.xyz/attp?file&text=${encodeURI(text)}`}}, {quoted: citel })
-    })
-     //---------------------------------------------------------------------------
  
  cmd({
              pattern: "emix",
@@ -363,16 +277,27 @@ cmd({
              filename: __filename,
          },
          async(Void, citel, text,{ isCreator }) => {
-             if (!text) return citel.reply(`Example : ${prefix}emix 😅,🤔`);
-             let [emoji1, emoji2] = text.split `,`;
-             let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1 )}_${encodeURIComponent(emoji2)}`);
-             for (let res of anu.results) {
-                 let encmedia = await Void.sendImageAsSticker(citel.chat, res.url, citel, {
-                     packname: global.packname,
-                     author: global.author,
-                     categories: res.tags,
-                 });
-                 await fs.unlinkSync(encmedia);
+             if (!text) return citel.reply(`Example : ${prefix}emix 😅,😘`);
+const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
+             let emoji1 = text.split(",")[0] ;
+             let emoji2 = text.split(",")[1];
+
+  const response = await fetch(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${emoji1}_${emoji2}`);
+  const data = await response.json();
+  if(data.locale=="") return citel.reply(`Can't Create Mixture, Please Try Other Emojies`)
+  else {
+let media =await getBuffer(data.results[0].url)
+
+let sticker = new Sticker(media, {
+                    pack: global.packname, 
+                    author: global.author, 
+                    type: StickerTypes.FULL ,
+                    categories: ["🤩", "🎉"], 
+                    id: "12345", 
+                    quality: 100,
+                });
+const buffer = await sticker.toBuffer();
+ return Void.sendMessage(citel.chat, {sticker: buffer}, {quoted: citel });
              }
          }
      )
@@ -380,7 +305,7 @@ cmd({
  cmd({
              pattern: "chatbot",
              desc: "activates and deactivates chatbot.\nuse buttons to toggle.",
-             category: "misc",
+             category: "core",
              filename: __filename
          },
          async(Void, citel, text,{ isCreator }) => {
@@ -394,7 +319,7 @@ cmd({
                          await new chatbot({ id: 'chatbot', worktype: "true" }).save()
                          return citel.reply('Chatbot activated successfully.')
                      } else {
-                         if (chatbott.worktype == "true") return citel.reply("Chatbot has already been enabled.")
+                         if (chatbott.worktype == "true") return citel.reply("Chatbot was already enabled.")
                          await chatbot.updateOne({ id: 'chatbot' }, { worktype: "true" })
                          citel.reply('Enabled chatbot successfully.')
                          return
@@ -408,7 +333,7 @@ cmd({
                          await new chatbot({ id: 'chatbot', worktype: "false" }).save()
                          return citel.reply('Chatbot deactivated successfully.')
                      } else {
-                         if (chatbott.worktype == "false") return citel.reply("Chatbot has  already been disabled.")
+                         if (chatbott.worktype == "false") return citel.reply("Chatbot was already disabled.")
                          await chatbot.updateOne({ id: 'chatbot' }, { worktype: "false" })
                          citel.reply('Disabled chatbot successfully.')
                          return
@@ -433,7 +358,7 @@ cmd({
                              },
                          ];
                          let chatbott= await chatbot.findOne({ id: 'chatbot' })
-                         await Void.sendButtonText(citel.chat, buttons, `Chatbot Status: ${chatbott.worktype} `, 'Izuku-Md', citel);
+                         await Void.sendButtonText(citel.chat, buttons, `Chatbot Status: ${chatbott.worktype} `, 'King-Md', citel);
                         citel.reply(`Chatbot Status: ${chatbott.worktype} \n*Use:* ${prefix}chatbot on\n${prefix}chatbot off`)
                         }
              }
@@ -482,7 +407,7 @@ cmd({
 cmd({
   pattern: "bot",
   desc: "activates and deactivates bot.\nuse buttons to toggle.",
-  category: "misc",
+  category: "core",
   filename: __filename,
 },
 async(Void, citel, text,{isCreator}) => {
@@ -540,6 +465,7 @@ let buttons = [{
 })   
          
      //---------------------------------------------------------------------------
+ 
  cmd({
              pattern: "antilink",
              desc: "activates and deactivates antilink.\nuse buttons to toggle.",
@@ -573,7 +499,8 @@ let buttons = [{
          }
      )
      cmd({
-        pattern: 'ss2',
+        pattern: 'ss',
+        alias :['webss' , 'fullss'],
         category: "search",
         desc: "Provides screenshot of given url",
         use: '<text>',
@@ -594,7 +521,7 @@ catch (err) { return citel.reply("```Error While Fetching Snapshot```")}
 
      //---------------------------------------------------------------------------
  cmd({ on: "body" }, async(Void, citel) => {
-     if (Config.autoreaction === 'true' && citel.text) {
+     if (Config.autoreaction === 'true') {
          const emojis = ['❤', '💕', '😻', '🧡', '💛', '💚', '💙', '💜', '🖤', '❣', '💞', '💓', '💗', '💖', '💘', '💝', '💟', '♥', '💌', '🙂', '🤗', '😌', '😉', '🤗', '😊', '🎊', '🎉', '🎁', '🎈', '👋']
          const emokis = emojis[Math.floor(Math.random() * (emojis.length))]
          Void.sendMessage(citel.chat, {
