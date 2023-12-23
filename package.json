@@ -1,13 +1,13 @@
 {
-               "name": "KING-MD",
+               "name": "KING-VAJIRA-MD",
                "version": "1.0.1",
                "description": "Multi device whatsapp bot by Naveed.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name king",
-                "stop": "pm2 stop king"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name Vajira",
+                "stop": "pm2 stop Vajira"
                 },
                "author": "SamPandey001",
               "dependencies": {
@@ -58,6 +58,20 @@
                        "ytdl-secktor": "latest",
                        "pastebin-js": "latest",
                        "fb-info-video":"^1.0.2",
+                       "hirunews-scraper":"^3.0.0",
+                       "sirasa-news": "latest",
+                       "mfiredlcore-vihangayt": "latest",
+                       "chatgpt-scraper": "latest",
+                       "@blackamda/telegram-image-url": "latest",
+                       "@sl-code-lords/youtube-dl": "latest",
+                       "@sl-code-lords/holidays": "latest",
+                       "@sl-code-lords/esana-news": "latest",
+                       "@sl-code-lords/wabetainfo": "latest",
+                       "@sl-code-lords/si-subdl": "latest",
+                       "getscreenshot.js": "latest",
+                       "truecallerjs": "latest",
+                       "fouadwa-scraper": "latest",
+                       "wa_set_pkg":"1.0.1",
                        "wa-sticker-formatter": "^4.3.2"
                       },
                   "directories": {
@@ -69,10 +83,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/naveeddogar/KING-MD.git"
+                 "url": "git+https://github.com/vajirabot1/KING-VAJIRA-MD.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/naveeddogar/KING-MD/issues"
+                 "url": "https://github.com/vajirabot1/KING-VAJIRA-MD/issues"
                   },
-                 "homepage": "https://github.com/naveeddogar/KING-MD#readme"
+                 "homepage": "https://github.com/vajirabot1/KING-VAJIRA-MD#readme"
                   }
