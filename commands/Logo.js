@@ -44,6 +44,7 @@ cmd({
                 caption: `
 
 *⦁──👑𝙑𝘼𝙅𝙄𝙍𝘼 LOGO CMDS👑──⦁*
+
 1 Thunder logo
  Eg:- .Thunder vajira
 
@@ -113,9 +114,90 @@ cmd({
 24 Video game logo
  Eg:- .Videogame vajira
  
-23 Deepsea logo
+25 Deepsea logo
  Eg:- .Deepsea vajira
   
+26 White bear logo
+ Eg:- .whitebear vajira
+  
+27 Joker logo
+ Eg:- .joker vajira
+  
+28 Metallic logo
+ Eg:- .metallic vajira
+    
+29 Steel logo
+ Eg:- .steel vajira
+  
+30 Harrypotter logo
+ Eg:- .harrypotter vajira
+  
+31 Under water logo
+ Eg:- .underwater vajira
+   
+32 Luxury logo
+ Eg:- .luxury vajira
+   
+33 Glue logo
+ Eg:- .glue vajira
+  
+34 Fabric logo
+ Eg:- .fabric vajira
+  
+35 Toxic logo
+ Eg:- .toxic vajira
+   
+36 Ancient logo
+ Eg:- .ancient vajira
+   
+37 Cloud logo
+ Eg:- .cloud vajira
+   
+38 Transformer logo
+ Eg:- .transformer vajira
+  
+39 Thunder logo
+ Eg:- .thunder vajira
+   
+40 Scifi logo
+ Eg:- .scifi vajira
+  
+41 Sand logo
+ Eg:- .sand vajira
+  
+42 Rainbow logo
+ Eg:- .rainbow vajira
+  
+43 Pencil logo
+ Eg:- .pencil vajira
+  
+44 Neon logo
+ Eg:- .neon vajira
+  
+45 Magma logo
+ Eg:- .magma vajira
+  
+46 Leaves logo
+ Eg:- .leaves vajira
+  
+47 Glitch logo
+ Eg:- .glitch vajira
+  
+48 Discovery logo
+ Eg:- .discovery vajira
+  
+49 Christmas logo
+ Eg:- .christmas vajira
+  
+50 Candy logo
+ Eg:- .candy vajira
+   
+51 1917 logo
+ Eg:- .1917 vajira
+   
+52 Black pink logo
+ Eg:- .blackpink vajira
+                   
  
 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
 *▶ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴡᴍʀ ᴠᴀᴊɪʀᴀ ◀*
@@ -214,7 +296,7 @@ cmd({ pattern: "avengers", category: "textpro", desc: "Some text to image featur
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
    })
      //---------------------------------------------------------------------------
-cmd({ pattern: "space3d", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+cmd({ pattern: "space", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/create-space-3d-text-effect-online-985.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
