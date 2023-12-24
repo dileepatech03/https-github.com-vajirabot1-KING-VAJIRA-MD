@@ -1,4 +1,8 @@
- const { tlang,cmd,Config } = require('../lib')
+const { tlang, ringtone, cmd,fetchJson, sleep, botpic,ffmpeg, getBuffer, pinterest, prefix, Config } = require('../lib')
+const { mediafire } = require("../lib/mediafire.js");
+const googleTTS = require("google-tts-api");
+const ytdl = require('ytdl-secktor')
+const fs = require('fs-extra')
  const maker = require('mumaker')
  let cap = `*_GENERATE BY KING-VAJIRA-MD_*`
  //---------------------------------------------------------------------------
@@ -106,8 +110,11 @@ cmd({
 22 Spooky halloween logo
  Eg:- .halloween vajira
  
-23 Video game logo
+24 Video game logo
  Eg:- .Videogame vajira
+ 
+23 Deepsea logo
+ Eg:- .Deepsea vajira
   
  
 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
