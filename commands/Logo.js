@@ -13,7 +13,7 @@ cmd({
 
         },
 
-        async (Void,citel,text,{isCreator}) => {
+        async (Void,citel,text) => {
        if(!isCreator) return citel.reply(tlang().owner);
         let buttons = [{
 
