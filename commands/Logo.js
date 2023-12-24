@@ -4,7 +4,7 @@ const googleTTS = require("google-tts-api");
 const ytdl = require('ytdl-secktor')
 const fs = require('fs-extra')
  const maker = require('mumaker')
- let cap = `*_GENERATE BY KING-VAJIRA-MD_*`
+ let cap = `*_🖥️GENERATE BY KING-VAJIRA-MD_*`
  //---------------------------------------------------------------------------
 cmd({
 
@@ -47,193 +47,193 @@ cmd({
 
 💓𝗵𝗲𝗹𝗹𝗼𝘄 ${citel.pushName}💓
 
-1)🎊► Thunder logo
- Eg:- ${prefix}Thunder vajira
+1)🎊► 𝗧𝗛𝗨𝗡𝗗𝗘𝗥 𝗟𝗢𝗚𝗢
+ Eg:- ${prefix}Thunder2 vajira
 
-2)🎊► Rainbow logo
+2)🎊► 𝗥𝗔𝗜𝗡𝗕𝗢𝗪 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Rainbow vajira
  
-3)🎊► Sunset logo
+3)🎊► 𝗦𝗨𝗡𝗦𝗘𝗧 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Sunset vajira
  
-4)🎊► Gradient neon logo
+4)🎊► 𝗚𝗥𝗔𝗗𝗜𝗘𝗡𝗧 𝗡𝗘𝗢𝗡 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Gradient vajira
  
-5)🎊► Light glow logo
+5)🎊► 𝗟𝗜𝗚𝗛𝗧 𝗚𝗟𝗢𝗪 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Lightglow vajira
  
-6)🎊► Firework logo
+6)🎊► 𝗙𝗜𝗥𝗘𝗪𝗢𝗥𝗞 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Firework vajira
  
-7)🎊► Green neon logo
+7)🎊► 𝗚𝗥𝗘𝗘𝗡 𝗡𝗘𝗢𝗡 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Greenneon vajira
  
-8)🎊► Free glow logo
+8)🎊► 𝗙𝗥𝗘𝗘 𝗚𝗟𝗢𝗪 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Free glow vajira
  
-9)🎊► Devil wings logo
+9)🎊► 𝗗𝗘𝗩𝗜𝗟 𝗪𝗜𝗡𝗚𝗦 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Devilwings vajira
  
-10)🎊► Bokeh logo
+10)🎊► 𝗕𝗢𝗞𝗘𝗛 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Bokeh vajira
  
-11)🎊► Holographic logo
+11)🎊► 𝗛𝗢𝗟𝗢𝗚𝗥𝗔𝗣𝗛𝗜𝗖 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Holographic vajira
  
-12)🎊► Glowing neon logo
+12)🎊► 𝗚𝗟𝗢𝗪𝗜𝗡𝗚 𝗡𝗘𝗢𝗡 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Glowingneon vajira
  
-13)🎊► Galaxy logo
+13)🎊► 𝗚𝗔𝗟𝗔𝗫𝗬 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Galaxy vajira
  
-14)🎊► Avengers logo
+14)🎊► 𝗔𝗩𝗘𝗡𝗚𝗘𝗥𝗦 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Avengers vajira
  
-15)🎊► Space 3D logo
+15)🎊► 𝗦𝗣𝗔𝗖𝗘 3𝗗 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Space vajira
  
-16)🎊► Carbon logo
+16)🎊► 𝗖𝗔𝗥𝗕𝗢𝗡 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Carbon vajira
  
-17)🎊► Break wall logo
+17)🎊► 𝗕𝗥𝗘𝗔𝗞𝗘 𝗪𝗔𝗟𝗟 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Breakwall vajira
  
-18)🎊► Balloon logo
+18)🎊► 𝗕𝗔𝗟𝗟𝗢𝗢𝗡 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Balloon vajira
  
-19)🎊► Summery sand logo
+19)🎊► 𝗦𝗨𝗠𝗠𝗘𝗥𝗬 𝗦𝗔𝗡𝗗 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}sand vajira
  
-20)🎊► Pornhub logo
+20)🎊► 𝗣𝗢𝗥𝗡𝗛𝗨𝗕 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Pornhub vajira
 
-21)🎊► Wicker logo
+21)🎊► 𝗪𝗜𝗖𝗞𝗘𝗥 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Wicker vajira
 
-22)🎊► Spooky halloween logo
+22)🎊► 𝗦𝗣𝗢𝗢𝗞𝗬 𝗛𝗔𝗟𝗟𝗢𝗪𝗘𝗘𝗡 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}halloween vajira
  
-24)🎊► Video game logo
+24)🎊► 𝗩𝗜𝗗𝗘𝗢 𝗚𝗔𝗠𝗘 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Videogame vajira
  
-25)🎊► Deepsea logo
+25)🎊► 𝗗𝗘𝗘𝗣𝗦𝗘𝗔 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}Deepsea vajira
   
-26)🎊► White bear logo
+26)🎊► 𝗪𝗛𝗜𝗧𝗘 𝗕𝗘𝗔𝗥 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}whitebear vajira
   
-27)🎊► Joker logo
+27)🎊► 𝗝𝗢𝗞𝗘𝗥 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}joker vajira
   
-28)🎊► Metallic logo
+28)🎊► 𝗠𝗘𝗧𝗔𝗟𝗟𝗜𝗖 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}metallic vajira
     
-29)🎊► Steel logo
+29)🎊► 𝗦𝗧𝗘𝗘𝗟 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}steel vajira
   
-30)🎊► Harrypotter logo
+30)🎊► 𝗛𝗔𝗥𝗥𝗬𝗣𝗢𝗧𝗧𝗘𝗥 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}harrypotter vajira
   
-31)🎊► Under water logo
+31)🎊► 𝗨𝗡𝗗𝗘𝗥 𝗪𝗔𝗧𝗘𝗥 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}underwater vajira
    
-32)🎊► Luxury logo
+32)🎊► 𝗟𝗨𝗫𝗨𝗥𝗬 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}luxury vajira
    
-33)🎊► Glue logo
+33)🎊► 𝗚𝗟𝗨𝗘 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}glue vajira
   
-34)🎊► Fabric logo
+34)🎊► 𝗙𝗔𝗕𝗥𝗜𝗖 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}fabric vajira
   
-35)🎊► Toxic logo
+35)🎊► 𝗧𝗢𝗫𝗜𝗖 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}toxic vajira
    
-36)🎊► Ancient logo
+36)🎊► 𝗔𝗡𝗖𝗜𝗘𝗡𝗧 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}ancient vajira
    
-37)🎊► Cloud logo
+37)🎊► 𝗖𝗟𝗢𝗨𝗗 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}cloud vajira
    
-38)🎊► Transformer logo
+38)🎊► 𝗧𝗥𝗔𝗡𝗦𝗙𝗢𝗥𝗠𝗘𝗥 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}transformer vajira
   
-39)🎊► Thunder logo
+39)🎊► 𝗧𝗛𝗨𝗡𝗗𝗘𝗥 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}thunder vajira
    
-40)🎊► Scifi logo
+40)🎊► 𝗦𝗖𝗜𝗙𝗜 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}scifi vajira
   
-41)🎊► Sand logo
- Eg:- ${prefix}sand vajira
+41)🎊► 𝗦𝗔𝗡𝗗 𝗟𝗢𝗚𝗢
+ Eg:- ${prefix}sand2 vajira
   
-42)🎊► Rainbow logo
+42)🎊► 𝗥𝗔𝗜𝗡𝗕𝗢𝗪 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}rainbow vajira
   
-43)🎊► Pencil logo
+43)🎊► 𝗣𝗘𝗡𝗖𝗜𝗟 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}pencil vajira
   
-44)🎊► Neon logo
+44)🎊► 𝗡𝗘𝗢𝗡 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}neon vajira
   
-45)🎊► Magma logo
+45)🎊► 𝗠𝗔𝗚𝗠𝗔 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}magma vajira
   
-46)🎊► Leaves logo
+46)🎊► 𝗟𝗘𝗔𝗩𝗘𝗦 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}leaves vajira
   
-47)🎊► Glitch logo
+47)🎊► 𝗚𝗟𝗜𝗧𝗖𝗛 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}glitch vajira
   
-48)🎊► Discovery logo
+48)🎊► 𝗗𝗜𝗦𝗖𝗢𝗩𝗘𝗥𝗬 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}discovery vajira
   
-49)🎊► Christmas logo
+49)🎊► 𝗖𝗛𝗥𝗜𝗦𝗧𝗠𝗔𝗦 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}christmas vajira
   
-50)🎊► Candy logo
+50)🎊► 𝗖𝗔𝗡𝗗𝗬 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}candy vajira
    
-51)🎊► 1917 logo
+51)🎊► 1917 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}1917 vajira
    
-52)🎊► Black pink logo
+52)🎊► 𝗕𝗟𝗔𝗖𝗞 𝗣𝗜𝗡𝗞 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}blackpink vajira
 
-53)🎊► Shadow logo
+53)🎊► 𝗦𝗛𝗔𝗗𝗢𝗪 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}shadow vajira
   
-54)🎊► Slime logo
+54)🎊► 𝗦𝗟𝗜𝗠𝗘 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}slime vajira
   
-55)🎊► Lava logo
+55)🎊► 𝗟𝗔𝗩𝗔 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}lava vajira
   
-56)🎊► Liquid logo
+56)🎊► 𝗟𝗜𝗤𝗨𝗜𝗗 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}liquid vajira
   
-57)🎊► Rock logo
+57)🎊► 𝗥𝗢𝗖𝗞 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}rock vajira
   
-58)🎊► Skeleton logo
+58)🎊► 𝗦𝗞𝗘𝗟𝗘𝗧𝗢𝗡 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}skeleton vajira
   
-59)🎊► Marvel logo
+59)🎊► 𝗠𝗔𝗥𝗩𝗘𝗟 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}marvel vajira
   
-60)🎊► Batman logo
+60)🎊► 𝗕𝗔𝗧𝗠𝗔𝗡 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}batman vajira
   
-61)🎊► Burger logo
+61)🎊► 𝗕𝗨𝗥𝗚𝗘𝗥 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}burger vajira
   
-62)🎊► Foggy logo
+62)🎊► 𝗙𝗢𝗚𝗚𝗬 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}foggy vajira
    
-63)🎊► Drug logo
+63)🎊► 𝗗𝗥𝗨𝗚 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}drug vajira
    
-64)🎊► Juice logo
+64)🎊► 𝗝𝗨𝗜𝗖𝗘 𝗟𝗢𝗚𝗢
  Eg:- ${prefix}juice vajira
                     
  
@@ -543,7 +543,7 @@ cmd({ pattern: "deepsea", category: "textpro", desc: "Some text to image feature
      )
      //---------------------------------------------------------------------------
  cmd({
-             pattern: "sand",
+             pattern: "sand2",
              category: "textpro",
              desc: "Some text to image feature with various styles."
          },
