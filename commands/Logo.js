@@ -4,7 +4,7 @@ const { tlang, ringtone, cmd,fetchJson, sleep, botpic,ffmpeg, getBuffer, pintere
      //---------------------------------------------------------------------------
 cmd({
 
-            pattern: "Logo",           
+            pattern: "logo",           
             desc: "(setting list).",
             category: "Logo",
             react: "👨‍💻",
