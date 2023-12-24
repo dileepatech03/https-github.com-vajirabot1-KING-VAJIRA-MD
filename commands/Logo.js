@@ -38,201 +38,203 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
+                    url: 'https://telegra.ph/file/09ab24679fb3a297a8905.jpg',
                 },
 
                 caption: `
 
 *⦁──👑𝙑𝘼𝙅𝙄𝙍𝘼 LOGO CMDS👑──⦁*
 
+💓𝗵𝗲𝗹𝗹𝗼𝘄 ${citel.pushName}💓
+
 1 Thunder logo
- Eg:- .Thunder vajira
+ Eg:- ${prefix}Thunder vajira
 
 2 Rainbow logo
- Eg:- .Rainbow vajira
+ Eg:- ${prefix}Rainbow vajira
  
 3 Sunset logo
- Eg:- .Sunset vajira
+ Eg:- ${prefix}Sunset vajira
  
 4 Gradient neon logo
- Eg:- .Gradient vajira
+ Eg:- ${prefix}Gradient vajira
  
 5 Light glow logo
- Eg:- .Lightglow vajira
+ Eg:- ${prefix}Lightglow vajira
  
 6 Firework logo
- Eg:- .Firework vajira
+ Eg:- ${prefix}Firework vajira
  
 7 Green neon logo
- Eg:- .Greenneon vajira
+ Eg:- ${prefix}Greenneon vajira
  
 8 Free glow logo
- Eg:- .Free glow vajira
+ Eg:- ${prefix}Free glow vajira
  
 9 Devil wings logo
- Eg:- .Devilwings vajira
+ Eg:- ${prefix}Devilwings vajira
  
 10 Bokeh logo
- Eg:- .Bokeh vajira
+ Eg:- ${prefix}Bokeh vajira
  
 11 Holographic logo
- Eg:- .Holographic vajira
+ Eg:- ${prefix}Holographic vajira
  
 12 Glowing neon logo
- Eg:- .Glowingneon vajira
+ Eg:- ${prefix}Glowingneon vajira
  
 13 Galaxy logo
- Eg:- .Galaxy vajira
+ Eg:- ${prefix}Galaxy vajira
  
 14 Avengers logo
- Eg:- .Avengers vajira
+ Eg:- ${prefix}Avengers vajira
  
 15 Space 3D logo
- Eg:- .Space vajira
+ Eg:- ${prefix}Space vajira
  
 16 Carbon logo
- Eg:- .Carbon vajira
+ Eg:- ${prefix}Carbon vajira
  
 17 Break wall logo
- Eg:- .Breakwall vajira
+ Eg:- ${prefix}Breakwall vajira
  
 18 Balloon logo
- Eg:- .Balloon vajira
+ Eg:- ${prefix}Balloon vajira
  
 19 Summery sand logo
- Eg:- .sand vajira
+ Eg:- ${prefix}sand vajira
  
 20 Pornhub logo
- Eg:- .Pornhub vajira
+ Eg:- ${prefix}Pornhub vajira
 
 21 Wicker logo
- Eg:- .Wicker vajira
+ Eg:- ${prefix}Wicker vajira
 
 22 Spooky halloween logo
- Eg:- .halloween vajira
+ Eg:- ${prefix}halloween vajira
  
 24 Video game logo
- Eg:- .Videogame vajira
+ Eg:- ${prefix}Videogame vajira
  
 25 Deepsea logo
- Eg:- .Deepsea vajira
+ Eg:- ${prefix}Deepsea vajira
   
 26 White bear logo
- Eg:- .whitebear vajira
+ Eg:- ${prefix}whitebear vajira
   
 27 Joker logo
- Eg:- .joker vajira
+ Eg:- ${prefix}joker vajira
   
 28 Metallic logo
- Eg:- .metallic vajira
+ Eg:- ${prefix}metallic vajira
     
 29 Steel logo
- Eg:- .steel vajira
+ Eg:- ${prefix}steel vajira
   
 30 Harrypotter logo
- Eg:- .harrypotter vajira
+ Eg:- ${prefix}harrypotter vajira
   
 31 Under water logo
- Eg:- .underwater vajira
+ Eg:- ${prefix}underwater vajira
    
 32 Luxury logo
- Eg:- .luxury vajira
+ Eg:- ${prefix}luxury vajira
    
 33 Glue logo
- Eg:- .glue vajira
+ Eg:- ${prefix}glue vajira
   
 34 Fabric logo
- Eg:- .fabric vajira
+ Eg:- ${prefix}fabric vajira
   
 35 Toxic logo
- Eg:- .toxic vajira
+ Eg:- ${prefix}toxic vajira
    
 36 Ancient logo
- Eg:- .ancient vajira
+ Eg:- ${prefix}ancient vajira
    
 37 Cloud logo
- Eg:- .cloud vajira
+ Eg:- ${prefix}cloud vajira
    
 38 Transformer logo
- Eg:- .transformer vajira
+ Eg:- ${prefix}transformer vajira
   
 39 Thunder logo
- Eg:- .thunder vajira
+ Eg:- ${prefix}thunder vajira
    
 40 Scifi logo
- Eg:- .scifi vajira
+ Eg:- ${prefix}scifi vajira
   
 41 Sand logo
- Eg:- .sand vajira
+ Eg:- ${prefix}sand vajira
   
 42 Rainbow logo
- Eg:- .rainbow vajira
+ Eg:- ${prefix}rainbow vajira
   
 43 Pencil logo
- Eg:- .pencil vajira
+ Eg:- ${prefix}pencil vajira
   
 44 Neon logo
- Eg:- .neon vajira
+ Eg:- ${prefix}neon vajira
   
 45 Magma logo
- Eg:- .magma vajira
+ Eg:- ${prefix}magma vajira
   
 46 Leaves logo
- Eg:- .leaves vajira
+ Eg:- ${prefix}leaves vajira
   
 47 Glitch logo
- Eg:- .glitch vajira
+ Eg:- ${prefix}glitch vajira
   
 48 Discovery logo
- Eg:- .discovery vajira
+ Eg:- ${prefix}discovery vajira
   
 49 Christmas logo
- Eg:- .christmas vajira
+ Eg:- ${prefix}christmas vajira
   
 50 Candy logo
- Eg:- .candy vajira
+ Eg:- ${prefix}candy vajira
    
 51 1917 logo
- Eg:- .1917 vajira
+ Eg:- ${prefix}1917 vajira
    
 52 Black pink logo
- Eg:- .blackpink vajira
+ Eg:- ${prefix}blackpink vajira
 
 52 Shadow logo
- Eg:- .shadow vajira
+ Eg:- ${prefix}shadow vajira
   
 53 Slime logo
- Eg:- .slime vajira
+ Eg:- ${prefix}slime vajira
   
 54 Lava logo
- Eg:- .lava vajira
+ Eg:- ${prefix}lava vajira
   
 55 Liquid logo
- Eg:- .liquid vajira
+ Eg:- ${prefix}liquid vajira
   
 56 Rock logo
- Eg:- .rock vajira
+ Eg:- ${prefix}rock vajira
   
 57 Skeleton logo
- Eg:- .skeleton vajira
+ Eg:- ${prefix}skeleton vajira
   
 58 Marvel logo
- Eg:- .marvel vajira
+ Eg:- ${prefix}marvel vajira
   
 59 Batman logo
- Eg:- .batman vajira
+ Eg:- ${prefix}batman vajira
   
 60 Burger logo
- Eg:- .burger vajira
+ Eg:- ${prefix}burger vajira
   
 61 Foggy logo
- Eg:- .foggy vajira
+ Eg:- ${prefix}foggy vajira
    
 62 Drug logo
- Eg:- .drug vajira
+ Eg:- ${prefix}drug vajira
    
 63 Juice logo
- Eg:- .juice vajira
+ Eg:- ${prefix}juice vajira
                     
  
 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
