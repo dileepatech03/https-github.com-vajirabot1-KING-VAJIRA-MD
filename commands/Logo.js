@@ -1,6 +1,128 @@
  const { tlang,cmd,Config } = require('../lib')
  const maker = require('mumaker')
  let cap = `*_GENERATE BY KING-VAJIRA-MD_*`
+ //---------------------------------------------------------------------------
+cmd({
+
+            pattern: "vaj",           
+            desc: "(setting list).",
+            category: "Logo",
+            react: "👨‍💻",
+            filename: __filename,
+            use: '<text>',
+
+        },
+
+        async (Void,citel,text,{isCreator}) => {
+       if(!isCreator) return citel.reply(tlang().owner);
+        let buttons = [{
+
+                    buttonId: `${prefix}system`,
+                    buttonText: {
+                    displayText: "System",
+                    },
+
+                    type: 1,
+                },
+                  {
+                    buttonId: `${prefix}ping`,
+                    buttonText: {
+                    displayText: "Ping",
+
+                    },
+                    type: 1,
+                },
+            ];
+            let buttonMessage = {
+                image: {
+                    url: 'https://telegra.ph/file/b10172f9cfdbe5f43c43e.jpg',
+                },
+
+                caption: `
+
+*⦁──👑𝙑𝘼𝙅𝙄𝙍𝘼 LOGO CMDS👑──⦁*
+1 Thunder logo
+ Eg:- .1 vajira
+
+2 Rainbow logo
+ Eg:- .2 vajira
+ 
+3 Sunset logo
+ Eg:- .3 vajira
+ 
+4 Gradient neon logo
+ Eg:- .4 vajira
+ 
+5 Light glow logo
+ Eg:- .5 vajira
+ 
+6 Firework logo
+ Eg:- .6 vajira
+ 
+7 Green neon logo
+ Eg:- .7 vajira
+ 
+8 Free glow logo
+ Eg:- .8 vajira
+ 
+9 Devil wings logo
+ Eg:- .9 vajira
+ 
+10 Bokeh text logo
+ Eg:- .10 vajira
+ 
+11 Holographic logo
+ Eg:- .11 vajira
+ 
+12 Glowing neon logo
+ Eg:- .12 vajira
+ 
+13 Light neon logo
+ Eg:- .13 vajira
+ 
+14 Avengers logo
+ Eg:- .14 vajira
+ 
+15 Space 3D logo
+ Eg:- .15 vajira
+ 
+16 Carbon logo
+ Eg:- .16 vajira
+ 
+17 Break wall logo
+ Eg:- .17 vajira
+ 
+18 Balloon logo
+ Eg:- .18 vajira
+ 
+19 Summery sand logo
+ Eg:- .19 vajira
+ 
+20 Pornhub logo
+ Eg:- .20 vajira
+
+21 Wicker logo
+ Eg:- .21 vajira
+
+22 Spooky halloween logo
+ Eg:- .22 vajira
+ 
+23 Video game logo
+ Eg:- .23 vajira
+  
+ 
+*ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
+*▶ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴡᴍʀ ᴠᴀᴊɪʀᴀ ◀*
+`,
+
+                footer: tlang().footer,
+                headerType: 4,
+            };
+            return Void.sendMessage(citel.chat, buttonMessage, {
+                quoted: citel,
+            });
+        }
+    )
      //---------------------------------------------------------------------------
 cmd({ pattern: "thunder2", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
