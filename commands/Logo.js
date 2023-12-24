@@ -211,7 +211,6 @@ cmd({ pattern: "13", category: "textpro", desc: "Some text to image feature with
          let anu = await maker.textpro('https://textpro.me/neon-light-text-effect-with-galaxy-style-981.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
    })
-     })
      //---------------------------------------------------------------------------
 cmd({ pattern: "14", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
