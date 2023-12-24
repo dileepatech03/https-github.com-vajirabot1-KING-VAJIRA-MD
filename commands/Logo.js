@@ -14,7 +14,6 @@ cmd({
         },
 
         async (Void,citel,text) => {
-       if(!isCreator) return citel.reply(tlang().owner);
         let buttons = [{
 
                     buttonId: `${prefix}system`,
@@ -42,73 +41,73 @@ cmd({
 
 *⦁──👑𝙑𝘼𝙅𝙄𝙍𝘼 LOGO CMDS👑──⦁*
 1 Thunder logo
- Eg:- .1 vajira
+ Eg:- .Thunder vajira
 
 2 Rainbow logo
- Eg:- .2 vajira
+ Eg:- .Rainbow vajira
  
 3 Sunset logo
- Eg:- .3 vajira
+ Eg:- .Sunset vajira
  
 4 Gradient neon logo
- Eg:- .4 vajira
+ Eg:- .Gradient vajira
  
 5 Light glow logo
- Eg:- .5 vajira
+ Eg:- .Lightglow vajira
  
 6 Firework logo
- Eg:- .6 vajira
+ Eg:- .Firework vajira
  
 7 Green neon logo
- Eg:- .7 vajira
+ Eg:- .Greenneon vajira
  
 8 Free glow logo
- Eg:- .8 vajira
+ Eg:- .Free glow vajira
  
 9 Devil wings logo
- Eg:- .9 vajira
+ Eg:- .Devilwings vajira
  
-10 Bokeh text logo
- Eg:- .10 vajira
+10 Bokeh logo
+ Eg:- .Bokeh vajira
  
 11 Holographic logo
- Eg:- .11 vajira
+ Eg:- .Holographic vajira
  
 12 Glowing neon logo
- Eg:- .12 vajira
+ Eg:- .Glowingneon vajira
  
-13 Light neon logo
- Eg:- .13 vajira
+13 Galaxy logo
+ Eg:- .Galaxy vajira
  
 14 Avengers logo
- Eg:- .14 vajira
+ Eg:- .Avengers vajira
  
 15 Space 3D logo
- Eg:- .15 vajira
+ Eg:- .Space vajira
  
 16 Carbon logo
- Eg:- .16 vajira
+ Eg:- .Carbon vajira
  
 17 Break wall logo
- Eg:- .17 vajira
+ Eg:- .Breakwall vajira
  
 18 Balloon logo
- Eg:- .18 vajira
+ Eg:- .Balloon vajira
  
 19 Summery sand logo
- Eg:- .19 vajira
+ Eg:- .sand vajira
  
 20 Pornhub logo
- Eg:- .20 vajira
+ Eg:- .Pornhub vajira
 
 21 Wicker logo
- Eg:- .21 vajira
+ Eg:- .Wicker vajira
 
 22 Spooky halloween logo
- Eg:- .22 vajira
+ Eg:- .halloween vajira
  
 23 Video game logo
- Eg:- .23 vajira
+ Eg:- .Videogame vajira
   
  
 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
