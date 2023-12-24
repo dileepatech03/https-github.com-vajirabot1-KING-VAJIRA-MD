@@ -8,7 +8,7 @@ const fs = require('fs-extra')
  //---------------------------------------------------------------------------
 cmd({
 
-            pattern: "vaj",           
+            pattern: "logo",           
             desc: "(setting list).",
             category: "Logo",
             react: "👨‍💻",
@@ -197,7 +197,43 @@ cmd({
    
 52 Black pink logo
  Eg:- .blackpink vajira
-                   
+
+52 Shadow logo
+ Eg:- .shadow vajira
+  
+53 Slime logo
+ Eg:- .slime vajira
+  
+54 Lava logo
+ Eg:- .lava vajira
+  
+55 Liquid logo
+ Eg:- .liquid vajira
+  
+56 Rock logo
+ Eg:- .rock vajira
+  
+57 Skeleton logo
+ Eg:- .skeleton vajira
+  
+58 Marvel logo
+ Eg:- .marvel vajira
+  
+59 Batman logo
+ Eg:- .batman vajira
+  
+60 Burger logo
+ Eg:- .burger vajira
+  
+61 Foggy logo
+ Eg:- .foggy vajira
+   
+62 Drug logo
+ Eg:- .drug vajira
+   
+63 Juice logo
+ Eg:- .juice vajira
+                    
  
 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
 *▶ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴡᴍʀ ᴠᴀᴊɪʀᴀ ◀*
