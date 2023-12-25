@@ -33,6 +33,8 @@
 
 ***Click [FORK](https://github.com/vajirabot1/KING-VAJIRA-MD-fork)***
 
+***Click [How to deploy](https://youtu.be/wdHGsVu-rSY?si=RIuut8KF63HrY2S8)***
+
 
 <b><details><summary>𝘿𝙀𝙋𝙇𝙊𝙔𝙈𝙀𝙉𝙏 𝙈𝙀𝙏𝙃𝙊𝘿𝙎</summary><br>
 
