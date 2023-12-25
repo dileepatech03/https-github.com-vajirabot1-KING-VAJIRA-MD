@@ -1,9 +1,13 @@
+const { tlang, ringtone, cmd,fetchJson, sleep, botpic,ffmpeg, getBuffer, pinterest, prefix, Config } = require('../lib')
+const fs = require('fs-extra')
+  
+  //---------------------------------------------------------------------------
 cmd({
 
             pattern: "font",           
             desc: "(menu cmdlist).",
             category: "textpro",
-            react: "👨‍💻",
+            react: "📍",
             filename: __filename,
             use: '<faded-Alan walker.>',
 
