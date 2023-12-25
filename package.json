@@ -80,6 +80,7 @@
                        "@sl-code-lords/esana-news": "latest",
                        "@sl-code-lords/wabetainfo": "latest",
                        "@sl-code-lords/si-subdl": "latest",
+                       "@tobyg74/tiktok-api-dl": "latest",
                        "getscreenshot.js": "latest",
                        "truecallerjs": "latest",
                        "fouadwa-scraper": "latest",
