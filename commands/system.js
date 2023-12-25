@@ -263,7 +263,7 @@ _හරියනකොට අඩන මිනිස්සු වරදිනක�
 🎋►*Owner:-* _${Config.ownername}_
 🎋►*Branch:-* _${Config.BRANCH}_
 ━━━✥◈✥━━━\n\n📲 Install Bot➣ https://github.com/vajirabot1/KING-VAJIRA-MD\n💻 Youtube channel➣
-https://youtube.com/@gamingewingyt6216\n🗃️ Public Group➣ https://chat.whatsapp.com/BvNbfgOzzo77urGqoNjThk\n\n ━━━━━━━━━━━━\nහිමි නැති ආදරෙට බොරු අයිතිවාසිකම් කීවත් හිමි වෙන්නෙ නැ කිසිදාකවත්💔\n
+https://youtube.com/@gamingewingyt6216\n📍 How to deploy➣ https://youtu.be/wdHGsVu-rSY?si=RIuut8KF63HrY2S8\n🗃️ Public Group➣ https://chat.whatsapp.com/BvNbfgOzzo77urGqoNjThk\n\n ━━━━━━━━━━━━\nහිමි නැති ආදරෙට බොරු අයිතිවාසිකම් කීවත් හිමි වෙන්නෙ නැ කිසිදාකවත්💔\n
 _Type ${prefix}menu for my command list._
 
 _━━━Powered by Vajira Rathnayaka━━━_
