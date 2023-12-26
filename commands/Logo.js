@@ -328,12 +328,6 @@ cmd({ pattern: "galaxy", category: "textpro", react: "✅", desc: "Some text to 
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
    })
      //---------------------------------------------------------------------------
-cmd({ pattern: "avengers", category: "textpro", react: "✅", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
-         if (!text) return citel.reply('_Need text._')
-         let anu = await maker.textpro('https://textpro.me/create-3d-avengers-logo-online-974.html', text)
-         Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
-   })
-     //---------------------------------------------------------------------------
 cmd({ pattern: "space", category: "textpro", react: "✅", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/create-space-3d-text-effect-online-985.html', text)
@@ -828,9 +822,9 @@ cmd({ pattern: "marvel", category: "textpro", react: "✅", desc: "Some text to 
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
 //---------------------------------------------------------------------------
-cmd({ pattern: "marvel", category: "textpro", react: "✅", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+cmd({ pattern: "avengers", category: "textpro", react: "✅", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
-         let anu = await maker.textpro('https://textpro.me/create-logo-style-marvel-studios-online-971.html', text)
+         let anu = await maker.textpro('https://textpro.me/create-3d-avengers-logo-online-974.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
 //---------------------------------------------------------------------------
